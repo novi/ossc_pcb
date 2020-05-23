@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ossc_board-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1749,39 +1749,6 @@ F 4 "DM3D-SF" V 850 7250 60  0001 C CNN "Part ID"
 	-1   0    0    1   
 $EndComp
 $Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR065
-U 1 1 55106295
-P 4200 1850
-F 0 "#PWR065" H 4200 1850 30  0001 C CNN
-F 1 "GND" H 4200 1780 30  0001 C CNN
-F 2 "" H 4200 1850 60  0001 C CNN
-F 3 "" H 4200 1850 60  0000 C CNN
-	1    4200 1850
-	-1   0    0    1   
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR066
-U 1 1 5510629B
-P 4300 1850
-F 0 "#PWR066" H 4300 1850 30  0001 C CNN
-F 1 "GND" H 4300 1780 30  0001 C CNN
-F 2 "" H 4300 1850 60  0001 C CNN
-F 3 "" H 4300 1850 60  0000 C CNN
-	1    4300 1850
-	-1   0    0    1   
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR067
-U 1 1 551062A1
-P 1700 4650
-F 0 "#PWR067" H 1700 4650 30  0001 C CNN
-F 1 "GND" H 1700 4580 30  0001 C CNN
-F 2 "" H 1700 4650 60  0001 C CNN
-F 3 "" H 1700 4650 60  0000 C CNN
-	1    1700 4650
-	0    1    1    0   
-$EndComp
-$Comp
 L ossc_board-rescue:C-RESCUE-ossc_board C52
 U 1 1 551863DE
 P 700 6500
@@ -2173,7 +2140,7 @@ U 1 1 55EF2D5F
 P 7300 1150
 F 0 "SW2" H 7450 1260 50  0000 C CNN
 F 1 "SW_PUSH" H 7300 1070 50  0000 C CNN
-F 2 "custom_components:SW_PUSH-SKHCBFA010" H 7300 1150 60  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 7300 1150 60  0001 C CNN
 F 3 "" H 7300 1150 60  0000 C CNN
 	1    7300 1150
 	1    0    0    -1  
@@ -2184,7 +2151,7 @@ U 1 1 55EF3471
 P 7300 1550
 F 0 "SW3" H 7450 1660 50  0000 C CNN
 F 1 "SW_PUSH" H 7300 1470 50  0000 C CNN
-F 2 "custom_components:SW_PUSH-SKHCBFA010" H 7300 1550 60  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 7300 1550 60  0001 C CNN
 F 3 "" H 7300 1550 60  0000 C CNN
 	1    7300 1550
 	1    0    0    -1  
@@ -2514,4 +2481,54 @@ Wire Wire Line
 	8850 5050 8850 5800
 Wire Wire Line
 	6900 1550 7000 1550
+$Comp
+L Connector_Generic:Conn_01x01 J10
+U 1 1 5EC9A47C
+P 4200 1450
+F 0 "J10" V 4164 1362 50  0000 R CNN
+F 1 "CLK9" V 4073 1362 50  0000 R CNN
+F 2 "custom_components:TestPad-D1.0mm" H 4200 1450 50  0001 C CNN
+F 3 "~" H 4200 1450 50  0001 C CNN
+	1    4200 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 1850 4200 1650
+$Comp
+L Connector_Generic:Conn_01x01 J11
+U 1 1 5ECF498F
+P 4300 1100
+F 0 "J11" V 4264 1012 50  0000 R CNN
+F 1 "CLK8" V 4173 1012 50  0000 R CNN
+F 2 "custom_components:TestPad-D1.0mm" H 4300 1100 50  0001 C CNN
+F 3 "~" H 4300 1100 50  0001 C CNN
+	1    4300 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 1300 4300 1850
+$Comp
+L Connector_Generic:Conn_01x01 J12
+U 1 1 5ECFDDE4
+P 1200 4650
+F 0 "J12" V 1164 4562 50  0000 R CNN
+F 1 "CLK2" V 1073 4562 50  0000 R CNN
+F 2 "custom_components:TestPad-D1.0mm" H 1200 4650 50  0001 C CNN
+F 3 "~" H 1200 4650 50  0001 C CNN
+	1    1200 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 4650 1400 4650
+$Comp
+L Connector_Generic:Conn_01x01 J13
+U 1 1 5ED09514
+P 1050 5450
+F 0 "J13" V 1014 5362 50  0000 R CNN
+F 1 "SD_CLK" V 923 5362 50  0000 R CNN
+F 2 "custom_components:TestPad-D1.0mm" H 1050 5450 50  0001 C CNN
+F 3 "~" H 1050 5450 50  0001 C CNN
+	1    1050 5450
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

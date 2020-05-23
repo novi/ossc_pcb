@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ossc_board-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -247,17 +247,6 @@ F 2 "" H 5450 5500 60  0001 C CNN
 F 3 "" H 5450 5500 60  0000 C CNN
 	1    5450 5500
 	1    0    0    -1  
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0170
-U 1 1 5501F4D5
-P 2250 3000
-F 0 "#PWR0170" H 2250 3000 30  0001 C CNN
-F 1 "GND" H 2250 2930 30  0001 C CNN
-F 2 "" H 2250 3000 60  0001 C CNN
-F 3 "" H 2250 3000 60  0000 C CNN
-	1    2250 3000
-	0    1    1    0   
 $EndComp
 $Comp
 L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0171
@@ -974,42 +963,38 @@ $EndComp
 Text Label 4650 7600 1    60   ~ 0
 AVCC1V8
 Wire Wire Line
-	3250 5500 3250 6500
+	3250 5500 3250 6450
 Wire Wire Line
 	3250 7200 3250 7650
 Connection ~ 3250 6450
 Wire Wire Line
 	3000 7200 3000 6450
 Wire Wire Line
-	3000 6450 3250 6450
+	3000 6450 3100 6450
 Wire Wire Line
-	4650 5500 4650 6500
+	4650 5500 4650 6450
 Wire Wire Line
 	4650 7200 4650 7650
 Connection ~ 4650 6450
 Wire Wire Line
 	4400 7200 4400 6450
 Wire Wire Line
-	4400 6450 4650 6450
+	4400 6450 4500 6450
 Wire Wire Line
-	3650 5500 3650 6500
+	3650 5500 3650 6450
 Wire Wire Line
 	3650 7200 3650 7650
 Connection ~ 3650 6450
 Wire Wire Line
 	3400 7200 3400 6450
 Wire Wire Line
-	3400 6450 4250 6450
+	3400 6450 3500 6450
 Wire Wire Line
 	2700 6000 3150 6000
 Wire Wire Line
 	6250 4600 6750 4600
 Wire Wire Line
 	6250 3700 6750 3700
-Wire Wire Line
-	5450 1900 5450 2100
-Wire Wire Line
-	3150 1900 3150 2100
 Wire Wire Line
 	1800 3700 2250 3700
 Wire Wire Line
@@ -1047,21 +1032,21 @@ Wire Wire Line
 Wire Wire Line
 	7500 5000 6250 5000
 Wire Wire Line
-	8500 2900 9450 2900
+	8500 2900 9100 2900
 Wire Wire Line
-	8500 3000 9450 3000
+	8500 3000 9100 3000
 Wire Wire Line
-	8500 3200 9450 3200
+	8500 3200 9100 3200
 Wire Wire Line
-	8500 3300 9450 3300
+	8500 3300 9100 3300
 Wire Wire Line
-	8500 3500 9450 3500
+	8500 3500 9100 3500
 Wire Wire Line
-	8500 3600 9450 3600
+	8500 3600 9100 3600
 Wire Wire Line
-	8500 3800 9450 3800
+	8500 3800 9100 3800
 Wire Wire Line
-	8500 3900 9450 3900
+	8500 3900 9100 3900
 Wire Wire Line
 	8050 6450 7600 6450
 Wire Wire Line
@@ -1074,9 +1059,9 @@ Connection ~ 9950 5950
 Wire Wire Line
 	9950 5900 9950 5950
 Wire Wire Line
-	9350 5950 10500 5950
+	9350 5950 9950 5950
 Wire Wire Line
-	10400 5550 10700 5550
+	10400 5550 10500 5550
 Wire Wire Line
 	9500 5550 9500 5700
 Connection ~ 9350 6500
@@ -1087,11 +1072,11 @@ Connection ~ 9950 6900
 Wire Wire Line
 	9950 6850 9950 6900
 Wire Wire Line
-	9350 6900 10500 6900
+	9350 6900 9950 6900
 Wire Wire Line
-	8750 6500 9500 6500
+	8750 6500 9350 6500
 Wire Wire Line
-	10400 6500 10700 6500
+	10400 6500 10500 6500
 Wire Wire Line
 	9500 6500 9500 6650
 Wire Wire Line
@@ -1104,12 +1089,6 @@ Wire Notes Line
 	10650 4600 10100 4600
 Wire Notes Line
 	10100 4600 10100 4500
-Wire Wire Line
-	3150 1600 3150 2000
-Connection ~ 3150 2000
-Wire Wire Line
-	5450 1950 5450 1600
-Connection ~ 5450 1950
 $Comp
 L ossc_board-rescue:FILTER FB4
 U 1 1 5501F45A
@@ -1293,7 +1272,7 @@ Wire Wire Line
 	4250 6450 4250 5500
 Connection ~ 4000 6450
 Wire Wire Line
-	8750 5550 9500 5550
+	8750 5550 9350 5550
 Text Label 8850 5550 0    60   ~ 0
 DVDD3V3
 Text Notes 6000 5350 0    60   ~ 0
@@ -1331,7 +1310,7 @@ Wire Wire Line
 Text Label 7400 5600 0    60   ~ 0
 DVDD1V8
 Wire Wire Line
-	8950 4650 9550 4650
+	8950 4650 9250 4650
 $Comp
 L ossc_board-rescue:R R41
 U 1 1 5653050C
@@ -1382,9 +1361,9 @@ $EndComp
 Text Label 8300 4250 0    60   ~ 0
 DDC_SCL
 Wire Wire Line
-	8300 4250 9550 4250
+	8300 4250 8750 4250
 Wire Wire Line
-	7650 4350 9550 4350
+	7650 4350 8150 4350
 Text Label 7650 4350 0    60   ~ 0
 DDC_SDA
 $Comp
@@ -1411,7 +1390,7 @@ Text Label 7900 4550 0    60   ~ 0
 Connection ~ 8150 4350
 Connection ~ 8750 4250
 Wire Wire Line
-	8300 4550 9550 4550
+	8300 4550 8750 4550
 $Comp
 L ossc_board-rescue:PWR_FLAG #FLG0226
 U 1 1 56874505
@@ -1499,7 +1478,7 @@ F 3 "" H 8250 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7700 2200 8250 2200
+	7700 2200 7900 2200
 Connection ~ 7900 2200
 $Comp
 L ossc_board-rescue:GND #PWR0230
@@ -1656,7 +1635,7 @@ F 3 "" H 7250 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 1600 8250 1600
+	7250 1600 7450 1600
 Text Label 7300 1600 0    60   ~ 0
 AVCC3V3
 Connection ~ 7450 1600
@@ -1665,7 +1644,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 1700 7650 1950
 Wire Wire Line
-	7650 1950 6900 1950
+	7650 1950 7100 1950
 Wire Wire Line
 	8250 1800 7750 1800
 Wire Wire Line
@@ -1738,10 +1717,6 @@ $EndComp
 NoConn ~ 8250 1300
 Wire Wire Line
 	2250 3400 1700 3400
-Wire Wire Line
-	2250 3500 1700 3500
-Wire Wire Line
-	2250 3600 1700 3600
 Text Label 1750 3400 0    60   ~ 0
 I2S_DATA
 Text Label 1750 3600 0    60   ~ 0
@@ -1833,11 +1808,11 @@ AV3_AUD_L
 Text HLabel 7250 1000 0    60   Input ~ 0
 AV3_AUD_R
 Wire Wire Line
-	10050 900  10650 900 
+	10050 900  10550 900 
 Wire Wire Line
-	10050 1100 10650 1100
+	10050 1100 10450 1100
 Wire Wire Line
-	7250 900  8050 900 
+	7250 900  7400 900 
 Wire Wire Line
 	8750 4250 8750 4100
 Wire Wire Line
@@ -1914,7 +1889,7 @@ F 3 "" H 8500 3100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8500 3100 9400 3100
+	8500 3100 9100 3100
 Connection ~ 9100 3100
 Connection ~ 9400 3000
 Connection ~ 9100 3000
@@ -1940,7 +1915,7 @@ F 3 "" H 8500 3700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8500 3700 9400 3700
+	8500 3700 9100 3700
 Connection ~ 9100 3700
 Connection ~ 9400 3800
 Connection ~ 9100 3800
@@ -1974,7 +1949,7 @@ F 3 "" H 7400 800 50  0000 C CNN
 $EndComp
 Connection ~ 7400 900 
 Wire Wire Line
-	7250 1000 7800 1000
+	7250 1000 7400 1000
 Connection ~ 7400 1000
 $Comp
 L ossc_board-rescue:GND #PWR0244
@@ -2012,7 +1987,7 @@ F 3 "" H 10550 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10200 1200 10650 1200
+	10200 1200 10550 1200
 $Comp
 L ossc_board-rescue:GND #PWR0246
 U 1 1 58EAD4D5
@@ -2073,7 +2048,7 @@ F 3 "" H 10450 1450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10650 1000 10200 1000
+	10650 1000 10450 1000
 Wire Wire Line
 	10450 850  10450 1000
 Connection ~ 10450 1000
@@ -2118,4 +2093,148 @@ Wire Wire Line
 	10550 500  10650 500 
 NoConn ~ 8250 1100
 NoConn ~ 8250 1200
+Wire Wire Line
+	3250 6450 3250 6500
+Wire Wire Line
+	4650 6450 4650 6500
+Wire Wire Line
+	3650 6450 3650 6500
+Wire Wire Line
+	3650 6450 4000 6450
+Wire Wire Line
+	9350 5550 9500 5550
+Wire Wire Line
+	10500 5550 10700 5550
+Wire Wire Line
+	9950 5950 10500 5950
+Wire Wire Line
+	9350 6500 9500 6500
+Wire Wire Line
+	10500 6500 10700 6500
+Wire Wire Line
+	9950 6900 10500 6900
+Wire Wire Line
+	3100 6450 3250 6450
+Wire Wire Line
+	3500 6450 3650 6450
+Wire Wire Line
+	4500 6450 4650 6450
+Wire Wire Line
+	4000 6450 4250 6450
+Wire Wire Line
+	9250 4650 9550 4650
+Wire Wire Line
+	8150 4350 9550 4350
+Wire Wire Line
+	8750 4250 9550 4250
+Wire Wire Line
+	8750 4550 9550 4550
+Wire Wire Line
+	7900 2200 8250 2200
+Wire Wire Line
+	7450 1600 8250 1600
+Wire Wire Line
+	7100 1950 6900 1950
+Wire Wire Line
+	9100 3100 9400 3100
+Wire Wire Line
+	9400 3000 9450 3000
+Wire Wire Line
+	9100 3000 9400 3000
+Wire Wire Line
+	9400 2900 9450 2900
+Wire Wire Line
+	9100 2900 9400 2900
+Wire Wire Line
+	9400 3200 9450 3200
+Wire Wire Line
+	9100 3200 9400 3200
+Wire Wire Line
+	9400 3300 9450 3300
+Wire Wire Line
+	9100 3300 9400 3300
+Wire Wire Line
+	9400 3500 9450 3500
+Wire Wire Line
+	9100 3500 9400 3500
+Wire Wire Line
+	9400 3600 9450 3600
+Wire Wire Line
+	9100 3600 9400 3600
+Wire Wire Line
+	9100 3700 9400 3700
+Wire Wire Line
+	9400 3800 9450 3800
+Wire Wire Line
+	9100 3800 9400 3800
+Wire Wire Line
+	9400 3900 9450 3900
+Wire Wire Line
+	9100 3900 9400 3900
+Wire Wire Line
+	7400 900  8050 900 
+Wire Wire Line
+	7400 1000 7800 1000
+Wire Wire Line
+	10450 1000 10200 1000
+Wire Wire Line
+	10550 900  10650 900 
+Wire Wire Line
+	10450 1100 10650 1100
+Wire Wire Line
+	10550 1200 10650 1200
+Wire Wire Line
+	3150 1600 3150 2100
+Wire Wire Line
+	5450 1600 5450 2100
+$Comp
+L Connector_Generic:Conn_01x01 J21
+U 1 1 5ED4EADB
+P 1200 3600
+F 0 "J21" H 1118 3375 50  0000 C CNN
+F 1 "I2C_BCK" H 1118 3466 50  0000 C CNN
+F 2 "custom_components:TestPad-D1.0mm" H 1200 3600 50  0001 C CNN
+F 3 "~" H 1200 3600 50  0001 C CNN
+	1    1200 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J22
+U 1 1 5ED547BE
+P 1350 3500
+F 0 "J22" H 1268 3275 50  0000 C CNN
+F 1 "I2C_WS" H 1268 3366 50  0000 C CNN
+F 2 "custom_components:TestPad-D1.0mm" H 1350 3500 50  0001 C CNN
+F 3 "~" H 1350 3500 50  0001 C CNN
+	1    1350 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J23
+U 1 1 5ED55109
+P 1500 3400
+F 0 "J23" H 1418 3175 50  0000 C CNN
+F 1 "I2C_DATA" H 1418 3266 50  0000 C CNN
+F 2 "custom_components:TestPad-D1.0mm" H 1500 3400 50  0001 C CNN
+F 3 "~" H 1500 3400 50  0001 C CNN
+	1    1500 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 3500 2250 3500
+Wire Wire Line
+	1400 3600 2250 3600
+$Comp
+L Connector_Generic:Conn_01x01 J24
+U 1 1 5ED68957
+P 1550 3000
+F 0 "J24" H 1468 2775 50  0000 C CNN
+F 1 "I2C_MCLK" H 1468 2866 50  0000 C CNN
+F 2 "custom_components:TestPad-D1.0mm" H 1550 3000 50  0001 C CNN
+F 3 "~" H 1550 3000 50  0001 C CNN
+	1    1550 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 3000 2250 3000
 $EndSCHEMATC

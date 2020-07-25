@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ossc_board-rescue:EP4CE15E22 U2
-U 1 1 54FE3D0C
-P 4250 4100
-F 0 "U2" H 4250 4000 50  0000 C CNN
-F 1 "EP4CE15E22" H 4250 4200 50  0000 C CNN
-F 2 "custom_components:TQFP-144_thermal" H 4250 4100 50  0001 C CNN
-F 3 "DOCUMENTATION" H 4250 4100 50  0001 C CNN
-	1    4250 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L ossc_board-rescue:GND-RESCUE-ossc_board #PWR01
 U 1 1 54FE3EB2
 P 1700 2450
@@ -1413,182 +1402,6 @@ F 3 "" H 3900 1000 60  0000 C CNN
 	1    3900 1000
 	-1   0    0    1   
 $EndComp
-Text Label 1100 7500 0    60   ~ 0
-SD_DAT3
-Text Label 1100 7600 0    60   ~ 0
-SD_DAT2
-Text Label 1100 6900 0    60   ~ 0
-SD_DAT1
-Text Label 1100 7000 0    60   ~ 0
-SD_DAT0
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR058
-U 1 1 55073AD4
-P 1050 7100
-F 0 "#PWR058" H 1050 7100 30  0001 C CNN
-F 1 "GND" H 1050 7030 30  0001 C CNN
-F 2 "" H 1050 7100 60  0001 C CNN
-F 3 "" H 1050 7100 60  0000 C CNN
-	1    1050 7100
-	0    -1   -1   0   
-$EndComp
-Text Label 1100 7200 0    60   ~ 0
-SD_CLK
-Text Label 1100 7300 0    60   ~ 0
-VCCIO
-Text Label 1100 7400 0    60   ~ 0
-SD_CMD
-$Comp
-L ossc_board-rescue:R-RESCUE-ossc_board R28
-U 1 1 55073B75
-P 1600 6650
-F 0 "R28" V 1680 6650 40  0000 C CNN
-F 1 "10k" V 1607 6651 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 1530 6650 30  0001 C CNN
-F 3 "~" H 1600 6650 30  0000 C CNN
-	1    1600 6650
-	-1   0    0    1   
-$EndComp
-$Comp
-L ossc_board-rescue:R-RESCUE-ossc_board R29
-U 1 1 55073C1C
-P 1750 6750
-F 0 "R29" V 1830 6750 40  0000 C CNN
-F 1 "10k" V 1757 6751 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 1680 6750 30  0001 C CNN
-F 3 "~" H 1750 6750 30  0000 C CNN
-	1    1750 6750
-	-1   0    0    1   
-$EndComp
-$Comp
-L ossc_board-rescue:R-RESCUE-ossc_board R30
-U 1 1 55073C22
-P 1900 7150
-F 0 "R30" V 1980 7150 40  0000 C CNN
-F 1 "10k" V 1907 7151 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 1830 7150 30  0001 C CNN
-F 3 "~" H 1900 7150 30  0000 C CNN
-	1    1900 7150
-	-1   0    0    1   
-$EndComp
-$Comp
-L ossc_board-rescue:R-RESCUE-ossc_board R31
-U 1 1 55073D3E
-P 2050 7250
-F 0 "R31" V 2130 7250 40  0000 C CNN
-F 1 "10k" V 2057 7251 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 1980 7250 30  0001 C CNN
-F 3 "~" H 2050 7250 30  0000 C CNN
-	1    2050 7250
-	-1   0    0    1   
-$EndComp
-$Comp
-L ossc_board-rescue:R-RESCUE-ossc_board R32
-U 1 1 55073D44
-P 2200 7350
-F 0 "R32" V 2280 7350 40  0000 C CNN
-F 1 "10k" V 2207 7351 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 2130 7350 30  0001 C CNN
-F 3 "~" H 2200 7350 30  0000 C CNN
-	1    2200 7350
-	-1   0    0    1   
-$EndComp
-Text Label 1600 6350 1    60   ~ 0
-VCCIO
-Text Label 1750 6450 1    60   ~ 0
-VCCIO
-Text Label 1900 6850 1    60   ~ 0
-VCCIO
-Text Label 2050 6950 1    60   ~ 0
-VCCIO
-Text Label 2200 7050 1    60   ~ 0
-VCCIO
-Text Label 1300 5050 0    60   ~ 0
-SD_DAT2
-Text Label 1300 5250 0    60   ~ 0
-SD_DAT3
-Text Label 1300 5350 0    60   ~ 0
-SD_CMD
-Text Label 1300 5450 0    60   ~ 0
-SD_CLK
-Text Label 1300 5550 0    60   ~ 0
-SD_DAT0
-Text Label 2700 6750 1    60   ~ 0
-SD_DAT1
-Text Label 1300 4550 0    60   ~ 0
-IR_RX
-$Comp
-L ossc_board-rescue:CONN_01X03 U11
-U 1 1 55075936
-P 850 1350
-F 0 "U11" V 850 1600 50  0000 C CNN
-F 1 "IRM-V538/TR1" V 950 1350 40  0000 C CNN
-F 2 "custom_components:IRM-V5XX_TR1" H 850 1350 60  0001 C CNN
-F 3 "" H 850 1350 60  0000 C CNN
-	1    850  1350
-	-1   0    0    1   
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR059
-U 1 1 5507594F
-P 1050 1250
-F 0 "#PWR059" H 1050 1250 30  0001 C CNN
-F 1 "GND" H 1050 1180 30  0001 C CNN
-F 2 "" H 1050 1250 60  0001 C CNN
-F 3 "" H 1050 1250 60  0000 C CNN
-	1    1050 1250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ossc_board-rescue:R-RESCUE-ossc_board R33
-U 1 1 550759F2
-P 1650 1450
-F 0 "R33" V 1730 1450 40  0000 C CNN
-F 1 "10k" V 1657 1451 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 1580 1450 30  0001 C CNN
-F 3 "~" H 1650 1450 30  0000 C CNN
-	1    1650 1450
-	0    1    1    0   
-$EndComp
-Text Label 1100 1450 0    60   ~ 0
-IR_RX
-Text Label 1950 1350 1    60   ~ 0
-VCCIO
-$Comp
-L ossc_board-rescue:R-RESCUE-ossc_board R34
-U 1 1 55075BF0
-P 1750 1100
-F 0 "R34" V 1830 1100 40  0000 C CNN
-F 1 "47" V 1757 1101 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 1680 1100 30  0001 C CNN
-F 3 "~" H 1750 1100 30  0000 C CNN
-	1    1750 1100
-	-1   0    0    1   
-$EndComp
-Text Label 1750 800  1    60   ~ 0
-VCCIO
-$Comp
-L ossc_board-rescue:C-RESCUE-ossc_board C102
-U 1 1 55075D53
-P 1250 1150
-F 0 "C102" H 1250 1250 40  0000 L CNN
-F 1 "47u" H 1256 1065 40  0000 L CNN
-F 2 "custom_components:SM0805_libcms" H 1288 1000 30  0001 C CNN
-F 3 "~" H 1250 1150 60  0000 C CNN
-	1    1250 1150
-	-1   0    0    1   
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR060
-U 1 1 55075D6C
-P 1250 950
-F 0 "#PWR060" H 1250 950 30  0001 C CNN
-F 1 "GND" H 1250 880 30  0001 C CNN
-F 2 "" H 1250 950 60  0001 C CNN
-F 3 "" H 1250 950 60  0000 C CNN
-	1    1250 950 
-	-1   0    0    1   
-$EndComp
 Text Label 3400 6700 1    60   ~ 0
 LED0
 Text Label 3200 6700 1    60   ~ 0
@@ -1684,70 +1497,6 @@ Text Label 3700 6650 1    60   ~ 0
 SDA
 Text Label 3800 6650 1    60   ~ 0
 SCL
-Text Label 10350 3050 0    60   ~ 0
-SCL
-Text Label 10350 3150 0    60   ~ 0
-SDA
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR063
-U 1 1 550AD7C1
-P 10550 3850
-F 0 "#PWR063" H 10550 3850 30  0001 C CNN
-F 1 "GND" H 10550 3780 30  0001 C CNN
-F 2 "" H 10550 3850 60  0001 C CNN
-F 3 "" H 10550 3850 60  0000 C CNN
-	1    10550 3850
-	0    1    1    0   
-$EndComp
-Text Label 10100 3350 0    60   ~ 0
-VCCIO
-$Comp
-L ossc_board-rescue:C-RESCUE-ossc_board C29
-U 1 1 550AD86D
-P 10100 3450
-F 0 "C29" H 10100 3550 40  0000 L CNN
-F 1 "1u" H 10106 3365 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 10138 3300 30  0001 C CNN
-F 3 "~" H 10100 3450 60  0000 C CNN
-	1    10100 3450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ossc_board-rescue:C-RESCUE-ossc_board C30
-U 1 1 550AD879
-P 10350 3550
-F 0 "C30" H 10350 3650 40  0000 L CNN
-F 1 "1u" H 10356 3465 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 10388 3400 30  0001 C CNN
-F 3 "~" H 10350 3550 60  0000 C CNN
-	1    10350 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR064
-U 1 1 5508B1C4
-P 10550 3250
-F 0 "#PWR064" H 10550 3250 30  0001 C CNN
-F 1 "GND" H 10550 3180 30  0001 C CNN
-F 2 "" H 10550 3250 60  0001 C CNN
-F 3 "" H 10550 3250 60  0000 C CNN
-	1    10550 3250
-	0    1    1    0   
-$EndComp
-Text Label 8600 3150 1    60   ~ 0
-VCCIO
-$Comp
-L ossc_board-rescue:CONN_01X08 P3
-U 1 1 550F1AF3
-P 850 7250
-F 0 "P3" V 950 7650 60  0000 C CNN
-F 1 "mSD_CONN" V 950 7250 60  0000 C CNN
-F 2 "custom_components:DM3D-SF" H 850 7250 60  0001 C CNN
-F 3 "" H 850 7250 60  0000 C CNN
-F 4 "DM3D-SF" V 850 7250 60  0001 C CNN "Part ID"
-	1    850  7250
-	-1   0    0    1   
-$EndComp
 $Comp
 L ossc_board-rescue:C-RESCUE-ossc_board C52
 U 1 1 551863DE
@@ -1773,28 +1522,6 @@ $EndComp
 Text Label 750  6300 0    60   ~ 0
 VCCIO
 $Comp
-L ossc_board-rescue:C-RESCUE-ossc_board C56
-U 1 1 551862A3
-P 9700 3350
-F 0 "C56" H 9700 3450 40  0000 L CNN
-F 1 "1u" H 9706 3265 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 9738 3200 30  0001 C CNN
-F 3 "~" H 9700 3350 60  0000 C CNN
-	1    9700 3350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR069
-U 1 1 55186353
-P 9500 3350
-F 0 "#PWR069" H 9500 3350 30  0001 C CNN
-F 1 "GND" H 9500 3280 30  0001 C CNN
-F 2 "" H 9500 3350 60  0001 C CNN
-F 3 "" H 9500 3350 60  0000 C CNN
-	1    9500 3350
-	0    1    1    0   
-$EndComp
-$Comp
 L ossc_board-rescue:C-RESCUE-ossc_board C55
 U 1 1 5518635B
 P 10350 900
@@ -1819,17 +1546,6 @@ $EndComp
 Text HLabel 1700 4750 0    60   Input ~ 0
 CLK27
 $Comp
-L ossc_board-rescue:R R27
-U 1 1 55A3A281
-P 9200 3550
-F 0 "R27" V 9280 3550 50  0000 C CNN
-F 1 "47" V 9200 3550 50  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 9130 3550 30  0001 C CNN
-F 3 "" H 9200 3550 30  0000 C CNN
-	1    9200 3550
-	-1   0    0    1   
-$EndComp
-$Comp
 L ossc_board-rescue:R-RESCUE-ossc_board R23
 U 1 1 55DEDE8C
 P 8500 1200
@@ -1839,17 +1555,6 @@ F 2 "custom_components:SM0603_Resistor_libcms" V 8430 1200 30  0001 C CNN
 F 3 "~" H 8500 1200 30  0000 C CNN
 	1    8500 1200
 	0    -1   -1   0   
-$EndComp
-$Comp
-L ossc_board-rescue:CONN_01X12 DS1
-U 1 1 55DFDA8C
-P 10750 3300
-F 0 "DS1" H 10750 3950 50  0000 C CNN
-F 1 "CONN_01X12" V 10850 3300 50  0000 C CNN
-F 2 "custom_components:NHD-C0216CZ_vertmount" H 10750 3300 60  0001 C CNN
-F 3 "" H 10750 3300 60  0000 C CNN
-	1    10750 3300
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1700 2350 1250 2350
@@ -2017,31 +1722,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 1850 3900 1400
 Wire Wire Line
-	1050 7200 1450 7200
-Wire Wire Line
-	1050 7300 1450 7300
-Wire Wire Line
-	1050 7500 2050 7500
-Wire Wire Line
-	1050 7600 2200 7600
-Wire Wire Line
 	3400 6350 3400 6750
-Wire Wire Line
-	1050 7400 1900 7400
-Wire Wire Line
-	1050 7000 1750 7000
-Wire Wire Line
-	1050 6900 1600 6900
-Wire Wire Line
-	1600 6150 1600 6400
-Wire Wire Line
-	1750 6250 1750 6500
-Wire Wire Line
-	1900 6650 1900 6900
-Wire Wire Line
-	2050 6750 2050 7000
-Wire Wire Line
-	2200 6850 2200 7100
 Wire Wire Line
 	3200 6350 3200 6750
 Wire Wire Line
@@ -2065,17 +1746,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 5350 1300 5350
 Wire Wire Line
-	1400 1450 1050 1450
-Wire Wire Line
-	1950 1050 1950 1450
-Wire Wire Line
-	1950 1450 1900 1450
-Wire Wire Line
-	1050 1350 1250 1350
-Wire Wire Line
-	1750 550  1750 850 
-Connection ~ 1250 1350
-Wire Wire Line
 	7350 2150 7600 2150
 Wire Wire Line
 	7600 2000 7850 2000
@@ -2093,47 +1763,20 @@ Wire Wire Line
 Wire Wire Line
 	6800 3250 7900 3250
 Wire Wire Line
-	9950 2750 10550 2750
-Wire Wire Line
-	9950 3050 10550 3050
-Wire Wire Line
-	9950 3150 10550 3150
-Wire Wire Line
 	3800 6350 3800 6700
 Wire Wire Line
 	3700 6700 3700 6350
-Wire Wire Line
-	9900 3350 10550 3350
 Wire Wire Line
 	1050 6300 700  6300
 Connection ~ 10350 1100
 Wire Wire Line
 	1300 4350 1700 4350
 Wire Wire Line
-	9200 3750 10550 3750
-Wire Wire Line
 	7850 3950 7300 3950
 Wire Wire Line
 	1200 3650 850  3650
 Wire Wire Line
 	10250 1100 10350 1100
-Wire Wire Line
-	10550 3650 10150 3650
-Wire Wire Line
-	10150 3650 10150 3550
-Wire Wire Line
-	10550 3450 10300 3450
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR071
-U 1 1 55E0D449
-P 9900 3450
-F 0 "#PWR071" H 9900 3450 30  0001 C CNN
-F 1 "GND" H 9900 3380 30  0001 C CNN
-F 2 "" H 9900 3450 60  0001 C CNN
-F 3 "" H 9900 3450 60  0000 C CNN
-	1    9900 3450
-	0    1    1    0   
-$EndComp
 $Comp
 L ossc_board-rescue:SW_PUSH SW2
 U 1 1 55EF2D5F
@@ -2224,31 +1867,11 @@ Text Label 4000 1700 1    60   ~ 0
 BTN1
 Text Label 4100 1700 1    60   ~ 0
 BTN0
-Text Label 9950 2850 0    60   ~ 0
-LCD_RS
-Text Label 9950 2950 0    60   ~ 0
-LCD_CS_N
-Wire Wire Line
-	9950 2850 10550 2850
-Wire Wire Line
-	9950 2950 10550 2950
-Text Label 3000 6750 1    60   ~ 0
-LCD_RS
-Text Label 3100 6750 1    60   ~ 0
-LCD_CS_N
 Wire Wire Line
 	3900 6350 3900 7400
-Text Label 9950 2750 0    60   ~ 0
-RESET_N
 Wire Wire Line
 	1300 4550 1700 4550
 Connection ~ 8850 5050
-Text Notes 600  1100 0    60   ~ 0
-max. 5mA
-Text Notes 850  6750 0    60   ~ 0
-max. 10mA
-Text Notes 10600 2550 0    60   ~ 0
-max. 10mA
 Text Notes 9250 850  0    60   ~ 0
 max. 25mA
 Text Notes 6500 6250 0    60   ~ 0
@@ -2259,99 +1882,6 @@ Text Notes 6500 6450 0    60   ~ 0
 max. 30mA (VCCA)
 Text Notes 6500 6550 0    60   ~ 0
 max. 30mA (VCCD_PLL)
-Text Label 3900 7400 1    60   ~ 0
-LCD_BLEN
-$Comp
-L ossc_board-rescue:BC849 Q1
-U 1 1 564C20E6
-P 8800 4150
-F 0 "Q1" H 9000 4225 50  0000 L CNN
-F 1 "BC847" H 9000 4150 50  0000 L CNN
-F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering" H 9000 4075 50  0001 L CIN
-F 3 "" H 8800 4150 50  0000 L CNN
-	1    8800 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L ossc_board-rescue:BC857 Q2
-U 1 1 564C28AA
-P 8900 3450
-F 0 "Q2" H 9100 3525 50  0000 L CNN
-F 1 "BC857" H 9100 3450 50  0000 L CNN
-F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering" H 9100 3375 50  0001 L CIN
-F 3 "" H 8900 3450 50  0000 L CNN
-	1    8900 3450
-	0    1    -1   0   
-$EndComp
-$Comp
-L ossc_board-rescue:R R37
-U 1 1 564C5C3F
-P 8450 4150
-F 0 "R37" V 8530 4150 50  0000 C CNN
-F 1 "1k" V 8450 4150 50  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 8380 4150 30  0001 C CNN
-F 3 "" H 8450 4150 30  0000 C CNN
-	1    8450 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L ossc_board-rescue:R R39
-U 1 1 564C5F6E
-P 8600 4300
-F 0 "R39" V 8680 4300 50  0000 C CNN
-F 1 "10k" V 8600 4300 50  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 8530 4300 30  0001 C CNN
-F 3 "" H 8600 4300 30  0000 C CNN
-	1    8600 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR073
-U 1 1 564C62C0
-P 8600 4450
-F 0 "#PWR073" H 8600 4450 30  0001 C CNN
-F 1 "GND" H 8600 4380 30  0001 C CNN
-F 2 "" H 8600 4450 60  0001 C CNN
-F 3 "" H 8600 4450 60  0000 C CNN
-	1    8600 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR074
-U 1 1 564C63B5
-P 8900 4350
-F 0 "#PWR074" H 8900 4350 30  0001 C CNN
-F 1 "GND" H 8900 4280 30  0001 C CNN
-F 2 "" H 8900 4350 60  0001 C CNN
-F 3 "" H 8900 4350 60  0000 C CNN
-	1    8900 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L ossc_board-rescue:R R40
-U 1 1 564C6780
-P 8900 3800
-F 0 "R40" V 8980 3800 50  0000 C CNN
-F 1 "1k" V 8900 3800 50  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 8830 3800 30  0001 C CNN
-F 3 "" H 8900 3800 30  0000 C CNN
-	1    8900 3800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9100 3350 9200 3350
-Wire Wire Line
-	8600 2900 8600 3350
-Wire Wire Line
-	8600 3350 8700 3350
-Wire Wire Line
-	9200 3350 9200 3400
-Wire Wire Line
-	9200 3700 9200 3750
-Wire Wire Line
-	8300 4150 8300 4500
-Text Label 8300 4500 1    60   ~ 0
-LCD_BLEN
 Text Label 7500 3250 0    60   ~ 0
 RESET_N
 $Comp
@@ -2470,8 +2000,6 @@ Wire Wire Line
 Wire Wire Line
 	8850 5800 8850 6600
 Wire Wire Line
-	1250 1350 1750 1350
-Wire Wire Line
 	9450 5050 9600 5050
 Wire Wire Line
 	10350 1100 11050 1100
@@ -2530,5 +2058,16 @@ F 2 "custom_components:TestPad-D1.0mm" H 1050 5450 50  0001 C CNN
 F 3 "~" H 1050 5450 50  0001 C CNN
 	1    1050 5450
 	-1   0    0    1   
+$EndComp
+$Comp
+L ossc_board-rescue:EP4CE15E22 U2
+U 1 1 54FE3D0C
+P 4250 4100
+F 0 "U2" H 4250 4000 50  0000 C CNN
+F 1 "EP4CE15E22" H 4250 4200 50  0000 C CNN
+F 2 "custom_components:TQFP-144_thermal" H 4250 4100 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4250 4100 50  0001 C CNN
+	1    4250 4100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

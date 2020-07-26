@@ -1,0 +1,862 @@
+EESchema Schematic File Version 4
+LIBS:ossc_board-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x04_Male J10
+U 1 1 5F596E87
+P 1800 1100
+F 0 "J10" H 2000 1400 50  0000 R CNN
+F 1 "RGB INPUT" H 2200 1300 50  0000 R CNN
+F 2 "" H 1800 1100 50  0001 C CNN
+F 3 "~" H 1800 1100 50  0001 C CNN
+	1    1800 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J11
+U 1 1 5F59931B
+P 2000 1100
+F 0 "J11" H 2108 1381 50  0000 C CNN
+F 1 "MONO INPUT" H 2108 1290 50  0000 C CNN
+F 2 "" H 2000 1100 50  0001 C CNN
+F 3 "~" H 2000 1100 50  0001 C CNN
+	1    2000 1100
+	1    0    0    -1  
+$EndComp
+Text HLabel 2300 1200 2    60   Output ~ 0
+HS_OUT
+Text HLabel 2300 1300 2    60   Output ~ 0
+VS_OUT
+Text HLabel 1500 1200 0    60   Output ~ 0
+RED_OUT
+Text HLabel 1500 1100 0    60   Output ~ 0
+GREEN_OUT
+Text HLabel 1500 1300 0    60   Output ~ 0
+BLUE_OUT
+Wire Wire Line
+	1600 1100 1500 1100
+Wire Wire Line
+	1600 1100 2200 1100
+Connection ~ 1600 1100
+Wire Wire Line
+	2300 1200 2200 1200
+Wire Wire Line
+	2300 1300 2200 1300
+Wire Wire Line
+	1600 1300 1500 1300
+Wire Wire Line
+	1500 1200 1600 1200
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0140
+U 1 1 5F5D0C3C
+P 1500 1000
+F 0 "#PWR0140" H 1500 1000 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 1500 930 30  0001 C CNN
+F 2 "" H 1500 1000 60  0000 C CNN
+F 3 "" H 1500 1000 60  0000 C CNN
+	1    1500 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 1000 1500 1000
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0142
+U 1 1 5F5D117D
+P 2300 1000
+F 0 "#PWR0142" H 2300 1000 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 2300 930 30  0001 C CNN
+F 2 "" H 2300 1000 60  0000 C CNN
+F 3 "" H 2300 1000 60  0000 C CNN
+	1    2300 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 1000 2200 1000
+$Comp
+L Connector:Conn_01x03_Male J12
+U 1 1 5F64899D
+P 1600 1750
+F 0 "J12" H 1708 2031 50  0000 C CNN
+F 1 "NEXT PWR INPUT 1" H 1550 1950 50  0000 C CNN
+F 2 "" H 1600 1750 50  0001 C CNN
+F 3 "~" H 1600 1750 50  0001 C CNN
+	1    1600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J13
+U 1 1 5F64AD16
+P 2000 1750
+F 0 "J13" H 2108 2031 50  0000 C CNN
+F 1 "NEXT PWR INPUT 2" H 2350 1950 50  0000 C CNN
+F 2 "" H 2000 1750 50  0001 C CNN
+F 3 "~" H 2000 1750 50  0001 C CNN
+	1    2000 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1650 2200 1650
+Wire Wire Line
+	2200 1650 2300 1650
+Connection ~ 2200 1650
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0143
+U 1 1 5F64C31A
+P 2300 1650
+F 0 "#PWR0143" H 2300 1650 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 2300 1580 30  0001 C CNN
+F 2 "" H 2300 1650 60  0000 C CNN
+F 3 "" H 2300 1650 60  0000 C CNN
+	1    2300 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 1750 2200 1750
+Connection ~ 2200 1750
+Wire Wire Line
+	1800 1850 2200 1850
+Wire Wire Line
+	2200 1850 2450 1850
+Connection ~ 2200 1850
+Text Label 2450 1750 0    60   ~ 0
+12V
+Text Label 2450 1850 0    60   ~ 0
+-12V
+$Comp
+L Device:Fuse_Small F3
+U 1 1 5F64E7E4
+P 2950 1750
+F 0 "F3" H 2950 1935 50  0000 C CNN
+F 1 "0.5A??" H 2950 1844 50  0000 C CNN
+F 2 "" H 2950 1750 50  0001 C CNN
+F 3 "~" H 2950 1750 50  0001 C CNN
+	1    2950 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1750 2850 1750
+$Comp
+L Device:D_ALT D5
+U 1 1 5F650457
+P 3150 2000
+F 0 "D5" V 3104 2079 50  0000 L CNN
+F 1 "D_ALT" V 3250 2050 50  0000 L CNN
+F 2 "" H 3150 2000 50  0001 C CNN
+F 3 "~" H 3150 2000 50  0001 C CNN
+	1    3150 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 1750 3150 1750
+Wire Wire Line
+	3150 1750 3150 1850
+Wire Wire Line
+	3150 2150 3150 2300
+$Comp
+L Regulator_Linear:L7805 U8
+U 1 1 5F651CFB
+P 3850 1750
+F 0 "U8" H 3850 1992 50  0000 C CNN
+F 1 "7805(DCDC)" H 3850 1901 50  0000 C CNN
+F 2 "" H 3875 1600 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3850 1700 50  0001 C CNN
+	1    3850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5F65366E
+P 4250 2000
+F 0 "C6" H 4365 2046 50  0000 L CNN
+F 1 "C" H 4365 1955 50  0000 L CNN
+F 2 "" H 4288 1850 50  0001 C CNN
+F 3 "~" H 4250 2000 50  0001 C CNN
+	1    4250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1750 3450 1750
+Connection ~ 3150 1750
+Wire Wire Line
+	3450 1850 3450 1750
+Connection ~ 3450 1750
+Wire Wire Line
+	3450 1750 3150 1750
+Wire Wire Line
+	4150 1750 4250 1750
+Wire Wire Line
+	4250 1750 4250 1850
+Wire Wire Line
+	4250 2150 4250 2300
+Wire Wire Line
+	4250 2300 3850 2300
+Wire Wire Line
+	3450 2150 3450 2300
+Connection ~ 3450 2300
+Wire Wire Line
+	3450 2300 3150 2300
+Wire Wire Line
+	3850 2050 3850 2300
+Connection ~ 3850 2300
+Wire Wire Line
+	3850 2300 3450 2300
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0144
+U 1 1 5F6555D7
+P 3850 2400
+F 0 "#PWR0144" H 3850 2400 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 3850 2330 30  0001 C CNN
+F 2 "" H 3850 2400 60  0000 C CNN
+F 3 "" H 3850 2400 60  0000 C CNN
+	1    3850 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2300 3850 2400
+Text HLabel 4650 1750 2    60   Output ~ 0
+5VDC_OUT
+Wire Wire Line
+	4650 1750 4550 1750
+Connection ~ 4250 1750
+$Comp
+L Connector:Conn_01x02_Male J15
+U 1 1 5F67CBF7
+P 2000 3050
+F 0 "J15" H 1972 2932 50  0000 R CNN
+F 1 "5VDC STANDBY" H 1972 3023 50  0000 R CNN
+F 2 "" H 2000 3050 50  0001 C CNN
+F 3 "~" H 2000 3050 50  0001 C CNN
+	1    2000 3050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2200 3050 2350 3050
+Wire Wire Line
+	2350 3050 2350 3250
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0145
+U 1 1 5F67FD95
+P 2350 3250
+F 0 "#PWR0145" H 2350 3250 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 2350 3180 30  0001 C CNN
+F 2 "" H 2350 3250 60  0000 C CNN
+F 3 "" H 2350 3250 60  0000 C CNN
+	1    2350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse_Small F2
+U 1 1 5F680B7B
+P 2950 2950
+F 0 "F2" H 2950 3135 50  0000 C CNN
+F 1 "0.5A??" H 2950 3044 50  0000 C CNN
+F 2 "" H 2950 2950 50  0001 C CNN
+F 3 "~" H 2950 2950 50  0001 C CNN
+	1    2950 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2950 2850 2950
+$Comp
+L Connector:Conn_01x02_Male J14
+U 1 1 5F68323C
+P 2000 2300
+F 0 "J14" H 1973 2182 50  0000 R CNN
+F 1 "-12VDC OUT" H 1973 2273 50  0000 R CNN
+F 2 "" H 2000 2300 50  0001 C CNN
+F 3 "~" H 2000 2300 50  0001 C CNN
+	1    2000 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0151
+U 1 1 5F68409E
+P 2350 2400
+F 0 "#PWR0151" H 2350 2400 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 2350 2330 30  0001 C CNN
+F 2 "" H 2350 2400 60  0000 C CNN
+F 3 "" H 2350 2400 60  0000 C CNN
+	1    2350 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2300 2350 2300
+Wire Wire Line
+	2350 2300 2350 2400
+Wire Wire Line
+	2200 2200 2450 2200
+Wire Wire Line
+	2450 2200 2450 1850
+$Comp
+L Device:D_ALT D8
+U 1 1 5F685C97
+P 3200 3250
+F 0 "D8" V 3154 3329 50  0000 L CNN
+F 1 "D_ALT" V 3300 3250 50  0000 L CNN
+F 2 "" H 3200 3250 50  0001 C CNN
+F 3 "~" H 3200 3250 50  0001 C CNN
+	1    3200 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 2950 3200 2950
+$Comp
+L Regulator_Linear:TLV71209_SOT23-5 U11
+U 1 1 5F689780
+P 3900 3050
+F 0 "U11" H 3900 3392 50  0000 C CNN
+F 1 "TLV70033" H 3900 3301 50  0000 C CNN
+F 2 "custom_components:SOT-23-5_Handsoldering" H 3900 3350 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv712.pdf" H 3900 3050 50  0001 C CNN
+	1    3900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0152
+U 1 1 5F68AD45
+P 3900 3600
+F 0 "#PWR0152" H 3900 3600 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 3900 3530 30  0001 C CNN
+F 2 "" H 3900 3600 60  0000 C CNN
+F 3 "" H 3900 3600 60  0000 C CNN
+	1    3900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F68AEB0
+P 3450 3250
+F 0 "C3" H 3565 3296 50  0000 L CNN
+F 1 "0.1u" H 3565 3205 50  0000 L CNN
+F 2 "" H 3488 3100 50  0001 C CNN
+F 3 "~" H 3450 3250 50  0001 C CNN
+	1    3450 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3400 3200 3500
+Wire Wire Line
+	3200 3500 3450 3500
+Wire Wire Line
+	3900 3500 3900 3600
+Wire Wire Line
+	3900 3500 3900 3350
+Connection ~ 3900 3500
+Wire Wire Line
+	3450 3400 3450 3500
+Connection ~ 3450 3500
+Wire Wire Line
+	3450 3500 3900 3500
+Wire Wire Line
+	3200 2950 3200 3100
+Wire Wire Line
+	3600 3050 3450 3050
+Wire Wire Line
+	3450 3050 3450 3100
+Wire Wire Line
+	3450 3050 3450 2950
+Wire Wire Line
+	3450 2950 3600 2950
+Connection ~ 3450 3050
+Wire Wire Line
+	3450 2950 3200 2950
+Connection ~ 3450 2950
+Connection ~ 3200 2950
+$Comp
+L Device:C C4
+U 1 1 5F68FDBD
+P 4250 3250
+F 0 "C4" H 4365 3296 50  0000 L CNN
+F 1 "C" H 4365 3205 50  0000 L CNN
+F 2 "" H 4288 3100 50  0001 C CNN
+F 3 "~" H 4250 3250 50  0001 C CNN
+	1    4250 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3400 4250 3500
+Wire Wire Line
+	4250 3500 3900 3500
+Wire Wire Line
+	4200 2950 4250 2950
+Wire Wire Line
+	4250 2950 4250 3100
+$Comp
+L Connector_Generic:Conn_01x02 JP1
+U 1 1 5F692B96
+P 4800 2500
+F 0 "JP1" H 4880 2492 50  0000 L CNN
+F 1 "Standby DC From NeXT Hardware" H 4880 2401 50  0000 L CNN
+F 2 "" H 4800 2500 50  0001 C CNN
+F 3 "~" H 4800 2500 50  0001 C CNN
+	1    4800 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2500 4550 2500
+Wire Wire Line
+	4550 2500 4550 1750
+Connection ~ 4550 1750
+Wire Wire Line
+	4550 1750 4250 1750
+Wire Wire Line
+	4600 2600 3200 2600
+Wire Wire Line
+	3200 2600 3200 2950
+$Comp
+L Connector:Conn_01x06_Male J16
+U 1 1 5F6985BD
+P 1600 4150
+F 0 "J16" H 1708 4531 50  0000 C CNN
+F 1 "MON IN 1" H 1708 4440 50  0000 C CNN
+F 2 "" H 1600 4150 50  0001 C CNN
+F 3 "~" H 1600 4150 50  0001 C CNN
+	1    1600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J17
+U 1 1 5F69A786
+P 2000 4150
+F 0 "J17" H 2108 4531 50  0000 C CNN
+F 1 "MON IN 2" H 2108 4440 50  0000 C CNN
+F 2 "" H 2000 4150 50  0001 C CNN
+F 3 "~" H 2000 4150 50  0001 C CNN
+	1    2000 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3950 2200 3950
+Wire Wire Line
+	2200 3950 2350 3950
+Connection ~ 2200 3950
+Wire Wire Line
+	1800 4050 2200 4050
+Connection ~ 2200 4050
+Wire Wire Line
+	1800 4150 2200 4150
+Connection ~ 2200 4150
+Wire Wire Line
+	1800 4250 2200 4250
+Connection ~ 2200 4250
+Wire Wire Line
+	1800 4350 2200 4350
+Connection ~ 2200 4350
+Wire Wire Line
+	1800 4450 2200 4450
+Connection ~ 2200 4450
+Text Label 2350 4250 0    60   ~ 0
+MON_IN
+Text Label 2350 4050 0    60   ~ 0
+MON_CLK
+Text Label 2350 4150 0    60   ~ 0
+MON_OUT
+Text Notes 2800 4150 0    60   ~ 0
+(To Mon, Input)
+Text Notes 2800 4250 0    60   ~ 0
+(From Mon, Output)
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0153
+U 1 1 5F6AE4E1
+P 2350 3950
+F 0 "#PWR0153" H 2350 3950 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 2350 3880 30  0001 C CNN
+F 2 "" H 2350 3950 60  0000 C CNN
+F 3 "" H 2350 3950 60  0000 C CNN
+	1    2350 3950
+	0    -1   -1   0   
+$EndComp
+Text Label 2350 4350 0    60   ~ 0
+ADB
+Text Label 2350 4450 0    60   ~ 0
+PWR_ONOFF
+$Comp
+L Device:R R6
+U 1 1 5F6B6735
+P 3950 4050
+F 0 "R6" V 3900 3850 50  0000 C CNN
+F 1 "R" V 3950 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3880 4050 50  0001 C CNN
+F 3 "~" H 3950 4050 50  0001 C CNN
+	1    3950 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5F6B6D88
+P 4250 4150
+F 0 "R7" V 4150 4150 50  0000 C CNN
+F 1 "R" V 4250 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 4150 50  0001 C CNN
+F 3 "~" H 4250 4150 50  0001 C CNN
+	1    4250 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5F6B76A9
+P 3950 4250
+F 0 "R8" V 3900 4050 50  0000 C CNN
+F 1 "R" V 3950 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3880 4250 50  0001 C CNN
+F 3 "~" H 3950 4250 50  0001 C CNN
+	1    3950 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F6B7AC9
+P 4250 4350
+F 0 "R4" V 4150 4350 50  0000 C CNN
+F 1 "22" V 4250 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 4350 50  0001 C CNN
+F 3 "~" H 4250 4350 50  0001 C CNN
+	1    4250 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 4050 3800 4050
+Wire Wire Line
+	2200 4150 4100 4150
+Wire Wire Line
+	2200 4250 3800 4250
+Wire Wire Line
+	2200 4350 4100 4350
+Wire Wire Line
+	2200 4450 3800 4450
+$Comp
+L Device:C C5
+U 1 1 5F65317D
+P 3450 2000
+F 0 "C5" H 3550 1950 50  0000 L CNN
+F 1 "0.1u" H 3550 1850 50  0000 L CNN
+F 2 "" H 3488 1850 50  0001 C CNN
+F 3 "~" H 3450 2000 50  0001 C CNN
+	1    3450 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2950 4600 2950
+Connection ~ 4250 2950
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F6CA513
+P 4200 4950
+F 0 "SW1" V 4246 4902 50  0000 R CNN
+F 1 "NeXT POWER SW" V 4155 4902 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_Tactile_SKHH_Angled" H 4200 5150 50  0001 C CNN
+F 3 "~" H 4200 5150 50  0001 C CNN
+	1    4200 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 4450 4200 4450
+Wire Wire Line
+	4200 4450 4200 4600
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0154
+U 1 1 5F6CF3DB
+P 4200 5250
+F 0 "#PWR0154" H 4200 5250 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 4200 5180 30  0001 C CNN
+F 2 "" H 4200 5250 60  0000 C CNN
+F 3 "" H 4200 5250 60  0000 C CNN
+	1    4200 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5150 4200 5250
+$Comp
+L Device:R R5
+U 1 1 5F6B7D99
+P 3950 4450
+F 0 "R5" V 3900 4250 50  0000 C CNN
+F 1 "330(TBD)" V 3950 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3880 4450 50  0001 C CNN
+F 3 "~" H 3950 4450 50  0001 C CNN
+	1    3950 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Mini-DIN-5 J31
+U 1 1 5F6D5030
+P 2350 5600
+F 0 "J31" H 2350 5967 50  0000 C CNN
+F 1 "NeXT Keyboard(NonADB)" H 2350 5876 50  0000 C CNN
+F 2 "" H 2350 5600 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 2350 5600 50  0001 C CNN
+	1    2350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Mini-DIN-4 J21
+U 1 1 5F6D7ECC
+P 2350 6300
+F 0 "J21" H 2350 6667 50  0000 C CNN
+F 1 "ADB Keyboard" H 2350 6576 50  0000 C CNN
+F 2 "" H 2350 6300 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 2350 6300 50  0001 C CNN
+	1    2350 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0156
+U 1 1 5F6D9F50
+P 1950 6200
+F 0 "#PWR0156" H 1950 6200 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 1950 6130 30  0001 C CNN
+F 2 "" H 1950 6200 60  0000 C CNN
+F 3 "" H 1950 6200 60  0000 C CNN
+	1    1950 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0157
+U 1 1 5F6DA703
+P 1950 5500
+F 0 "#PWR0157" H 1950 5500 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 1950 5430 30  0001 C CNN
+F 2 "" H 1950 5500 60  0000 C CNN
+F 3 "" H 1950 5500 60  0000 C CNN
+	1    1950 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 5500 1950 5500
+Wire Wire Line
+	2050 6200 1950 6200
+Wire Wire Line
+	2650 5500 3000 5500
+Wire Wire Line
+	3000 5500 3000 4600
+Wire Wire Line
+	3000 4600 4200 4600
+Connection ~ 4200 4600
+Wire Wire Line
+	4200 4600 4200 4750
+Text Label 4250 1750 0    60   ~ 0
+5VDC
+Text Label 2750 5700 0    60   ~ 0
+5VDC
+Wire Wire Line
+	2750 5700 2650 5700
+Wire Wire Line
+	2050 6300 1900 6300
+Wire Wire Line
+	1900 6300 1900 6600
+Wire Wire Line
+	1900 6600 3000 6600
+Wire Wire Line
+	3000 6600 3000 5500
+Connection ~ 3000 5500
+Text Label 2750 6200 0    60   ~ 0
+5VDC
+Wire Wire Line
+	2750 6200 2650 6200
+Wire Wire Line
+	2650 6300 4550 6300
+Wire Wire Line
+	4550 6300 4550 4350
+Wire Wire Line
+	4550 4350 4400 4350
+$Comp
+L Connector:USB_A J4
+U 1 1 5F6F3C10
+P 10600 4550
+F 0 "J4" H 10370 4539 50  0000 R CNN
+F 1 "USB Host" H 10370 4448 50  0000 R CNN
+F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 10750 4500 50  0001 C CNN
+F 3 " ~" H 10750 4500 50  0001 C CNN
+	1    10600 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0158
+U 1 1 5F6F9AE7
+P 10600 5100
+F 0 "#PWR0158" H 10600 5100 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 10600 5030 30  0001 C CNN
+F 2 "" H 10600 5100 60  0000 C CNN
+F 3 "" H 10600 5100 60  0000 C CNN
+	1    10600 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 4950 10600 5000
+Wire Wire Line
+	10600 5000 10700 5000
+Wire Wire Line
+	10700 5000 10700 4950
+Connection ~ 10600 5000
+Wire Wire Line
+	10600 5000 10600 5100
+$Comp
+L Power_Protection:USBLC6-2SC6 U17
+U 1 1 5F714954
+P 9500 5050
+F 0 "U17" V 9454 5594 50  0000 L CNN
+F 1 "USBLC6-2SC6" V 9545 5594 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 8750 5450 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 9700 5400 50  0001 C CNN
+	1    9500 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10000 5050 10000 4350
+Wire Wire Line
+	10000 4350 10300 4350
+Wire Wire Line
+	10300 4550 9600 4550
+Wire Wire Line
+	10300 4650 10150 4650
+Wire Wire Line
+	10150 4650 10150 5550
+Wire Wire Line
+	10150 5550 9600 5550
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0159
+U 1 1 5F72B896
+P 9000 5050
+F 0 "#PWR0159" H 9000 5050 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 9000 4980 30  0001 C CNN
+F 2 "" H 9000 5050 60  0000 C CNN
+F 3 "" H 9000 5050 60  0000 C CNN
+	1    9000 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5F72D7E8
+P 10250 1200
+F 0 "J2" H 10330 1242 50  0000 L CNN
+F 1 "(OUT) SJ1-3533NG" H 10330 1151 50  0000 L CNN
+F 2 "custom_components:SJ1-3533NG" H 10250 1200 50  0001 C CNN
+F 3 "~" H 10250 1200 50  0001 C CNN
+	1    10250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0161
+U 1 1 5F72ED03
+P 9950 1100
+F 0 "#PWR0161" H 9950 1100 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 9950 1030 30  0001 C CNN
+F 2 "" H 9950 1100 60  0000 C CNN
+F 3 "" H 9950 1100 60  0000 C CNN
+	1    9950 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 1100 9950 1100
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 5F738050
+P 10250 1750
+F 0 "J3" H 10330 1792 50  0000 L CNN
+F 1 "(MIC IN) SJ1-3533NG" H 10330 1701 50  0000 L CNN
+F 2 "custom_components:SJ1-3533NG" H 10250 1750 50  0001 C CNN
+F 3 "~" H 10250 1750 50  0001 C CNN
+	1    10250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0170
+U 1 1 5F73805A
+P 9950 1650
+F 0 "#PWR0170" H 9950 1650 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 9950 1580 30  0001 C CNN
+F 2 "" H 9950 1650 60  0000 C CNN
+F 3 "" H 9950 1650 60  0000 C CNN
+	1    9950 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 1650 9950 1650
+Wire Wire Line
+	9550 4200 9550 4300
+Wire Wire Line
+	10000 4000 10000 4350
+Connection ~ 10000 4350
+Wire Wire Line
+	9550 3550 9550 3350
+Text Label 9550 3350 0    60   ~ 0
+5VDC
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0210
+U 1 1 5F8456A2
+P 9550 4300
+F 0 "#PWR0210" H 9550 4300 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 9550 4230 30  0001 C CNN
+F 2 "" H 9550 4300 60  0000 C CNN
+F 3 "" H 9550 4300 60  0000 C CNN
+	1    9550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5F84856C
+P 8850 4350
+F 0 "R9" V 8800 4150 50  0000 C CNN
+F 1 "47k" V 8850 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8780 4350 50  0001 C CNN
+F 3 "~" H 8850 4350 50  0001 C CNN
+	1    8850 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L custom_components:STMPS21x1_SOT23 U18
+U 1 1 5F1D9742
+P 9550 4100
+F 0 "U18" H 10044 4378 60  0000 L CNN
+F 1 "STMPS21x1_SOT23" H 10044 4272 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 9550 4100 60  0001 C CNN
+F 3 "" H 9550 4100 60  0001 C CNN
+	1    9550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0211
+U 1 1 5F1DC039
+P 8850 4500
+F 0 "#PWR0211" H 8850 4500 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 8850 4430 30  0001 C CNN
+F 2 "" H 8850 4500 60  0000 C CNN
+F 3 "" H 8850 4500 60  0000 C CNN
+	1    8850 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3900 8850 3900
+Wire Wire Line
+	8850 3900 8850 4200
+Wire Wire Line
+	9100 4000 8650 4000
+Wire Wire Line
+	8850 3900 8650 3900
+Connection ~ 8850 3900
+Wire Wire Line
+	9400 4550 9050 4550
+Wire Wire Line
+	9050 4550 9050 4850
+Wire Wire Line
+	9050 4850 8850 4850
+Wire Wire Line
+	8850 5250 9050 5250
+Wire Wire Line
+	9050 5250 9050 5550
+Wire Wire Line
+	9050 5550 9400 5550
+$EndSCHEMATC

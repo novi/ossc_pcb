@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title "Open Source Scan Converter"
 Date "2017-07-03"
 Rev "1.6"
@@ -26,28 +26,6 @@ F 3 "DOCUMENTATION" H 5750 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ossc_board-rescue:VGA J1
-U 1 1 53F623CB
-P 1500 1400
-F 0 "J1" H 1250 2200 60  0000 C CNN
-F 1 "VGA" H 1500 650 60  0000 C CNN
-F 2 "custom_components:VGA_CONN" H 1500 1400 60  0001 C CNN
-F 3 "~" H 1500 1400 60  0000 C CNN
-	1    1500 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L ossc_board-rescue:BARREL_JACK J5
-U 1 1 53FA4ED2
-P 7300 6200
-F 0 "J5" H 7300 6450 60  0000 C CNN
-F 1 "5VDC_IN" H 7300 6000 60  0000 C CNN
-F 2 "custom_components:BARREL_JACK_roundconn" H 7300 6200 60  0001 C CNN
-F 3 "" H 7300 6200 60  0000 C CNN
-	1    7300 6200
-	1    0    0    -1  
-$EndComp
-$Comp
 L ossc_board-rescue:TLV71209DBV-RESCUE-ossc_board U9
 U 1 1 53FA4F27
 P 10300 6600
@@ -66,7 +44,7 @@ U 1 1 53FA5100
 P 9700 6050
 F 0 "C32" H 9700 6150 40  0000 L CNN
 F 1 "1u" H 9706 5965 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 9738 5900 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9738 5900 30  0001 C CNN
 F 3 "~" H 9700 6050 60  0000 C CNN
 	1    9700 6050
 	1    0    0    1   
@@ -77,7 +55,7 @@ U 1 1 53FA5122
 P 10850 6050
 F 0 "C35" H 10850 6150 40  0000 L CNN
 F 1 "1u" H 10856 5965 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 10888 5900 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10888 5900 30  0001 C CNN
 F 3 "~" H 10850 6050 60  0000 C CNN
 	1    10850 6050
 	1    0    0    -1  
@@ -88,7 +66,7 @@ U 1 1 53FA5138
 P 10850 6750
 F 0 "C37" H 10850 6850 40  0000 L CNN
 F 1 "1u" H 10856 6665 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 10888 6600 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10888 6600 30  0001 C CNN
 F 3 "~" H 10850 6750 60  0000 C CNN
 	1    10850 6750
 	1    0    0    -1  
@@ -99,7 +77,7 @@ U 1 1 53FA51A4
 P 9700 6750
 F 0 "C34" H 9700 6850 40  0000 L CNN
 F 1 "1u" H 9706 6665 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 9738 6600 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9738 6600 30  0001 C CNN
 F 3 "~" H 9700 6750 60  0000 C CNN
 	1    9700 6750
 	1    0    0    -1  
@@ -126,53 +104,21 @@ F 3 "" H 10850 7000 60  0000 C CNN
 	1    10850 7000
 	1    0    0    -1  
 $EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR081
-U 1 1 53FCE5E0
-P 7800 6350
-F 0 "#PWR081" H 7800 6350 30  0001 C CNN
-F 1 "GND" H 7800 6280 30  0001 C CNN
-F 2 "" H 7800 6350 60  0001 C CNN
-F 3 "" H 7800 6350 60  0000 C CNN
-	1    7800 6350
-	1    0    0    -1  
-$EndComp
 Text Label 10950 5850 0    60   ~ 0
 AVDD
 Text Label 10950 6550 0    60   ~ 0
 DVDD
-Text Label 600  1750 0    60   ~ 0
-RGB3_R
-Text Label 600  1550 0    60   ~ 0
-RGB3_G
-Text Label 600  1350 0    60   ~ 0
-RGB3_B
-Text Label 600  950  0    60   ~ 0
-GND
-Text Label 600  1050 0    60   ~ 0
-GND
-Text Label 600  1650 0    60   ~ 0
-GND
-Text Label 600  1850 0    60   ~ 0
-GND
-Text Label 600  1450 0    60   ~ 0
-GND
-Text Label 2150 1350 0    60   ~ 0
+Text Label 2100 1350 0    60   ~ 0
 RGB3_HS
-Text Label 2150 1150 0    60   ~ 0
+Text Label 2100 1150 0    60   ~ 0
 RGB3_VS
-NoConn ~ 900  1150
-NoConn ~ 900  1250
-NoConn ~ 2100 1750
-NoConn ~ 2100 1550
-NoConn ~ 2100 950 
 $Comp
 L ossc_board-rescue:C C1
 U 1 1 53FCF11F
 P 3050 3400
 F 0 "C1" H 3050 3500 40  0000 L CNN
 F 1 "0.1u" H 3056 3315 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 3088 3250 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 3250 30  0001 C CNN
 F 3 "~" H 3050 3400 60  0000 C CNN
 	1    3050 3400
 	0    -1   -1   0   
@@ -183,7 +129,7 @@ U 1 1 53FCF164
 P 2500 3550
 F 0 "R1" V 2580 3550 40  0000 C CNN
 F 1 "75" V 2507 3551 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 2430 3550 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2430 3550 30  0001 C CNN
 F 3 "~" H 2500 3550 30  0000 C CNN
 	1    2500 3550
 	1    0    0    -1  
@@ -207,7 +153,7 @@ U 1 1 53FCF47D
 P 3050 4100
 F 0 "C2" H 3050 4200 40  0000 L CNN
 F 1 "0.1u" H 3056 4015 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 3088 3950 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 3950 30  0001 C CNN
 F 3 "~" H 3050 4100 60  0000 C CNN
 	1    3050 4100
 	0    -1   -1   0   
@@ -218,7 +164,7 @@ U 1 1 53FCF48F
 P 2500 4250
 F 0 "R2" V 2580 4250 40  0000 C CNN
 F 1 "75" V 2507 4251 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 2430 4250 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2430 4250 30  0001 C CNN
 F 3 "~" H 2500 4250 30  0000 C CNN
 	1    2500 4250
 	1    0    0    -1  
@@ -242,7 +188,7 @@ U 1 1 53FCF73F
 P 3350 3850
 F 0 "C10" H 3350 3950 40  0000 L CNN
 F 1 "0.1u" H 3356 3765 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 3388 3700 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3388 3700 30  0001 C CNN
 F 3 "~" H 3350 3850 60  0000 C CNN
 	1    3350 3850
 	1    0    0    -1  
@@ -266,7 +212,7 @@ U 1 1 53FCF936
 P 3550 2600
 F 0 "C11" H 3550 2700 40  0000 L CNN
 F 1 "10n" H 3556 2515 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 3588 2450 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3588 2450 30  0001 C CNN
 F 3 "~" H 3550 2600 60  0000 C CNN
 	1    3550 2600
 	0    -1   -1   0   
@@ -277,7 +223,7 @@ U 1 1 53FCFB11
 P 3350 3150
 F 0 "C8" H 3350 3250 40  0000 L CNN
 F 1 "0.1u" H 3356 3065 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 3388 3000 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3388 3000 30  0001 C CNN
 F 3 "~" H 3350 3150 60  0000 C CNN
 	1    3350 3150
 	1    0    0    -1  
@@ -301,7 +247,7 @@ U 1 1 53FD059D
 P 4700 1900
 F 0 "C13" H 4700 2000 40  0000 L CNN
 F 1 "1n" H 4706 1815 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 4738 1750 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4738 1750 30  0001 C CNN
 F 3 "~" H 4700 1900 60  0000 C CNN
 	1    4700 1900
 	1    0    0    -1  
@@ -312,7 +258,7 @@ U 1 1 53FD0686
 P 4800 1250
 F 0 "C15" H 4800 1350 40  0000 L CNN
 F 1 "0.1u" H 4806 1165 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 4838 1100 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4838 1100 30  0001 C CNN
 F 3 "~" H 4800 1250 60  0000 C CNN
 	1    4800 1250
 	1    0    0    -1  
@@ -323,7 +269,7 @@ U 1 1 53FD06FE
 P 4650 1100
 F 0 "R10" V 4730 1100 40  0000 C CNN
 F 1 "75" V 4657 1101 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 4580 1100 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 1100 30  0001 C CNN
 F 3 "~" H 4650 1100 30  0000 C CNN
 	1    4650 1100
 	0    -1   -1   0   
@@ -347,7 +293,7 @@ U 1 1 53FD077E
 P 4900 1900
 F 0 "C16" H 4900 2000 40  0000 L CNN
 F 1 "1n" H 4906 1815 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 4938 1750 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4938 1750 30  0001 C CNN
 F 3 "~" H 4900 1900 60  0000 C CNN
 	1    4900 1900
 	1    0    0    -1  
@@ -358,7 +304,7 @@ U 1 1 53FD09D4
 P 5000 1600
 F 0 "C17" H 5000 1700 40  0000 L CNN
 F 1 "10n" H 5006 1515 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 5038 1450 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5038 1450 30  0001 C CNN
 F 3 "~" H 5000 1600 60  0000 C CNN
 	1    5000 1600
 	1    0    0    -1  
@@ -369,7 +315,7 @@ U 1 1 53FD0DD7
 P 3250 4550
 F 0 "C9" H 3250 4650 40  0000 L CNN
 F 1 "0.1u" H 3256 4465 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 3288 4400 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3288 4400 30  0001 C CNN
 F 3 "~" H 3250 4550 60  0000 C CNN
 	1    3250 4550
 	1    0    0    -1  
@@ -391,7 +337,7 @@ U 1 1 53FD114E
 P 5300 1750
 F 0 "C18" H 5300 1850 40  0000 L CNN
 F 1 "0.1u" H 5306 1665 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 5338 1600 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5338 1600 30  0001 C CNN
 F 3 "~" H 5300 1750 60  0000 C CNN
 	1    5300 1750
 	1    0    0    -1  
@@ -547,7 +493,7 @@ U 1 1 53FD13A2
 P 6300 1750
 F 0 "C23" H 6300 1850 40  0000 L CNN
 F 1 "0.1u" H 6306 1665 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 6338 1600 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6338 1600 30  0001 C CNN
 F 3 "~" H 6300 1750 60  0000 C CNN
 	1    6300 1750
 	1    0    0    -1  
@@ -580,7 +526,7 @@ U 1 1 53FD13C0
 P 8300 3200
 F 0 "C27" H 8300 3300 40  0000 L CNN
 F 1 "0.1u" H 8306 3115 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 8338 3050 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8338 3050 30  0001 C CNN
 F 3 "~" H 8300 3200 60  0000 C CNN
 	1    8300 3200
 	0    -1   -1   0   
@@ -591,7 +537,7 @@ U 1 1 53FD13C6
 P 8300 3500
 F 0 "C28" H 8300 3600 40  0000 L CNN
 F 1 "0.1u" H 8306 3415 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 8338 3350 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8338 3350 30  0001 C CNN
 F 3 "~" H 8300 3500 60  0000 C CNN
 	1    8300 3500
 	0    -1   -1   0   
@@ -624,7 +570,7 @@ U 1 1 53FD13D8
 P 8250 5000
 F 0 "C26" H 8250 5100 40  0000 L CNN
 F 1 "0.1u" H 8256 4915 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 8288 4850 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8288 4850 30  0001 C CNN
 F 3 "~" H 8250 5000 60  0000 C CNN
 	1    8250 5000
 	1    0    0    -1  
@@ -668,7 +614,7 @@ U 1 1 53FD13F0
 P 4600 6100
 F 0 "C14" H 4600 6200 40  0000 L CNN
 F 1 "0.1u" H 4606 6015 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 4638 5950 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4638 5950 30  0001 C CNN
 F 3 "~" H 4600 6100 60  0000 C CNN
 	1    4600 6100
 	1    0    0    -1  
@@ -679,7 +625,7 @@ U 1 1 53FD13F6
 P 5900 6100
 F 0 "C21" H 5900 6200 40  0000 L CNN
 F 1 "0.1u" H 5906 6015 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 5938 5950 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5938 5950 30  0001 C CNN
 F 3 "~" H 5900 6100 60  0000 C CNN
 	1    5900 6100
 	1    0    0    -1  
@@ -690,7 +636,7 @@ U 1 1 53FD13FC
 P 6100 6100
 F 0 "C22" H 6100 6200 40  0000 L CNN
 F 1 "0.1u" H 6106 6015 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 6138 5950 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6138 5950 30  0001 C CNN
 F 3 "~" H 6100 6100 60  0000 C CNN
 	1    6100 6100
 	1    0    0    -1  
@@ -715,7 +661,7 @@ U 1 1 53FD186E
 P 5900 1850
 F 0 "R11" V 5980 1850 40  0000 C CNN
 F 1 "1.5k" V 5907 1851 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 5830 1850 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5830 1850 30  0001 C CNN
 F 3 "~" H 5900 1850 30  0000 C CNN
 	1    5900 1850
 	1    0    0    -1  
@@ -726,7 +672,7 @@ U 1 1 53FD1879
 P 5900 1200
 F 0 "C20" H 5900 1300 40  0000 L CNN
 F 1 "0.1u" H 5906 1115 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 5938 1050 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5938 1050 30  0001 C CNN
 F 3 "~" H 5900 1200 60  0000 C CNN
 	1    5900 1200
 	1    0    0    -1  
@@ -737,7 +683,7 @@ U 1 1 53FD188F
 P 5800 1550
 F 0 "C19" H 5800 1650 40  0000 L CNN
 F 1 "4.7n" H 5806 1465 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 5838 1400 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5838 1400 30  0001 C CNN
 F 3 "~" H 5800 1550 60  0000 C CNN
 	1    5800 1550
 	-1   0    0    1   
@@ -780,7 +726,7 @@ U 1 1 53FD236B
 P 6700 1050
 F 0 "R12" V 6780 1050 40  0000 C CNN
 F 1 "220" V 6707 1051 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 6630 1050 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6630 1050 30  0001 C CNN
 F 3 "~" H 6700 1050 30  0000 C CNN
 	1    6700 1050
 	0    1    1    0   
@@ -791,7 +737,7 @@ U 1 1 53FD249A
 P 6950 1250
 F 0 "C24" H 6950 1350 40  0000 L CNN
 F 1 "1n" H 6956 1165 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 6988 1100 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6988 1100 30  0001 C CNN
 F 3 "~" H 6950 1250 60  0000 C CNN
 	1    6950 1250
 	1    0    0    -1  
@@ -903,7 +849,7 @@ U 1 1 53FD29E7
 P 7350 6750
 F 0 "C25" H 7350 6850 40  0000 L CNN
 F 1 "10n" H 7356 6665 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 7388 6600 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7388 6600 30  0001 C CNN
 F 3 "~" H 7350 6750 60  0000 C CNN
 	1    7350 6750
 	-1   0    0    1   
@@ -925,7 +871,7 @@ U 1 1 53FD2BA0
 P 8350 2700
 F 0 "R14" V 8430 2700 40  0000 C CNN
 F 1 "2.2k" V 8357 2701 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 8280 2700 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8280 2700 30  0001 C CNN
 F 3 "~" H 8350 2700 30  0000 C CNN
 	1    8350 2700
 	0    1    1    0   
@@ -936,7 +882,7 @@ U 1 1 53FD2BB8
 P 8350 2600
 F 0 "R13" V 8430 2600 40  0000 C CNN
 F 1 "2.2k" V 8357 2601 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 8280 2600 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8280 2600 30  0001 C CNN
 F 3 "~" H 8350 2600 30  0000 C CNN
 	1    8350 2600
 	0    -1   -1   0   
@@ -981,7 +927,7 @@ U 1 1 53FD2FC9
 P 8450 3000
 F 0 "R15" V 8530 3000 40  0000 C CNN
 F 1 "2.2k" V 8457 3001 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 8380 3000 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8380 3000 30  0001 C CNN
 F 3 "~" H 8450 3000 30  0000 C CNN
 	1    8450 3000
 	0    -1   -1   0   
@@ -1169,17 +1115,6 @@ F 3 "" H 9350 5600 60  0000 C CNN
 	1    9350 5600
 	0    -1   -1   0   
 $EndComp
-$Comp
-L ossc_board-rescue:PWR_FLAG #FLG0132
-U 1 1 54049F70
-P 7650 6300
-F 0 "#FLG0132" H 7650 6395 30  0001 C CNN
-F 1 "PWR_FLAG" H 7650 6480 30  0000 C CNN
-F 2 "" H 7650 6300 60  0001 C CNN
-F 3 "" H 7650 6300 60  0000 C CNN
-	1    7650 6300
-	-1   0    0    1   
-$EndComp
 NoConn ~ 5700 5500
 NoConn ~ 5800 5500
 NoConn ~ 7800 5000
@@ -1281,7 +1216,7 @@ U 1 1 5509C200
 P 10800 4750
 F 0 "C95" H 10800 4850 40  0000 L CNN
 F 1 "1u" H 10806 4665 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 10838 4600 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10838 4600 30  0001 C CNN
 F 3 "~" H 10800 4750 60  0000 C CNN
 	1    10800 4750
 	1    0    0    -1  
@@ -1292,7 +1227,7 @@ U 1 1 5509C206
 P 9650 4750
 F 0 "C38" H 9650 4850 40  0000 L CNN
 F 1 "1u" H 9656 4665 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 9688 4600 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9688 4600 30  0001 C CNN
 F 3 "~" H 9650 4750 60  0000 C CNN
 	1    9650 4750
 	1    0    0    -1  
@@ -1316,7 +1251,7 @@ U 1 1 5509C3DE
 P 10800 4100
 F 0 "C93" H 10800 4200 40  0000 L CNN
 F 1 "10u" H 10806 4015 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 10838 3950 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10838 3950 30  0001 C CNN
 F 3 "~" H 10800 4100 60  0000 C CNN
 	1    10800 4100
 	1    0    0    -1  
@@ -1327,7 +1262,7 @@ U 1 1 5509C3E4
 P 9650 4100
 F 0 "C31" H 9650 4200 40  0000 L CNN
 F 1 "10u" H 9656 4015 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 9688 3950 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9688 3950 30  0001 C CNN
 F 3 "~" H 9650 4100 60  0000 C CNN
 	1    9650 4100
 	1    0    0    -1  
@@ -1351,7 +1286,7 @@ U 1 1 550D9783
 P 7800 6950
 F 0 "FB5" H 7800 7100 60  0000 C CNN
 F 1 "MPZ1608S221A" H 7800 6850 60  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" H 7800 6950 60  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7800 6950 60  0001 C CNN
 F 3 "~" H 7800 6950 60  0000 C CNN
 	1    7800 6950
 	1    0    0    -1  
@@ -1380,17 +1315,6 @@ F 3 "" H 10300 5900 60  0000 C CNN
 	1    10300 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L ossc_board-rescue:SPST SW1
-U 1 1 5511FBCB
-P 8850 6100
-F 0 "SW1" H 8850 6200 70  0000 C CNN
-F 1 "SPST" H 8850 6000 70  0000 C CNN
-F 2 "custom_components:SW_SPDT" H 8850 6100 60  0001 C CNN
-F 3 "~" H 8850 6100 60  0000 C CNN
-	1    8850 6100
-	-1   0    0    1   
-$EndComp
 Text HLabel 9900 3200 2    60   Output ~ 0
 CLK27
 Text Label 9450 3200 0    60   ~ 0
@@ -1414,7 +1338,7 @@ U 1 1 55C155CD
 P 4250 1750
 F 0 "R3" V 4330 1750 40  0000 C CNN
 F 1 "75" V 4257 1751 40  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" V 4180 1750 30  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 1750 30  0001 C CNN
 F 3 "~" H 4250 1750 30  0000 C CNN
 	1    4250 1750
 	1    0    0    -1  
@@ -1430,8 +1354,6 @@ F 3 "" H 4250 1900 60  0000 C CNN
 	1    4250 1900
 	1    0    0    -1  
 $EndComp
-Text Label 4250 1450 0    60   ~ 0
-RGB1_S
 $Comp
 L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0137
 U 1 1 55E94452
@@ -1460,7 +1382,7 @@ U 1 1 55ECAA32
 P 9100 1150
 F 0 "C72" H 9100 1250 40  0000 L CNN
 F 1 "0.1u" H 9106 1065 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 9138 1000 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9138 1000 30  0001 C CNN
 F 3 "~" H 9100 1150 60  0000 C CNN
 	1    9100 1150
 	1    0    0    -1  
@@ -1477,36 +1399,14 @@ F 3 "" H 9100 1350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ossc_board-rescue:ZENER D5
-U 1 1 55ECCC3D
-P 8100 6300
-F 0 "D5" H 8100 6400 50  0000 C CNN
-F 1 "SD05-7" H 8100 6200 50  0000 C CNN
-F 2 "custom_components:SOD-323_Handsoldering" H 8100 6300 60  0001 C CNN
-F 3 "" H 8100 6300 60  0000 C CNN
-	1    8100 6300
-	0    1    1    0   
-$EndComp
-$Comp
-L ossc_board-rescue:F_Small F1
+L ossc_board-rescue:F_Small F4
 U 1 1 55ECFDAC
-P 7700 6100
-F 0 "F1" H 7660 6160 50  0000 L CNN
-F 1 "F0603E1R50FSTR" H 7650 6250 50  0000 L CNN
-F 2 "custom_components:SM0603_Resistor_libcms" H 7700 6100 60  0001 C CNN
-F 3 "" H 7700 6100 60  0000 C CNN
-	1    7700 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0140
-U 1 1 55ED037E
-P 8100 6500
-F 0 "#PWR0140" H 8100 6500 30  0001 C CNN
-F 1 "GND" H 8100 6430 30  0001 C CNN
-F 2 "" H 8100 6500 60  0001 C CNN
-F 3 "" H 8100 6500 60  0000 C CNN
-	1    8100 6500
+P 8800 6700
+F 0 "F4" H 8760 6760 50  0000 L CNN
+F 1 "F0603E1R50FSTR" H 8750 6850 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8800 6700 60  0001 C CNN
+F 3 "" H 8800 6700 60  0000 C CNN
+	1    8800 6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1515,7 +1415,7 @@ U 1 1 55EC4793
 P 3300 2700
 F 0 "C103" H 3300 2800 40  0000 L CNN
 F 1 "10n" H 3306 2615 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 3338 2550 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3338 2550 30  0001 C CNN
 F 3 "~" H 3300 2700 60  0000 C CNN
 	1    3300 2700
 	0    -1   -1   0   
@@ -1526,7 +1426,7 @@ U 1 1 55EC4F39
 P 3250 3600
 F 0 "C76" H 3250 3700 40  0000 L CNN
 F 1 "10n" H 3256 3515 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 3288 3450 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3288 3450 30  0001 C CNN
 F 3 "~" H 3250 3600 60  0000 C CNN
 	1    3250 3600
 	0    -1   -1   0   
@@ -1537,7 +1437,7 @@ U 1 1 55EC4FF3
 P 3250 4300
 F 0 "C100" H 3250 4400 40  0000 L CNN
 F 1 "10n" H 3256 4215 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 3288 4150 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3288 4150 30  0001 C CNN
 F 3 "~" H 3250 4300 60  0000 C CNN
 	1    3250 4300
 	0    -1   -1   0   
@@ -1548,7 +1448,7 @@ U 1 1 55ED7F3A
 P 3550 3500
 F 0 "C104" H 3550 3600 40  0000 L CNN
 F 1 "10n" H 3556 3415 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 3588 3350 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3588 3350 30  0001 C CNN
 F 3 "~" H 3550 3500 60  0000 C CNN
 	1    3550 3500
 	0    -1   -1   0   
@@ -1559,7 +1459,7 @@ U 1 1 55ED867A
 P 3550 4200
 F 0 "C105" H 3550 4300 40  0000 L CNN
 F 1 "10n" H 3556 4115 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 3588 4050 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3588 4050 30  0001 C CNN
 F 3 "~" H 3550 4200 60  0000 C CNN
 	1    3550 4200
 	0    -1   -1   0   
@@ -1592,7 +1492,7 @@ U 1 1 55EEB3FC
 P 4500 1900
 F 0 "C106" H 4500 2000 40  0000 L CNN
 F 1 "10n" H 4506 1815 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 4538 1750 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4538 1750 30  0001 C CNN
 F 3 "~" H 4500 1900 60  0000 C CNN
 	1    4500 1900
 	-1   0    0    1   
@@ -1625,7 +1525,7 @@ U 1 1 55EC52FF
 P 8350 6300
 F 0 "C107" H 8350 6400 40  0000 L CNN
 F 1 "47u" H 8356 6215 40  0000 L CNN
-F 2 "custom_components:SM0805_libcms" H 8388 6150 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 6150 30  0001 C CNN
 F 3 "~" H 8350 6300 60  0000 C CNN
 	1    8350 6300
 	1    0    0    -1  
@@ -1647,7 +1547,7 @@ U 1 1 55F21890
 P 2450 2650
 F 0 "FB6" H 2450 2800 60  0000 C CNN
 F 1 "MPZ1608S221A" H 2450 2550 60  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" H 2450 2650 60  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2450 2650 60  0001 C CNN
 F 3 "~" H 2450 2650 60  0000 C CNN
 	1    2450 2650
 	0    1    1    0   
@@ -1660,7 +1560,7 @@ U 1 1 55F242E2
 P 6200 1100
 F 0 "FB7" H 6200 1250 60  0000 C CNN
 F 1 "MPZ1608S221A" H 6200 1000 60  0000 C CNN
-F 2 "custom_components:SM0603_Resistor_libcms" H 6200 1100 60  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6200 1100 60  0001 C CNN
 F 3 "~" H 6200 1100 60  0000 C CNN
 	1    6200 1100
 	0    1    1    0   
@@ -1737,7 +1637,7 @@ U 1 1 56507D73
 P 8650 5400
 F 0 "C109" H 8650 5500 40  0000 L CNN
 F 1 "10u" H 8656 5315 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 8688 5250 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8688 5250 30  0001 C CNN
 F 3 "~" H 8650 5400 60  0000 C CNN
 	1    8650 5400
 	1    0    0    -1  
@@ -1767,9 +1667,6 @@ Wire Wire Line
 Connection ~ 10300 6250
 Wire Wire Line
 	10300 6250 10300 6200
-Wire Wire Line
-	7800 6100 8100 6100
-Connection ~ 8100 6100
 Wire Wire Line
 	4600 2050 4500 2050
 Wire Wire Line
@@ -1811,8 +1708,6 @@ Wire Wire Line
 	4250 1600 4250 1450
 Wire Wire Line
 	7050 850  6600 850 
-Wire Wire Line
-	7800 6300 7800 6350
 Wire Wire Line
 	9450 2750 9900 2750
 Wire Wire Line
@@ -2006,32 +1901,8 @@ Wire Wire Line
 	2500 4100 2900 4100
 Wire Wire Line
 	2500 3400 2900 3400
-Wire Wire Line
-	2100 1150 2350 1150
-Wire Wire Line
-	2100 1350 2350 1350
-Wire Wire Line
-	900  1050 600  1050
-Wire Wire Line
-	900  1450 600  1450
-Wire Wire Line
-	900  1650 600  1650
-Wire Wire Line
-	900  1850 600  1850
-Wire Wire Line
-	900  950  600  950 
-Wire Wire Line
-	600  1350 900  1350
-Wire Wire Line
-	600  1550 900  1550
-Wire Wire Line
-	600  1750 900  1750
 Connection ~ 9700 5850
 Connection ~ 9700 6550
-Wire Wire Line
-	7600 6200 7600 6300
-Wire Wire Line
-	7600 6300 7650 6300
 Connection ~ 10850 6550
 Wire Wire Line
 	10850 6950 10850 7000
@@ -2048,7 +1919,6 @@ Wire Wire Line
 	9850 6550 9850 6700
 Wire Wire Line
 	9850 5850 9850 6000
-Connection ~ 7650 6300
 Wire Wire Line
 	7000 5500 7000 5750
 Wire Wire Line
@@ -2140,8 +2010,6 @@ Wire Wire Line
 Wire Wire Line
 	10300 6250 10850 6250
 Wire Wire Line
-	8100 6100 8350 6100
-Wire Wire Line
 	9100 950  9250 950 
 Wire Wire Line
 	6200 1450 6300 1450
@@ -2157,8 +2025,6 @@ Wire Wire Line
 	10850 6550 11050 6550
 Wire Wire Line
 	10300 6950 10850 6950
-Wire Wire Line
-	7650 6300 7800 6300
 Wire Wire Line
 	9650 4550 9800 4550
 Wire Wire Line
@@ -2239,7 +2105,7 @@ U 1 1 5F40278F
 P 7750 6700
 F 0 "C33" H 7750 6800 40  0000 L CNN
 F 1 "1u" H 7756 6615 40  0000 L CNN
-F 2 "custom_components:SM0603_Capa_libcms" H 7788 6550 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7788 6550 30  0001 C CNN
 F 3 "~" H 7750 6700 60  0000 C CNN
 	1    7750 6700
 	0    -1   -1   0   
@@ -2260,4 +2126,25 @@ Wire Wire Line
 Wire Wire Line
 	7450 6700 7550 6700
 Connection ~ 7450 6950
+Text HLabel 3000 1150 2    60   Input ~ 0
+RGB3_VS
+Text HLabel 3000 1350 2    60   Input ~ 0
+RGB3_HS
+Wire Wire Line
+	2100 1150 3000 1150
+Wire Wire Line
+	2100 1350 3000 1350
+Text HLabel 4800 800  2    60   Input ~ 0
+RGB3_G
+Text HLabel 2500 3400 0    60   Input ~ 0
+RGB3_R
+Text HLabel 2500 4100 0    60   Input ~ 0
+RGB3_B
+Wire Wire Line
+	9350 6100 8350 6100
+Connection ~ 8350 6100
+Text HLabel 7800 6100 0    60   Input ~ 0
+5VDC_IN
+Wire Wire Line
+	7800 6100 8350 6100
 $EndSCHEMATC

@@ -108,9 +108,9 @@ Text Label 10950 5850 0    60   ~ 0
 AVDD
 Text Label 10950 6550 0    60   ~ 0
 DVDD
-Text Label 2100 1350 0    60   ~ 0
+Text Label 2350 5850 0    60   ~ 0
 RGB3_HS
-Text Label 2100 1150 0    60   ~ 0
+Text Label 2350 5650 0    60   ~ 0
 RGB3_VS
 $Comp
 L ossc_board-rescue:C C1
@@ -2126,14 +2126,14 @@ Wire Wire Line
 Wire Wire Line
 	7450 6700 7550 6700
 Connection ~ 7450 6950
-Text HLabel 3000 1150 2    60   Input ~ 0
+Text HLabel 3250 5650 2    60   Input ~ 0
 RGB3_VS
-Text HLabel 3000 1350 2    60   Input ~ 0
+Text HLabel 3250 5850 2    60   Input ~ 0
 RGB3_HS
 Wire Wire Line
-	2100 1150 3000 1150
+	2350 5650 3250 5650
 Wire Wire Line
-	2100 1350 3000 1350
+	2350 5850 3250 5850
 Text HLabel 4800 800  2    60   Input ~ 0
 RGB3_G
 Text HLabel 2500 3400 0    60   Input ~ 0

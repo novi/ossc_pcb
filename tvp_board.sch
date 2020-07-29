@@ -1104,17 +1104,6 @@ Text Label 10600 1950 0    60   ~ 0
 B_7
 Text Label 9450 2750 0    60   ~ 0
 RESET_N
-$Comp
-L ossc_board-rescue:PWR_FLAG #FLG0131
-U 1 1 54049F52
-P 9350 5600
-F 0 "#FLG0131" H 9350 5695 30  0001 C CNN
-F 1 "PWR_FLAG" H 9350 5780 30  0000 C CNN
-F 2 "" H 9350 5600 60  0001 C CNN
-F 3 "" H 9350 5600 60  0000 C CNN
-	1    9350 5600
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 5700 5500
 NoConn ~ 5800 5500
 NoConn ~ 7800 5000
@@ -1507,28 +1496,6 @@ F 2 "" H 5000 1400 60  0001 C CNN
 F 3 "" H 5000 1400 60  0000 C CNN
 	1    5000 1400
 	-1   0    0    1   
-$EndComp
-$Comp
-L ossc_board-rescue:C-RESCUE-ossc_board C107
-U 1 1 55EC52FF
-P 8350 6300
-F 0 "C107" H 8350 6400 40  0000 L CNN
-F 1 "47u" H 8356 6215 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 6150 30  0001 C CNN
-F 3 "~" H 8350 6300 60  0000 C CNN
-	1    8350 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0150
-U 1 1 55EC5BFD
-P 8350 6500
-F 0 "#PWR0150" H 8350 6500 30  0001 C CNN
-F 1 "GND" H 8350 6430 30  0001 C CNN
-F 2 "" H 8350 6500 60  0001 C CNN
-F 3 "" H 8350 6500 60  0000 C CNN
-	1    8350 6500
-	1    0    0    -1  
 $EndComp
 $Comp
 L ossc_board-rescue:FILTER FB6
@@ -1952,7 +1919,6 @@ Connection ~ 7350 6950
 Wire Wire Line
 	8350 6950 8150 6950
 Connection ~ 7100 6950
-Connection ~ 9350 5600
 Wire Wire Line
 	9450 3200 9900 3200
 Connection ~ 6950 1050
@@ -2027,15 +1993,11 @@ Wire Wire Line
 Wire Wire Line
 	10250 4300 10800 4300
 Wire Wire Line
-	9350 4550 9350 5600
-Wire Wire Line
 	9350 3900 9350 4550
 Wire Wire Line
 	7350 6950 7450 6950
 Wire Wire Line
 	7100 6950 7350 6950
-Wire Wire Line
-	9350 5600 9350 6100
 Wire Wire Line
 	9550 5850 9550 6550
 Wire Wire Line
@@ -2129,11 +2091,10 @@ Text HLabel 2500 3400 0    60   Input ~ 0
 RGB3_R
 Text HLabel 2500 4100 0    60   Input ~ 0
 RGB3_B
-Wire Wire Line
-	9350 6100 8350 6100
-Connection ~ 8350 6100
 Text HLabel 7800 6100 0    60   Input ~ 0
 5VDC_IN
 Wire Wire Line
-	7800 6100 8350 6100
+	7800 6100 9350 6100
+Wire Wire Line
+	9350 4550 9350 6100
 $EndSCHEMATC

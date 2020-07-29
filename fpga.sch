@@ -1402,14 +1402,14 @@ F 3 "" H 3900 1000 60  0000 C CNN
 	1    3900 1000
 	-1   0    0    1   
 $EndComp
-Text Label 6800 3150 0    60   ~ 0
+Text Label 1650 4550 2    60   ~ 0
 LED0
 $Comp
 L ossc_board-rescue:LED-RESCUE-ossc_board D1
 U 1 1 550764BB
 P 10450 2150
 F 0 "D1" H 10450 2250 50  0000 C CNN
-F 1 "LEDR" H 10450 2050 50  0000 C CNN
+F 1 "LED0" H 10450 2050 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 10450 2150 60  0001 C CNN
 F 3 "~" H 10450 2150 60  0000 C CNN
 	1    10450 2150
@@ -1687,7 +1687,7 @@ L ossc_board-rescue:SW_PUSH SW2
 U 1 1 55EF2D5F
 P 10150 2850
 F 0 "SW2" H 10300 2960 50  0000 C CNN
-F 1 "SW_PUSH" H 10150 2770 50  0000 C CNN
+F 1 "BTN0" H 10150 2770 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_Tactile_SKHH_Angled" H 10150 2850 60  0001 C CNN
 F 3 "" H 10150 2850 60  0000 C CNN
 	1    10150 2850
@@ -1712,7 +1712,7 @@ Wire Wire Line
 	9850 2550 9400 2550
 Text Label 9400 2550 0    60   ~ 0
 VCCIO
-Text Label 1300 4550 2    60   ~ 0
+Text Label 7100 3150 0    60   ~ 0
 BTN0
 Wire Wire Line
 	1300 4550 1700 4550
@@ -1916,7 +1916,7 @@ Text HLabel 6800 2850 2    60   Input ~ 0
 Mic_LRCK
 Text HLabel 6800 3050 2    60   Input ~ 0
 Mic_Data
-Text HLabel 7100 3150 2    60   Output ~ 0
+Text HLabel 1300 4550 0    60   Output ~ 0
 SPDIF_OUT
 Wire Wire Line
 	7100 3150 6800 3150

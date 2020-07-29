@@ -378,8 +378,6 @@ Wire Wire Line
 Wire Notes Line
 	8950 5700 9550 5700
 Wire Wire Line
-	3050 5550 3800 5550
-Wire Wire Line
 	3050 5650 8350 5650
 Wire Notes Line
 	2100 4550 2750 4550
@@ -401,8 +399,6 @@ Wire Notes Line
 	5050 4850 5050 4750
 Wire Notes Line
 	5950 4850 5950 4750
-Wire Wire Line
-	3800 4950 4650 4950
 Wire Wire Line
 	3050 4400 4650 4400
 Wire Notes Line
@@ -445,9 +441,6 @@ Wire Wire Line
 	4150 5450 4150 4300
 Connection ~ 6950 4300
 Wire Wire Line
-	3800 4950 3800 5550
-Connection ~ 3800 5550
-Wire Wire Line
 	3050 5900 8350 5900
 NoConn ~ 1050 1150
 NoConn ~ 1250 1150
@@ -459,8 +452,6 @@ Wire Wire Line
 	4350 4600 4650 4600
 Wire Wire Line
 	6950 4300 8350 4300
-Wire Wire Line
-	3800 5550 8350 5550
 Wire Wire Line
 	1700 4200 1500 4200
 Wire Wire Line
@@ -502,6 +493,8 @@ F4 "RED_OUT" O L 1700 8700 60
 F5 "GREEN_OUT" O L 1700 8800 60 
 F6 "BLUE_OUT" O L 1700 8900 60 
 F7 "5VDC_OUT" O R 3050 8400 60 
+F8 "VCCIO" I R 3050 8500 60 
+F9 "SPDIF" I R 3050 8700 60 
 $EndSheet
 Wire Wire Line
 	3050 6050 3350 6050
@@ -509,4 +502,26 @@ Wire Wire Line
 	3350 6050 3350 8400
 Wire Wire Line
 	3350 8400 3050 8400
+Wire Wire Line
+	6750 6450 7100 6450
+Wire Wire Line
+	7100 6450 7100 8700
+Wire Wire Line
+	7100 8700 3050 8700
+Wire Wire Line
+	3800 4950 4650 4950
+Wire Wire Line
+	3800 5550 8350 5550
+Connection ~ 3800 5550
+Wire Wire Line
+	3800 4950 3800 5550
+Wire Wire Line
+	3050 5550 3450 5550
+Wire Wire Line
+	3450 8500 3450 5550
+Wire Wire Line
+	3450 8500 3050 8500
+Connection ~ 3450 5550
+Wire Wire Line
+	3450 5550 3800 5550
 $EndSCHEMATC

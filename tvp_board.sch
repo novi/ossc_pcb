@@ -1399,17 +1399,6 @@ F 3 "" H 9100 1350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ossc_board-rescue:F_Small F4
-U 1 1 55ECFDAC
-P 8800 6700
-F 0 "F4" H 8760 6760 50  0000 L CNN
-F 1 "F0603E1R50FSTR" H 8750 6850 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8800 6700 60  0001 C CNN
-F 3 "" H 8800 6700 60  0000 C CNN
-	1    8800 6700
-	1    0    0    -1  
-$EndComp
-$Comp
 L ossc_board-rescue:C C103
 U 1 1 55EC4793
 P 3300 2700

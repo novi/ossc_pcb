@@ -819,8 +819,8 @@ L ossc_board-rescue:ACHL-27MHZ-EK Y?
 U 1 1 53FD28BE
 P 6100 7000
 AR Path="/53FD28BE" Ref="Y?"  Part="1" 
-AR Path="/54FDD796/53FD28BE" Ref="Y1"  Part="1" 
-F 0 "Y1" H 6100 6900 50  0000 C CNN
+AR Path="/54FDD796/53FD28BE" Ref="X1"  Part="1" 
+F 0 "X1" H 6100 6900 50  0000 C CNN
 F 1 "ACHL-27MHZ-EK" H 6100 7100 50  0000 C CNN
 F 2 "custom_components:ACHL-OSC" H 6100 7000 50  0001 C CNN
 F 3 "DOCUMENTATION" H 6100 7000 50  0001 C CNN
@@ -1297,17 +1297,6 @@ Text HLabel 9900 3200 2    60   Output ~ 0
 CLK27
 Text Label 9450 3200 0    60   ~ 0
 CLK27
-$Comp
-L ossc_board-rescue:SN74LVC2G17 U4
-U 1 1 55BADF88
-P 7900 950
-F 0 "U4" H 7900 850 50  0000 C CNN
-F 1 "SN74LVC2G17" H 7900 1050 50  0000 C CNN
-F 2 "custom_components:SOT-23-6_Handsoldering" H 7900 950 50  0001 C CNN
-F 3 "DOCUMENTATION" H 7900 700 50  0001 C CNN
-	1    7900 950 
-	1    0    0    -1  
-$EndComp
 Text Label 9350 5500 1    60   ~ 0
 5VDC
 $Comp
@@ -1962,7 +1951,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 6950 7450 6950
 Wire Wire Line
-	7100 6950 7350 6950
+	7100 6950 7250 6950
 Wire Wire Line
 	9550 5850 9550 6550
 Wire Wire Line
@@ -2085,5 +2074,75 @@ F 2 "" H 8700 3000 60  0001 C CNN
 F 3 "" H 8700 3000 60  0000 C CNN
 	1    8700 3000
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Oscillator:ECS-2520MV-xxx-xx X2
+U 1 1 5FDD2D83
+P 6700 6250
+F 0 "X2" H 7050 6400 50  0000 L CNN
+F 1 "ASEDV-27.000MHZ-LR-T(ECS-2333-270-BN-TR)" H 7144 6205 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm_HandSoldering" H 7150 5900 50  0001 C CNN
+F 3 "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf" H 6525 6375 50  0001 C CNN
+	1    6700 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0156
+U 1 1 5FDDB896
+P 6700 6600
+F 0 "#PWR0156" H 6700 6600 30  0001 C CNN
+F 1 "GND" H 6700 6530 30  0001 C CNN
+F 2 "" H 6700 6600 60  0001 C CNN
+F 3 "" H 6700 6600 60  0000 C CNN
+	1    6700 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 6550 6700 6600
+Wire Wire Line
+	6700 5950 7250 5950
+Wire Wire Line
+	7250 5950 7250 6400
+Connection ~ 7250 6950
+Wire Wire Line
+	7250 6950 7350 6950
+Text Label 7100 6250 0    60   ~ 0
+CLK27
+NoConn ~ 6300 6250
+$Comp
+L ossc_board-rescue:C-RESCUE-ossc_board C131
+U 1 1 5FE09243
+P 7450 6400
+F 0 "C131" H 7450 6500 40  0000 L CNN
+F 1 "0.01u" H 7456 6315 40  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7488 6250 30  0001 C CNN
+F 3 "~" H 7450 6400 60  0000 C CNN
+	1    7450 6400
+	0    1    1    0   
+$EndComp
+Connection ~ 7250 6400
+Wire Wire Line
+	7250 6400 7250 6950
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR081
+U 1 1 5FE0A5FF
+P 7650 6400
+F 0 "#PWR081" H 7650 6400 30  0001 C CNN
+F 1 "GND" H 7650 6330 30  0001 C CNN
+F 2 "" H 7650 6400 60  0001 C CNN
+F 3 "" H 7650 6400 60  0000 C CNN
+	1    7650 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ossc_board-rescue:SN74LVC2G17 U4
+U 1 1 55BADF88
+P 7900 950
+F 0 "U4" H 7900 850 50  0000 C CNN
+F 1 "SN74LVC2G17" H 7900 1050 50  0000 C CNN
+F 2 "custom_components:SOT-23-6_Handsoldering" H 7900 950 50  0001 C CNN
+F 3 "DOCUMENTATION" H 7900 700 50  0001 C CNN
+	1    7900 950 
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC

@@ -1407,8 +1407,6 @@ Text Label 9000 4550 0    60   ~ 0
 5V_FUSED
 Text Label 7850 4100 0    60   ~ 0
 5V_FUSED
-Text Label 1750 3400 0    60   ~ 0
-I2S_DATA
 Text Label 1750 3600 0    60   ~ 0
 I2S_BCK
 Text Label 1750 3500 0    60   ~ 0
@@ -1599,12 +1597,25 @@ Wire Wire Line
 	5450 1600 5450 2100
 Wire Wire Line
 	1750 3000 2250 3000
-Text Label 1750 3000 0    60   ~ 0
-I2S_MCLK
 Wire Wire Line
 	2250 3600 1750 3600
 Wire Wire Line
 	1750 3500 2250 3500
 Wire Wire Line
 	2250 3400 1750 3400
+Text HLabel 7950 5600 2    60   Output ~ 0
+DVDD1V8
+Wire Wire Line
+	7950 5600 7850 5600
+Connection ~ 7850 5600
+Text HLabel 1750 3000 0    60   Input ~ 0
+I2S_MCLK
+Text Label 1750 3400 0    60   ~ 0
+I2S_DATA
+Text HLabel 1750 3400 0    60   Input ~ 0
+I2S_DATA
+Text HLabel 1750 3500 0    60   Input ~ 0
+I2S_LRCK
+Text HLabel 1750 3600 0    60   Input ~ 0
+I2S_BCK
 $EndSCHEMATC

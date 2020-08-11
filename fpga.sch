@@ -1461,30 +1461,6 @@ SDA
 Text Label 1700 4650 2    60   ~ 0
 SCL
 $Comp
-L ossc_board-rescue:C-RESCUE-ossc_board C52
-U 1 1 551863DE
-P 700 6500
-F 0 "C52" H 700 6600 40  0000 L CNN
-F 1 "1u" H 706 6415 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 738 6350 30  0001 C CNN
-F 3 "~" H 700 6500 60  0000 C CNN
-	1    700  6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR068
-U 1 1 551863E4
-P 700 6700
-F 0 "#PWR068" H 700 6700 30  0001 C CNN
-F 1 "GND" H 700 6630 30  0001 C CNN
-F 2 "" H 700 6700 60  0001 C CNN
-F 3 "" H 700 6700 60  0000 C CNN
-	1    700  6700
-	1    0    0    -1  
-$EndComp
-Text Label 750  6300 0    60   ~ 0
-VCCIO
-$Comp
 L ossc_board-rescue:C-RESCUE-ossc_board C55
 U 1 1 5518635B
 P 10350 900
@@ -1671,8 +1647,6 @@ Wire Wire Line
 	8850 4650 10850 4650
 Wire Wire Line
 	6800 3250 7900 3250
-Wire Wire Line
-	1050 6300 700  6300
 Connection ~ 10350 1100
 Wire Wire Line
 	1300 4350 1700 4350
@@ -1712,7 +1686,7 @@ Wire Wire Line
 	9850 2550 9400 2550
 Text Label 9400 2550 0    60   ~ 0
 VCCIO
-Text Label 7100 3150 0    60   ~ 0
+Text Label 6900 3150 0    60   ~ 0
 BTN0
 Wire Wire Line
 	1300 4550 1700 4550
@@ -1902,7 +1876,7 @@ Text HLabel 6800 5450 2    60   Output ~ 0
 MC_MISO
 Text HLabel 6800 5150 2    60   Input ~ 0
 MC_SCK
-Text HLabel 6800 4850 2    60   Input ~ 0
+Text HLabel 6800 4350 2    60   Input ~ 0
 AudioOut_MCLK
 Text HLabel 6800 4650 2    60   Output ~ 0
 AudioOut_BCK
@@ -1920,4 +1894,8 @@ Text HLabel 1300 4550 0    60   Output ~ 0
 SPDIF_OUT
 Wire Wire Line
 	7100 3150 6800 3150
+Text HLabel 7100 3150 2    60   Input ~ 0
+FromKBD
+Text HLabel 6800 4850 2    60   Output ~ 0
+ToKBD
 $EndSCHEMATC

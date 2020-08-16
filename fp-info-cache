@@ -1,4 +1,4 @@
-16252479678078668
+16257217407170668
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72436,6 +72436,13 @@ DO-214BA diode
 2
 2
 custom_components
+D_SOD-123_HandSoldering
+D_SOD-123_HandSoldering
+D_SOD-123_HandSoldering
+0
+2
+2
+custom_components
 ECS-3X9X
 Crystal, Quarz, Rundgehaeuse, round, vertical, stehend, Uhrenquarz, Diam. 3mm,
 Crystal Quarz Rundgehaeuse round vertical stehend Uhrenquarz Diam. 3mm
@@ -72460,6 +72467,13 @@ custom_components
 LED-0603
 LED 0603 smd package
 LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
+0
+2
+2
+custom_components
+L_TDK_SLF7045_HandSoldering
+Inductor, TDK, SLF7045, 7.0mmx7.0mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/document/catalog/smd/inductor_commercial_power_slf7045_en.pdf)
+Inductor TDK_SLF7045
 0
 2
 2
@@ -72512,6 +72526,13 @@ SJ1-3533NG
 0
 3
 3
+custom_components
+SJ1-3535NG
+
+
+0
+5
+5
 custom_components
 SLP2510P8
 

@@ -899,7 +899,7 @@ Text HLabel 6800 4050 2    60   Input ~ 0
 VSYNC_in
 Text HLabel 6800 3350 2    60   Input ~ 0
 FID_in
-Text HLabel 7900 3250 2    60   Output ~ 0
+Text HLabel 7900 2750 2    60   Output ~ 0
 RESET_N
 Text HLabel 6800 2650 2    60   Input ~ 0
 HDMITX_INT_N
@@ -1637,8 +1637,6 @@ Wire Wire Line
 Wire Wire Line
 	10050 5450 10050 5400
 Wire Wire Line
-	8850 5050 9450 5050
-Wire Wire Line
 	9600 5050 9600 5200
 Connection ~ 9450 5050
 Wire Wire Line
@@ -1646,7 +1644,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 4650 10850 4650
 Wire Wire Line
-	6800 3250 7900 3250
+	6800 2750 7900 2750
 Connection ~ 10350 1100
 Wire Wire Line
 	1300 4350 1700 4350
@@ -1686,7 +1684,7 @@ Wire Wire Line
 	9850 2550 9400 2550
 Text Label 9400 2550 0    60   ~ 0
 VCCIO
-Text Label 6900 3150 0    60   ~ 0
+Text Label 7000 5550 0    60   ~ 0
 BTN0
 Wire Wire Line
 	1300 4550 1700 4550
@@ -1701,7 +1699,7 @@ Text Notes 6500 6450 0    60   ~ 0
 max. 30mA (VCCA)
 Text Notes 6500 6550 0    60   ~ 0
 max. 30mA (VCCD_PLL)
-Text Label 7500 3250 0    60   ~ 0
+Text Label 7500 2750 0    60   ~ 0
 RESET_N
 $Comp
 L ossc_board-rescue:C-RESCUE-ossc_board C49
@@ -1755,17 +1753,6 @@ Wire Wire Line
 	7900 6250 8200 6250
 Text Label 7900 6250 0    60   ~ 0
 VCCIO
-$Comp
-L ossc_board-rescue:ZENER D3
-U 1 1 58C560B1
-P 9250 3050
-F 0 "D3" H 9250 3150 50  0000 C CNN
-F 1 "SD05-7" H 9250 2950 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9250 3050 60  0001 C CNN
-F 3 "" H 9250 3050 60  0000 C CNN
-	1    9250 3050
-	0    1    1    0   
-$EndComp
 $Comp
 L ossc_board-rescue:GND-RESCUE-ossc_board #PWR078
 U 1 1 58C561E6
@@ -1868,34 +1855,47 @@ Text HLabel 5700 6350 3    60   Input ~ 0
 ToMon
 Text HLabel 5900 6350 3    60   Output ~ 0
 FromMon
-Text HLabel 6000 6350 3    60   Input ~ 0
+Text HLabel 6800 4650 2    60   Input ~ 0
 MC_SS
-Text HLabel 6800 5550 2    60   Input ~ 0
+Text HLabel 6800 4850 2    60   Input ~ 0
 MC_MOSI
 Text HLabel 6800 5450 2    60   Output ~ 0
 MC_MISO
 Text HLabel 6800 5150 2    60   Input ~ 0
 MC_SCK
-Text HLabel 6800 4350 2    60   Input ~ 0
-AudioOut_MCLK
-Text HLabel 6800 4650 2    60   Output ~ 0
-AudioOut_BCK
-Text HLabel 6800 4550 2    60   Output ~ 0
-AudioOut_LRCK
-Text HLabel 6800 4450 2    60   Output ~ 0
-AudioOut_Data
-Text HLabel 6800 2750 2    60   Input ~ 0
-Mic_BCLK
 Text HLabel 6800 2850 2    60   Input ~ 0
+AudioOut_MCLK
+Text HLabel 6800 3250 2    60   Output ~ 0
+AudioOut_BCK
+Text HLabel 6800 3150 2    60   Output ~ 0
+AudioOut_LRCK
+Text HLabel 6800 3050 2    60   Output ~ 0
+AudioOut_Data
+Text HLabel 6800 4550 2    60   Input ~ 0
+Mic_BCLK
+Text HLabel 6800 4350 2    60   Input ~ 0
 Mic_LRCK
-Text HLabel 6800 3050 2    60   Input ~ 0
+Text HLabel 6800 4450 2    60   Input ~ 0
 Mic_Data
 Text HLabel 1300 4550 0    60   Output ~ 0
 SPDIF_OUT
-Wire Wire Line
-	7100 3150 6800 3150
-Text HLabel 7100 3150 2    60   Input ~ 0
+Text HLabel 7300 5550 2    60   Input ~ 0
 FromKBD
-Text HLabel 6800 4850 2    60   Output ~ 0
+Text HLabel 6000 6350 3    60   Output ~ 0
 ToKBD
+Wire Wire Line
+	6800 5550 7300 5550
+$Comp
+L ossc_board-rescue:ZENER D3
+U 1 1 58C560B1
+P 9250 3050
+F 0 "D3" H 9250 3150 50  0000 C CNN
+F 1 "RB160M-30TR" H 9250 2950 50  0000 C CNN
+F 2 "custom_components:D_SOD-123_HandSoldering" H 9250 3050 60  0001 C CNN
+F 3 "" H 9250 3050 60  0000 C CNN
+	1    9250 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8850 5050 9450 5050
 $EndSCHEMATC

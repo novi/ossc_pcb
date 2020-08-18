@@ -1873,9 +1873,9 @@ Text HLabel 6800 3050 2    60   Output ~ 0
 AudioOut_Data
 Text HLabel 6800 4550 2    60   Input ~ 0
 Mic_BCLK
-Text HLabel 6800 4350 2    60   Input ~ 0
-Mic_LRCK
 Text HLabel 6800 4450 2    60   Input ~ 0
+Mic_LRCK
+Text HLabel 6800 4350 2    60   Input ~ 0
 Mic_Data
 Text HLabel 1300 4550 0    60   Output ~ 0
 SPDIF_OUT

@@ -706,4 +706,16 @@ Wire Wire Line
 Wire Wire Line
 	10550 9500 4500 9500
 Connection ~ 4500 9500
+$Comp
+L ossc_board-rescue:CONN_01X01 MH5
+U 1 1 5F49D208
+P 10850 5100
+F 0 "MH5" H 10930 5100 40  0000 L CNN
+F 1 "CONN_1" H 10850 5155 30  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 10850 5100 60  0001 C CNN
+F 3 "" H 10850 5100 60  0000 C CNN
+	1    10850 5100
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 10850 5300
 $EndSCHEMATC

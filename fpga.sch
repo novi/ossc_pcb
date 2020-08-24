@@ -1857,11 +1857,11 @@ Text HLabel 5900 6350 3    60   Output ~ 0
 FromMon
 Text HLabel 6800 4650 2    60   Input ~ 0
 MC_SS
-Text HLabel 6800 4850 2    60   Input ~ 0
+Text HLabel 6800 5450 2    60   Input ~ 0
 MC_MOSI
-Text HLabel 6800 5450 2    60   Output ~ 0
+Text HLabel 6800 5150 2    60   Output ~ 0
 MC_MISO
-Text HLabel 6800 5150 2    60   Input ~ 0
+Text HLabel 6800 4850 2    60   Input ~ 0
 MC_SCK
 Text HLabel 6800 2850 2    60   Input ~ 0
 AudioOut_MCLK

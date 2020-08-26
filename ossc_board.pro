@@ -1,4 +1,4 @@
-update=Sunday, August 16, 2020 at 07:51:33 PM
+update=Wednesday, August 26, 2020 at 11:53:56 PM
 version=1
 last_client=kicad
 [general]
@@ -11,6 +11,16 @@ EquName1=devcms
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=ossc_board.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -37,6 +47,7 @@ TrackWidth7=0.45
 TrackWidth8=0.5
 TrackWidth9=0.7
 TrackWidth10=1
+TrackWidth11=1.5
 ViaDiameter1=0.686
 ViaDrill1=0.33
 ViaDiameter2=0.9
@@ -292,13 +303,3 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=ossc_board.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1

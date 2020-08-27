@@ -2164,4 +2164,27 @@ Wire Wire Line
 	10300 3600 9650 3600
 Wire Wire Line
 	9650 3600 9650 3900
+$Comp
+L ossc_board-rescue:C-RESCUE-ossc_board C173
+U 1 1 5F4E6F36
+P 7450 5950
+F 0 "C173" H 7450 6050 40  0000 L CNN
+F 1 "1u" H 7456 5865 40  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7488 5800 30  0001 C CNN
+F 3 "~" H 7450 5950 60  0000 C CNN
+	1    7450 5950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7250 5950
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0267
+U 1 1 5F4E73BA
+P 7650 5950
+F 0 "#PWR0267" H 7650 5950 30  0001 C CNN
+F 1 "GND" H 7650 5880 30  0001 C CNN
+F 2 "" H 7650 5950 60  0001 C CNN
+F 3 "" H 7650 5950 60  0000 C CNN
+	1    7650 5950
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

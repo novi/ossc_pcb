@@ -864,36 +864,10 @@ F 3 "" H 7350 6550 60  0000 C CNN
 	1    7350 6550
 	-1   0    0    1   
 $EndComp
-$Comp
-L ossc_board-rescue:R-RESCUE-ossc_board R14
-U 1 1 53FD2BA0
-P 8350 2700
-F 0 "R14" V 8430 2700 40  0000 C CNN
-F 1 "2.2k" V 8357 2701 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8280 2700 30  0001 C CNN
-F 3 "~" H 8350 2700 30  0000 C CNN
-	1    8350 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L ossc_board-rescue:R-RESCUE-ossc_board R13
-U 1 1 53FD2BB8
-P 8350 2600
-F 0 "R13" V 8430 2600 40  0000 C CNN
-F 1 "2.2k" V 8357 2601 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8280 2600 30  0001 C CNN
-F 3 "~" H 8350 2600 30  0000 C CNN
-	1    8350 2600
-	0    -1   -1   0   
-$EndComp
-Text Label 8650 2700 0    60   ~ 0
-IOVDD
 Text Label 8050 2600 2    60   ~ 0
 SDA
 Text Label 7900 2700 0    60   ~ 0
 SCL
-Text Label 8700 2600 0    60   ~ 0
-IOVDD
 Text Label 7850 3200 0    60   ~ 0
 DVDD
 Text Label 7850 3500 0    60   ~ 0
@@ -1747,10 +1721,6 @@ Wire Wire Line
 	7800 3500 8100 3500
 Wire Wire Line
 	7800 2700 8100 2700
-Wire Wire Line
-	8800 2700 8600 2700
-Wire Wire Line
-	8800 2600 8600 2600
 Wire Wire Line
 	7050 7050 7300 7050
 Wire Wire Line

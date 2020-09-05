@@ -385,17 +385,6 @@ Wire Wire Line
 	4200 2950 4250 2950
 Wire Wire Line
 	4250 2950 4250 3100
-$Comp
-L Connector_Generic:Conn_01x02 JP1
-U 1 1 5F692B96
-P 5250 2500
-F 0 "JP1" H 5330 2492 50  0000 L CNN
-F 1 "Standby DC From NeXT Hardware" H 5330 2401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5250 2500 50  0001 C CNN
-F 3 "~" H 5250 2500 50  0001 C CNN
-	1    5250 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 2600 3200 2950
 $Comp
@@ -1553,13 +1542,6 @@ Wire Wire Line
 	4900 1850 4900 1750
 Connection ~ 4900 1750
 Wire Wire Line
-	4900 1750 5050 1750
-Wire Wire Line
-	5050 2500 5050 1750
-Connection ~ 5050 1750
-Wire Wire Line
-	5050 1750 5150 1750
-Wire Wire Line
 	4900 2150 4900 2300
 Wire Wire Line
 	4900 2300 4550 2300
@@ -1588,8 +1570,6 @@ F 3 "~" H 3750 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3450 1750 3750 1750
-Wire Wire Line
-	3750 1750 3750 1850
 Connection ~ 3750 1750
 Wire Wire Line
 	3750 1750 3850 1750
@@ -1599,8 +1579,6 @@ Wire Wire Line
 	3750 2300 3450 2300
 Connection ~ 3750 2300
 Connection ~ 3450 2300
-Wire Wire Line
-	3200 2600 5050 2600
 Text Label 2300 1100 0    60   ~ 0
 MONO_VIDEO
 Wire Wire Line
@@ -1676,39 +1654,6 @@ Text HLabel 6250 7050 2    60   Input ~ 0
 From_Mon
 Wire Wire Line
 	6500 4150 6100 4150
-$Comp
-L Jumper:Jumper_3_Open JP2
-U 1 1 5F3E34A1
-P 3200 4950
-F 0 "JP2" H 3200 5174 50  0000 C CNN
-F 1 "KBD_SW" H 3200 5083 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3200 4950 50  0001 C CNN
-F 3 "~" H 3200 4950 50  0001 C CNN
-	1    3200 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_3_Open JP3
-U 1 1 5F3F90B6
-P 3200 5300
-F 0 "JP3" H 3200 5524 50  0000 C CNN
-F 1 "KBD_SW" H 3200 5433 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3200 5300 50  0001 C CNN
-F 3 "~" H 3200 5300 50  0001 C CNN
-	1    3200 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_3_Open JP4
-U 1 1 5F3F9CBB
-P 3200 5900
-F 0 "JP4" H 3200 6124 50  0000 C CNN
-F 1 "KBD_SW" H 3200 6033 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3200 5900 50  0001 C CNN
-F 3 "~" H 3200 5900 50  0001 C CNN
-	1    3200 5900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 5050 2300 5050
 Wire Wire Line
@@ -4794,4 +4739,78 @@ Text Label 8450 7850 1    60   ~ 0
 VCCIO
 Wire Wire Line
 	9250 7850 8750 7850
+Wire Wire Line
+	3750 1750 3750 1850
+Wire Wire Line
+	4000 1350 3750 1350
+Wire Wire Line
+	3750 1350 3750 1750
+Wire Wire Line
+	4300 1350 4550 1350
+Wire Wire Line
+	4550 1350 4550 1750
+$Comp
+L Jumper:Jumper_3_Open JP4
+U 1 1 5F3F9CBB
+P 3200 5900
+F 0 "JP4" H 3200 6124 50  0000 C CNN
+F 1 "KBD_SW" H 3200 6033 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3200 5900 50  0001 C CNN
+F 3 "~" H 3200 5900 50  0001 C CNN
+	1    3200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP3
+U 1 1 5F3F90B6
+P 3200 5300
+F 0 "JP3" H 3200 5524 50  0000 C CNN
+F 1 "KBD_SW" H 3200 5433 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3200 5300 50  0001 C CNN
+F 3 "~" H 3200 5300 50  0001 C CNN
+	1    3200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP2
+U 1 1 5F3E34A1
+P 3200 4950
+F 0 "JP2" H 3200 5174 50  0000 C CNN
+F 1 "KBD_SW" H 3200 5083 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3200 4950 50  0001 C CNN
+F 3 "~" H 3200 4950 50  0001 C CNN
+	1    3200 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_ALT D9
+U 1 1 5F5B0860
+P 4150 1350
+F 0 "D9" V 4104 1429 50  0000 L CNN
+F 1 "(RB160M-30TR)" V 4250 1400 50  0000 L CNN
+F 2 "custom_components:D_SOD-123_HandSoldering" H 4150 1350 50  0001 C CNN
+F 3 "~" H 4150 1350 50  0001 C CNN
+	1    4150 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1750 5150 1750
+Wire Wire Line
+	4900 1750 5050 1750
+Connection ~ 5050 1750
+Wire Wire Line
+	5050 2500 5050 1750
+Wire Wire Line
+	3200 2600 5050 2600
+$Comp
+L Connector_Generic:Conn_01x02 JP1
+U 1 1 5F692B96
+P 5250 2500
+F 0 "JP1" H 5330 2492 50  0000 L CNN
+F 1 "Standby DC From NeXT Hardware" H 5330 2401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5250 2500 50  0001 C CNN
+F 3 "~" H 5250 2500 50  0001 C CNN
+	1    5250 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

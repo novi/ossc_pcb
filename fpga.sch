@@ -814,15 +814,13 @@ F 3 "" H 3150 750 60  0000 C CNN
 	1    3150 750 
 	-1   0    0    1   
 $EndComp
-Text HLabel 1400 5050 0    60   BiDi ~ 0
+Text HLabel 1400 5350 0    60   BiDi ~ 0
 SDA
-Text HLabel 1400 4650 0    60   Output ~ 0
-SCL
-Text HLabel 1700 5250 0    60   Input ~ 0
+Text HLabel 1700 4650 0    60   Input ~ 0
 Rin0
-Text HLabel 1700 5350 0    60   Input ~ 0
+Text HLabel 1700 4750 0    60   Input ~ 0
 Rin1
-Text HLabel 1700 5450 0    60   Input ~ 0
+Text HLabel 1700 5050 0    60   Input ~ 0
 Rin2
 Text HLabel 1700 5550 0    60   Input ~ 0
 Rin3
@@ -896,41 +894,33 @@ Text HLabel 6800 4150 2    60   Input ~ 0
 HSYNC_in
 Text HLabel 6800 4050 2    60   Input ~ 0
 VSYNC_in
-Text HLabel 6800 3350 2    60   Input ~ 0
-FID_in
-Text HLabel 7900 2750 2    60   Output ~ 0
+Text HLabel 7900 5550 2    60   Output ~ 0
 RESET_N
-Text HLabel 6800 2650 2    60   Input ~ 0
-HDMITX_INT_N
-Text HLabel 6800 2550 2    60   Output ~ 0
+Text HLabel 6800 3050 2    60   Output ~ 0
 HDMITX_VSYNC
-Text HLabel 5900 1850 1    60   Output ~ 0
+Text HLabel 6800 2850 2    60   Output ~ 0
 HDMITX_HSYNC
-Text HLabel 5800 1850 1    60   Output ~ 0
+Text HLabel 6800 2750 2    60   Output ~ 0
 HDMITX_DE
-Text HLabel 5700 1850 1    60   Output ~ 0
+Text HLabel 6800 2650 2    60   Output ~ 0
 HDMITX_B0
-Text HLabel 5600 1850 1    60   Output ~ 0
+Text HLabel 6800 2550 2    60   Output ~ 0
 HDMITX_B1
-Text HLabel 5500 1850 1    60   Output ~ 0
+Text HLabel 5900 1850 1    60   Output ~ 0
 HDMITX_B2
-Text HLabel 5400 1850 1    60   Output ~ 0
+Text HLabel 5800 1850 1    60   Output ~ 0
 HDMITX_B3
-Text HLabel 5000 1850 1    60   Output ~ 0
-HDMITX_B4
-Text HLabel 4800 1850 1    60   Output ~ 0
+Text HLabel 5500 1850 1    60   Output ~ 0
 HDMITX_B5
-Text HLabel 4400 1850 1    60   Output ~ 0
+Text HLabel 5400 1850 1    60   Output ~ 0
 HDMITX_B6
-Text HLabel 4300 1850 1    60   Output ~ 0
+Text HLabel 5000 1850 1    60   Output ~ 0
 HDMITX_B7
 Text HLabel 4900 1850 1    60   Output ~ 0
-HDMITX_PCLK
-Text HLabel 4200 1850 1    60   Output ~ 0
 HDMITX_G0
-Text HLabel 4100 1850 1    60   Output ~ 0
+Text HLabel 4800 1850 1    60   Output ~ 0
 HDMITX_G1
-Text HLabel 4000 1850 1    60   Output ~ 0
+Text HLabel 4400 1850 1    60   Output ~ 0
 HDMITX_G2
 Text HLabel 3700 1850 1    60   Output ~ 0
 HDMITX_G3
@@ -1401,7 +1391,7 @@ F 3 "" H 3900 1000 60  0000 C CNN
 	1    3900 1000
 	-1   0    0    1   
 $EndComp
-Text Label 1650 4550 2    60   ~ 0
+Text Label 1650 5250 2    60   ~ 0
 LED0
 $Comp
 L ossc_board-rescue:LED-RESCUE-ossc_board D1
@@ -1455,10 +1445,8 @@ Text Notes 9850 4800 0    60   ~ 0
 max. 200mA
 Text HLabel 10850 4650 2    60   Input ~ 0
 VCCIO
-Text Label 1700 5050 2    60   ~ 0
+Text Label 1700 5350 2    60   ~ 0
 SDA
-Text Label 1700 4650 2    60   ~ 0
-SCL
 $Comp
 L ossc_board-rescue:C-RESCUE-ossc_board C55
 U 1 1 5518635B
@@ -1481,7 +1469,7 @@ F 3 "" H 10350 700 60  0000 C CNN
 	1    10350 700 
 	-1   0    0    1   
 $EndComp
-Text HLabel 1700 4750 0    60   Input ~ 0
+Text HLabel 1700 4550 0    60   Input ~ 0
 CLK27
 $Comp
 L ossc_board-rescue:R-RESCUE-ossc_board R23
@@ -1643,7 +1631,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 4650 10850 4650
 Wire Wire Line
-	6800 2750 7900 2750
+	6800 5550 7900 5550
 Connection ~ 10350 1100
 Wire Wire Line
 	1300 4350 1700 4350
@@ -1683,10 +1671,10 @@ Wire Wire Line
 	9850 2550 9400 2550
 Text Label 9400 2550 0    60   ~ 0
 VCCIO
-Text Label 7000 5550 0    60   ~ 0
+Text Label 4100 1850 1    60   ~ 0
 BTN0
 Wire Wire Line
-	1300 4550 1700 4550
+	1300 5250 1700 5250
 Connection ~ 8850 5050
 Text Notes 9250 850  0    60   ~ 0
 max. 25mA
@@ -1698,7 +1686,7 @@ Text Notes 6500 6450 0    60   ~ 0
 max. 30mA (VCCA)
 Text Notes 6500 6550 0    60   ~ 0
 max. 30mA (VCCD_PLL)
-Text Label 7500 2750 0    60   ~ 0
+Text Label 7500 5550 0    60   ~ 0
 RESET_N
 $Comp
 L ossc_board-rescue:C-RESCUE-ossc_board C49
@@ -1787,8 +1775,6 @@ Wire Wire Line
 	10350 1100 11050 1100
 Wire Wire Line
 	8850 5050 8850 5800
-Wire Wire Line
-	1700 4650 1400 4650
 $Comp
 L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0209
 U 1 1 5F7F3064
@@ -1803,6 +1789,63 @@ $EndComp
 Wire Wire Line
 	10450 2850 10450 2950
 Connection ~ 9850 2850
+Wire Wire Line
+	1700 5350 1400 5350
+Text HLabel 5600 6350 3    60   Input ~ 0
+MonCLKin
+Text HLabel 5700 6350 3    60   Input ~ 0
+ToMon
+Text HLabel 5900 6350 3    60   Output ~ 0
+FromMon
+Text HLabel 6800 4650 2    60   Input ~ 0
+MC_SS
+Text HLabel 6800 5450 2    60   Input ~ 0
+MC_MOSI
+Text HLabel 6800 5150 2    60   Output ~ 0
+MC_MISO
+Text HLabel 6800 4850 2    60   Input ~ 0
+MC_SCK
+Text HLabel 6800 3350 2    60   Output ~ 0
+AudioOut_BCK
+Text HLabel 6800 3250 2    60   Output ~ 0
+AudioOut_LRCK
+Text HLabel 6800 3150 2    60   Output ~ 0
+AudioOut_Data
+Text HLabel 1300 5250 0    60   Output ~ 0
+SPDIF_OUT
+Text HLabel 4100 1500 1    60   Input ~ 0
+FromKBD
+Text HLabel 6000 6350 3    60   Output ~ 0
+ToKBD
+$Comp
+L ossc_board-rescue:ZENER D3
+U 1 1 58C560B1
+P 9250 3050
+F 0 "D3" H 9250 3150 50  0000 C CNN
+F 1 "RB160M-30TR" H 9250 2950 50  0000 C CNN
+F 2 "custom_components:D_SOD-123_HandSoldering" H 9250 3050 60  0001 C CNN
+F 3 "" H 9250 3050 60  0000 C CNN
+	1    9250 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8850 5050 9450 5050
+Text HLabel 4300 1850 1    60   Input ~ 0
+FID_in
+Text HLabel 4200 1850 1    60   Input ~ 0
+AudioOut_MCLK
+Text HLabel 4000 1850 1    60   Input ~ 0
+HDMITX_INT_N
+Text HLabel 5700 1850 1    60   Output ~ 0
+HDMITX_B4
+Text HLabel 5600 1850 1    60   Output ~ 0
+HDMITX_PCLK
+Text HLabel 6800 4350 2    60   Input ~ 0
+Mic_Data
+Text HLabel 6800 4450 2    60   Input ~ 0
+Mic_LRCK
+Text HLabel 6800 4550 2    60   Input ~ 0
+Mic_BCLK
 Wire Wire Line
 	5000 6350 5000 6800
 Wire Wire Line
@@ -1828,6 +1871,8 @@ Wire Wire Line
 Wire Wire Line
 	3900 1850 3900 1400
 Wire Wire Line
+	4100 1500 4100 1850
+Wire Wire Line
 	4500 1150 4500 1850
 Wire Wire Line
 	4700 1850 4700 1400
@@ -1846,55 +1891,10 @@ F 3 "DOCUMENTATION" H 4250 4100 50  0001 C CNN
 	1    4250 4100
 	1    0    0    -1  
 $EndComp
+Text HLabel 1400 5450 0    60   Output ~ 0
+SCL
+Text Label 1700 5450 2    60   ~ 0
+SCL
 Wire Wire Line
-	1700 5050 1400 5050
-Text HLabel 5600 6350 3    60   Input ~ 0
-MonCLKin
-Text HLabel 5700 6350 3    60   Input ~ 0
-ToMon
-Text HLabel 5900 6350 3    60   Output ~ 0
-FromMon
-Text HLabel 6800 4650 2    60   Input ~ 0
-MC_SS
-Text HLabel 6800 5450 2    60   Input ~ 0
-MC_MOSI
-Text HLabel 6800 5150 2    60   Output ~ 0
-MC_MISO
-Text HLabel 6800 4850 2    60   Input ~ 0
-MC_SCK
-Text HLabel 6800 2850 2    60   Input ~ 0
-AudioOut_MCLK
-Text HLabel 6800 3250 2    60   Output ~ 0
-AudioOut_BCK
-Text HLabel 6800 3150 2    60   Output ~ 0
-AudioOut_LRCK
-Text HLabel 6800 3050 2    60   Output ~ 0
-AudioOut_Data
-Text HLabel 6800 4550 2    60   Input ~ 0
-Mic_BCLK
-Text HLabel 6800 4450 2    60   Input ~ 0
-Mic_LRCK
-Text HLabel 6800 4350 2    60   Input ~ 0
-Mic_Data
-Text HLabel 1300 4550 0    60   Output ~ 0
-SPDIF_OUT
-Text HLabel 7300 5550 2    60   Input ~ 0
-FromKBD
-Text HLabel 6000 6350 3    60   Output ~ 0
-ToKBD
-Wire Wire Line
-	6800 5550 7300 5550
-$Comp
-L ossc_board-rescue:ZENER D3
-U 1 1 58C560B1
-P 9250 3050
-F 0 "D3" H 9250 3150 50  0000 C CNN
-F 1 "RB160M-30TR" H 9250 2950 50  0000 C CNN
-F 2 "custom_components:D_SOD-123_HandSoldering" H 9250 3050 60  0001 C CNN
-F 3 "" H 9250 3050 60  0000 C CNN
-	1    9250 3050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8850 5050 9450 5050
+	1700 5450 1400 5450
 $EndSCHEMATC

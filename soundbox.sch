@@ -1398,7 +1398,7 @@ L Device:R R31
 U 1 1 5FBBFC18
 P 2700 2250
 F 0 "R31" H 2770 2296 50  0000 L CNN
-F 1 "2x 120 5W (or 56ohm 7W)" H 2770 2205 50  0000 L CNN
+F 1 "2x 100 5W (or 47ohm 7W)" H 2770 2205 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P30.48mm_Horizontal" V 2630 2250 50  0001 C CNN
 F 3 "~" H 2700 2250 50  0001 C CNN
 	1    2700 2250
@@ -1407,16 +1407,14 @@ $EndComp
 $Comp
 L ossc_board-rescue:GND-RESCUE-ossc_board #PWR059
 U 1 1 5FBC0130
-P 2700 2500
-F 0 "#PWR059" H 2700 2500 30  0001 C CNN
-F 1 "GND-RESCUE-ossc_board" H 2700 2430 30  0001 C CNN
-F 2 "" H 2700 2500 60  0000 C CNN
-F 3 "" H 2700 2500 60  0000 C CNN
-	1    2700 2500
-	1    0    0    -1  
+P 2300 2650
+F 0 "#PWR059" H 2300 2650 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 2300 2580 30  0001 C CNN
+F 2 "" H 2300 2650 60  0000 C CNN
+F 3 "" H 2300 2650 60  0000 C CNN
+	1    2300 2650
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2700 2400 2700 2500
 Wire Wire Line
 	2700 2100 2700 2000
 Wire Wire Line
@@ -4813,4 +4811,19 @@ F 3 "~" H 5250 2500 50  0001 C CNN
 	1    5250 2500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 JP6
+U 1 1 5F626198
+P 2100 2650
+F 0 "JP6" H 2180 2642 50  0000 L CNN
+F 1 "Use Dummy Load" H 2180 2551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2100 2650 50  0001 C CNN
+F 3 "~" H 2100 2650 50  0001 C CNN
+	1    2100 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 2400 2700 2550
+Wire Wire Line
+	2300 2550 2700 2550
 $EndSCHEMATC

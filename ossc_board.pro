@@ -1,4 +1,4 @@
-update=Sunday, June 07, 2020 at 08:24:49 PM
+update=Saturday, September 12, 2020 at 04:27:36 PM
 version=1
 last_client=kicad
 [general]
@@ -21,13 +21,13 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.16
+MinTrackWidth=0.18
 MinViaDiameter=0.6859999999999999
 MinViaDrill=0.33
 MinMicroViaDiameter=0.508
 MinMicroViaDrill=0.127
 MinHoleToHole=0.25
-TrackWidth1=0.22
+TrackWidth1=0.2
 TrackWidth2=0.2
 TrackWidth3=0.25
 TrackWidth4=0.3
@@ -37,8 +37,13 @@ TrackWidth7=0.45
 TrackWidth8=0.5
 TrackWidth9=0.7
 TrackWidth10=1
+TrackWidth11=1.5
 ViaDiameter1=0.686
 ViaDrill1=0.33
+ViaDiameter2=0.9
+ViaDrill2=0.4
+ViaDiameter3=1.1
+ViaDrill3=0.5
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -65,7 +70,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -235,8 +240,8 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.16
-TrackWidth=0.22
+Clearance=0.2
+TrackWidth=0.2
 ViaDiameter=0.686
 ViaDrill=0.33
 uViaDiameter=0.508
@@ -257,7 +262,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=FAT_power
-Clearance=0.16
+Clearance=0.2
 TrackWidth=1
 ViaDiameter=1.5
 ViaDrill=1.1
@@ -268,10 +273,10 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=Power
-Clearance=0.16
+Clearance=0.2
 TrackWidth=0.25
 ViaDiameter=0.686
-ViaDrill=0.35
+ViaDrill=0.4
 uViaDiameter=0.508
 uViaDrill=0.127
 dPairWidth=0.2
@@ -279,7 +284,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=digi_hs
-Clearance=0.16
+Clearance=0.2
 TrackWidth=0.18
 ViaDiameter=0.686
 ViaDrill=0.33

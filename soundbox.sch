@@ -2228,9 +2228,9 @@ Wire Wire Line
 	9200 9500 9000 9500
 Wire Wire Line
 	9000 9400 9200 9400
-Text Label 10550 5250 0    60   ~ 0
+Text Label 11300 5250 0    60   ~ 0
 URT2_TX
-Text Label 10550 5350 0    60   ~ 0
+Text Label 11300 5350 0    60   ~ 0
 URT2_RX
 NoConn ~ 9000 9200
 NoConn ~ 9000 9300
@@ -4837,4 +4837,30 @@ F 3 "" H 11800 1400 50  0001 C CNN
 $EndComp
 Text Label 11600 1100 2    60   ~ 0
 A_AVDD
+$Comp
+L Device:R R51
+U 1 1 5F69A64A
+P 10700 5250
+F 0 "R51" V 10650 5050 50  0000 C CNN
+F 1 "1k" V 10700 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10630 5250 50  0001 C CNN
+F 3 "~" H 10700 5250 50  0001 C CNN
+	1    10700 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R52
+U 1 1 5F69AC4A
+P 10700 5350
+F 0 "R52" V 10650 5150 50  0000 C CNN
+F 1 "1k" V 10700 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10630 5350 50  0001 C CNN
+F 3 "~" H 10700 5350 50  0001 C CNN
+	1    10700 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10850 5250 11300 5250
+Wire Wire Line
+	11300 5350 10850 5350
 $EndSCHEMATC

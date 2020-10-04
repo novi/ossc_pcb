@@ -2336,7 +2336,7 @@ F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5200 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 6100 4900 6100
+	4250 6100 4550 6100
 Wire Wire Line
 	5200 6000 5400 6000
 Wire Wire Line
@@ -4877,4 +4877,37 @@ Wire Wire Line
 	10550 6950 10900 6950
 Wire Wire Line
 	10900 6950 10900 7300
+$Comp
+L Device:R R53
+U 1 1 5F70D8AE
+P 4550 5850
+F 0 "R53" V 4450 5850 50  0000 C CNN
+F 1 "(100k)" V 4550 5850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4480 5850 50  0001 C CNN
+F 3 "~" H 4550 5850 50  0001 C CNN
+	1    4550 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 6000 4550 6100
+Connection ~ 4550 6100
+Wire Wire Line
+	4550 6100 4900 6100
+Text Label 4550 5700 1    60   ~ 0
+5VDC
+$Comp
+L Device:Jumper JP7
+U 1 1 5F81B22E
+P 11050 3350
+F 0 "JP7" H 11050 3614 50  0000 C CNN
+F 1 "JMP XSMT" H 11050 3523 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 11050 3350 50  0001 C CNN
+F 3 "~" H 11050 3350 50  0001 C CNN
+	1    11050 3350
+	1    0    0    -1  
+$EndComp
+Text Label 10750 3350 2    60   ~ 0
+A_DVDD
+Wire Wire Line
+	11350 3050 11350 3350
 $EndSCHEMATC

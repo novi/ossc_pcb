@@ -352,7 +352,7 @@ Connection ~ 3450 3500
 Wire Wire Line
 	3450 3500 3900 3500
 Wire Wire Line
-	3200 2950 3200 3100
+	3200 2950 3200 3050
 Wire Wire Line
 	3600 3050 3450 3050
 Wire Wire Line
@@ -4910,4 +4910,25 @@ Text Label 10750 3350 2    60   ~ 0
 A_DVDD
 Wire Wire Line
 	11350 3050 11350 3350
+$Comp
+L ossc_board-rescue:ZENER D10
+U 1 1 5F8E9495
+P 3000 3250
+F 0 "D10" V 2954 3329 50  0000 L CNN
+F 1 "ZD 5.6V (1SMB5919BT3G)" V 3150 2200 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB_Handsoldering" H 3000 3250 50  0000 C CNN
+F 3 "" H 3000 3250 50  0000 C CNN
+	1    3000 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 3050 3200 3050
+Connection ~ 3200 3050
+Wire Wire Line
+	3200 3050 3200 3100
+Wire Wire Line
+	3200 3500 3000 3500
+Wire Wire Line
+	3000 3500 3000 3450
+Connection ~ 3200 3500
 $EndSCHEMATC

@@ -3192,8 +3192,6 @@ Text Label 3200 2700 2    60   ~ 0
 Text Label 6800 7400 1    60   ~ 0
 VCCIO
 Wire Wire Line
-	6050 9200 5950 9200
-Wire Wire Line
 	5600 10450 6050 10450
 Connection ~ 5100 10450
 Wire Wire Line
@@ -3259,7 +3257,6 @@ Wire Wire Line
 	5500 9400 5500 9500
 Wire Wire Line
 	5400 9100 5150 9100
-Connection ~ 5400 9100
 Wire Wire Line
 	5400 9000 5400 9100
 $Comp
@@ -3274,15 +3271,7 @@ F 3 "" H 5400 9000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5650 9100 5400 9100
-Wire Wire Line
-	5650 9200 5650 9100
-Wire Wire Line
 	5500 9400 5150 9400
-Wire Wire Line
-	5500 9300 5500 9400
-Wire Wire Line
-	6050 9300 5800 9300
 $Comp
 L Device:C C141
 U 1 1 6138B3A8
@@ -3297,23 +3286,23 @@ $EndComp
 $Comp
 L Device:C C140
 U 1 1 6138C042
-P 5800 9200
-F 0 "C140" H 5915 9246 50  0000 L CNN
-F 1 "1u" H 5915 9155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5838 9050 50  0001 C CNN
-F 3 "~" H 5800 9200 50  0001 C CNN
-	1    5800 9200
+P 5900 9000
+F 0 "C140" H 6015 9046 50  0000 L CNN
+F 1 "1u" H 6015 8955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5938 8850 50  0001 C CNN
+F 3 "~" H 5900 9000 50  0001 C CNN
+	1    5900 9000
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C139
 U 1 1 6138C6B3
-P 5650 9300
-F 0 "C139" H 5765 9346 50  0000 L CNN
-F 1 "1u" H 5765 9255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5688 9150 50  0001 C CNN
-F 3 "~" H 5650 9300 50  0001 C CNN
-	1    5650 9300
+P 5800 9350
+F 0 "C139" H 5915 9396 50  0000 L CNN
+F 1 "1u" H 5915 9305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5838 9200 50  0001 C CNN
+F 3 "~" H 5800 9350 50  0001 C CNN
+	1    5800 9350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -4931,4 +4920,19 @@ Wire Wire Line
 Wire Wire Line
 	3000 3500 3000 3450
 Connection ~ 3200 3500
+Wire Wire Line
+	5400 9100 5650 9100
+Wire Wire Line
+	5650 9100 5650 9350
+Connection ~ 5400 9100
+Wire Wire Line
+	6050 9300 6050 9350
+Wire Wire Line
+	6050 9350 5950 9350
+Wire Wire Line
+	6050 9200 6050 9000
+Wire Wire Line
+	5750 9000 5500 9000
+Wire Wire Line
+	5500 9000 5500 9400
 $EndSCHEMATC

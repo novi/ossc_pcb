@@ -717,4 +717,15 @@ F 3 "" H 10850 5100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 10850 5300
+$Comp
+L ossc_board-rescue:CONN_01X01 MH6
+U 1 1 60C62675
+P 11200 5750
+F 0 "MH6" H 11280 5750 40  0000 L CNN
+F 1 "TestHole1" H 11250 5650 30  0000 C CNN
+F 2 "custom_components:TestHole_1.0mm" H 11200 5750 60  0001 C CNN
+F 3 "" H 11200 5750 60  0000 C CNN
+	1    11200 5750
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

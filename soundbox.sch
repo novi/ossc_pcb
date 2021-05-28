@@ -1396,7 +1396,7 @@ L Device:R R31
 U 1 1 5FBBFC18
 P 2700 2250
 F 0 "R31" H 2770 2296 50  0000 L CNN
-F 1 "2x 100 5W (or 47ohm 7W)" H 2770 2205 50  0000 L CNN
+F 1 "100//100 5W (or 47ohm 7W)" H 2770 2205 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P30.48mm_Horizontal" V 2630 2250 50  0001 C CNN
 F 3 "~" H 2700 2250 50  0001 C CNN
 	1    2700 2250
@@ -4990,4 +4990,6 @@ Text Notes 950  10100 0    60   ~ 0
 This block is optional.
 Text Notes 2700 11050 0    60   ~ 0
 This block is optional.
+Text Notes 2750 2500 0    60   ~ 0
+-12V Dummy Load for older PSU
 $EndSCHEMATC

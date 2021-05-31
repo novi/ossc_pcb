@@ -1533,9 +1533,9 @@ max. 15mA
 Text Notes 12600 700  0    60   ~ 0
 max. 32mA
 Text Notes 6450 750  0    60   ~ 0
-max. DAC+ADC=
+max. DAC+ADC=17mA
 Text Notes 8050 750  0    60   ~ 0
-max. DAC+ADC=
+max. DAC+ADC=36mA
 Text Notes 4200 2800 0    60   ~ 0
 max. MCU=
 $Comp
@@ -1818,7 +1818,7 @@ L Device:Crystal_GND24 Y2
 U 1 1 5F8C132F
 P 8700 6000
 F 0 "Y2" V 8654 6244 50  0000 L CNN
-F 1 "25MHz (FA-238 25.0000MB-K0)" V 8450 5250 50  0000 L CNN
+F 1 "25MHz (FA-238 25.0000MB-K0 or NX3225GA-25.000M-STD-CRG)" H 6900 5450 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm_HandSoldering" H 8700 6000 50  0001 C CNN
 F 3 "~" H 8700 6000 50  0001 C CNN
 	1    8700 6000
@@ -4251,7 +4251,7 @@ L Device:C C172
 U 1 1 5F4F54DB
 P 8800 4150
 F 0 "C172" H 8915 4196 50  0000 L CNN
-F 1 "0.1u" H 8915 4105 50  0000 L CNN
+F 1 "0.1u (GCJ188R71H104KA12D or GRM188R72A104MA35D)" H 8550 4500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8838 4000 50  0001 C CNN
 F 3 "~" H 8800 4150 50  0001 C CNN
 	1    8800 4150
@@ -5069,4 +5069,16 @@ Wire Wire Line
 Connection ~ 3300 1750
 Wire Wire Line
 	3300 1750 3150 1750
+Text Notes 3250 1450 0    60   ~ 0
+auc. xxxA
+Text Notes 5400 2800 0    60   ~ 0
+auc. xxxA
+Text Notes 6000 8400 0    60   ~ 0
+max. 4mA
+Text Notes 7250 8050 0    60   ~ 0
+max. 0mA
+Text Notes 7750 8450 0    60   ~ 0
+max. 2mA
+Text Notes 15550 3150 0    60   ~ 0
+max. 40mA@0.1W
 $EndSCHEMATC

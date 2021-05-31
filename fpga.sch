@@ -1260,19 +1260,6 @@ $EndComp
 Text Notes 9850 6400 0    60   ~ 0
 max. 200mA
 $Comp
-L ossc_board-rescue:TLV71209DBV-RESCUE-ossc_board U?
-U 1 1 55035DBA
-P 10050 5850
-AR Path="/55035DBA" Ref="U?"  Part="1" 
-AR Path="/54FE3A8C/55035DBA" Ref="U13"  Part="1" 
-F 0 "U13" H 9800 6050 40  0000 C CNN
-F 1 "TLV70025DDCT" H 10250 6050 40  0000 C CNN
-F 2 "custom_components:SOT-23-5_Handsoldering" H 10050 5950 35  0001 C CIN
-F 3 "" H 10050 5850 60  0000 C CNN
-	1    10050 5850
-	1    0    0    -1  
-$EndComp
-$Comp
 L ossc_board-rescue:C-RESCUE-ossc_board C91
 U 1 1 55035DC0
 P 9450 6000
@@ -1591,21 +1578,11 @@ Wire Wire Line
 	10500 6600 10600 6600
 Wire Wire Line
 	9600 6600 9600 6750
-Connection ~ 9450 5800
 Connection ~ 10600 5800
 Wire Wire Line
 	10600 6200 10600 6250
-Connection ~ 10050 6200
-Wire Wire Line
-	10050 6150 10050 6200
-Wire Wire Line
-	9450 6200 10050 6200
 Wire Wire Line
 	8850 5800 9450 5800
-Wire Wire Line
-	10500 5800 10600 5800
-Wire Wire Line
-	9600 5800 9600 5950
 Connection ~ 10600 5050
 Wire Wire Line
 	9450 5450 10050 5450
@@ -1758,11 +1735,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 7000 10600 7000
 Wire Wire Line
-	9450 5800 9600 5800
-Wire Wire Line
 	10600 5800 10800 5800
-Wire Wire Line
-	10050 6200 10600 6200
 Wire Wire Line
 	10600 5050 10950 5050
 Wire Wire Line
@@ -1897,4 +1870,31 @@ Text Label 1700 5450 2    60   ~ 0
 SCL
 Wire Wire Line
 	1700 5450 1400 5450
+Wire Wire Line
+	10500 5800 10600 5800
+Connection ~ 9450 5800
+Wire Wire Line
+	9450 5800 9600 5800
+Wire Wire Line
+	9600 5800 9600 5950
+Wire Wire Line
+	10050 6200 10600 6200
+Wire Wire Line
+	9450 6200 10050 6200
+Connection ~ 10050 6200
+Wire Wire Line
+	10050 6150 10050 6200
+$Comp
+L ossc_board-rescue:TLV71209DBV-RESCUE-ossc_board U?
+U 1 1 55035DBA
+P 10050 5850
+AR Path="/55035DBA" Ref="U?"  Part="1" 
+AR Path="/54FE3A8C/55035DBA" Ref="U13"  Part="1" 
+F 0 "U13" H 9800 6050 40  0000 C CNN
+F 1 "TLV70025DDCT(TPS79925DDCR)" H 10400 6050 40  0000 C CNN
+F 2 "custom_components:SOT-23-5_Handsoldering" H 10050 5950 35  0001 C CIN
+F 3 "" H 10050 5850 60  0000 C CNN
+	1    10050 5850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

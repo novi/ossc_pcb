@@ -1831,7 +1831,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 4300 10250 4300
 Wire Wire Line
-	9350 3900 9650 3900
+	9350 3900 9450 3900
 Wire Wire Line
 	10650 3900 10800 3900
 Wire Wire Line
@@ -2173,4 +2173,46 @@ Connection ~ 11000 3900
 Wire Wire Line
 	11150 4300 10800 4300
 Connection ~ 10800 4300
+$Comp
+L Device:CP C178
+U 1 1 60BE3004
+P 11500 4100
+F 0 "C178" H 11618 4146 50  0000 L CNN
+F 1 "47u" H 11618 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 11538 3950 50  0001 C CNN
+F 3 "~" H 11500 4100 50  0001 C CNN
+	1    11500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 4250 11500 4300
+Wire Wire Line
+	11500 4300 11150 4300
+Connection ~ 11150 4300
+Wire Wire Line
+	11500 3950 11500 3900
+Wire Wire Line
+	11500 3900 11150 3900
+Connection ~ 11150 3900
+$Comp
+L Device:CP C183
+U 1 1 61D619E4
+P 9450 4100
+F 0 "C183" H 9568 4146 50  0000 L CNN
+F 1 "47u" H 9568 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 9488 3950 50  0001 C CNN
+F 3 "~" H 9450 4100 50  0001 C CNN
+	1    9450 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3950 9450 3900
+Connection ~ 9450 3900
+Wire Wire Line
+	9450 3900 9650 3900
+Wire Wire Line
+	9650 4300 9450 4300
+Wire Wire Line
+	9450 4300 9450 4250
+Connection ~ 9650 4300
 $EndSCHEMATC

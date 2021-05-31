@@ -86,7 +86,7 @@ L Connector:Conn_01x03_Male J12
 U 1 1 5F64899D
 P 1600 1750
 F 0 "J12" H 1708 2031 50  0000 C CNN
-F 1 "NEXT PWR INPUT 1" H 1550 1950 50  0000 C CNN
+F 1 "NEXT PWR IN 1" H 1550 1950 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 1600 1750 50  0001 C CNN
 F 3 "~" H 1600 1750 50  0001 C CNN
 	1    1600 1750
@@ -97,7 +97,7 @@ L Connector:Conn_01x03_Male J13
 U 1 1 5F64AD16
 P 2000 1750
 F 0 "J13" H 2108 2031 50  0000 C CNN
-F 1 "NEXT PWR INPUT 2" H 2350 1950 50  0000 C CNN
+F 1 "NEXT PWR IN 2" H 2350 1950 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 2000 1750 50  0001 C CNN
 F 3 "~" H 2000 1750 50  0001 C CNN
 	1    2000 1750
@@ -122,15 +122,8 @@ $EndComp
 Wire Wire Line
 	1800 1750 2200 1750
 Connection ~ 2200 1750
-Wire Wire Line
-	1800 1850 2200 1850
-Wire Wire Line
-	2200 1850 2450 1850
-Connection ~ 2200 1850
 Text Label 2450 1750 0    60   ~ 0
 12V
-Text Label 2450 1850 0    60   ~ 0
--12V
 $Comp
 L Device:Fuse_Small F3
 U 1 1 5F64E7E4
@@ -149,7 +142,7 @@ L Device:D_ALT D5
 U 1 1 5F650457
 P 3150 2000
 F 0 "D5" V 3104 2079 50  0000 L CNN
-F 1 "RB160M-30TR" V 3250 2050 50  0000 L CNN
+F 1 "RB160M-30TR" V 3300 1700 50  0000 L CNN
 F 2 "custom_components:D_SOD-123_HandSoldering" H 3150 2000 50  0001 C CNN
 F 3 "~" H 3150 2000 50  0001 C CNN
 	1    3150 2000
@@ -188,7 +181,7 @@ Wire Wire Line
 	3450 1850 3450 1750
 Connection ~ 3450 1750
 Wire Wire Line
-	3450 1750 3150 1750
+	3450 1750 3300 1750
 Wire Wire Line
 	4450 1750 4550 1750
 Wire Wire Line
@@ -261,36 +254,6 @@ F 3 "~" H 2950 2950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 2950 2850 2950
-$Comp
-L Connector:Conn_01x02_Male J14
-U 1 1 5F68323C
-P 2000 2300
-F 0 "J14" H 1973 2182 50  0000 R CNN
-F 1 "-12VDC OUT" H 1973 2273 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2000 2300 50  0001 C CNN
-F 3 "~" H 2000 2300 50  0001 C CNN
-	1    2000 2300
-	1    0    0    1   
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0151
-U 1 1 5F68409E
-P 2350 2400
-F 0 "#PWR0151" H 2350 2400 30  0001 C CNN
-F 1 "GND-RESCUE-ossc_board" H 2350 2330 30  0001 C CNN
-F 2 "" H 2350 2400 60  0000 C CNN
-F 3 "" H 2350 2400 60  0000 C CNN
-	1    2350 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 2300 2350 2300
-Wire Wire Line
-	2350 2300 2350 2400
-Wire Wire Line
-	2200 2200 2450 2200
-Wire Wire Line
-	2450 2200 2450 2000
 $Comp
 L Device:D_ALT D8
 U 1 1 5F685C97
@@ -385,8 +348,6 @@ Wire Wire Line
 	4200 2950 4250 2950
 Wire Wire Line
 	4250 2950 4250 3100
-Wire Wire Line
-	3200 2600 3200 2950
 $Comp
 L Connector:Conn_01x06_Male J16
 U 1 1 5F6985BD
@@ -1392,35 +1353,6 @@ F 3 "~" H 10800 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R31
-U 1 1 5FBBFC18
-P 2700 2250
-F 0 "R31" H 2770 2296 50  0000 L CNN
-F 1 "100//100 5W (or 47ohm 7W)" H 2770 2205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P30.48mm_Horizontal" V 2630 2250 50  0001 C CNN
-F 3 "~" H 2700 2250 50  0001 C CNN
-	1    2700 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L ossc_board-rescue:GND-RESCUE-ossc_board #PWR059
-U 1 1 5FBC0130
-P 2300 2650
-F 0 "#PWR059" H 2300 2650 30  0001 C CNN
-F 1 "GND-RESCUE-ossc_board" H 2300 2580 30  0001 C CNN
-F 2 "" H 2300 2650 60  0000 C CNN
-F 3 "" H 2300 2650 60  0000 C CNN
-	1    2300 2650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2700 2100 2700 2000
-Wire Wire Line
-	2700 2000 2450 2000
-Connection ~ 2450 2000
-Wire Wire Line
-	2450 2000 2450 1850
-$Comp
 L ossc_board-rescue:FILTER FB?
 U 1 1 5FC17B44
 P 7550 2300
@@ -1584,7 +1516,7 @@ L power:PWR_FLAG #FLG0101
 U 1 1 5FE397F9
 P 3450 1650
 F 0 "#FLG0101" H 3450 1725 50  0001 C CNN
-F 1 "PWR_FLAG" H 3450 1823 50  0000 C CNN
+F 1 "PWR_FLAG" H 3450 1823 50  0001 C CNN
 F 2 "" H 3450 1650 50  0001 C CNN
 F 3 "~" H 3450 1650 50  0001 C CNN
 	1    3450 1650
@@ -3045,7 +2977,7 @@ L power:PWR_FLAG #FLG0105
 U 1 1 62423C2B
 P 3450 2850
 F 0 "#FLG0105" H 3450 2925 50  0001 C CNN
-F 1 "PWR_FLAG" H 3450 3023 50  0000 C CNN
+F 1 "PWR_FLAG" H 3450 3023 50  0001 C CNN
 F 2 "" H 3450 2850 50  0001 C CNN
 F 3 "~" H 3450 2850 50  0001 C CNN
 	1    3450 2850
@@ -3186,8 +3118,6 @@ F 3 "" H 3100 6750 60  0000 C CNN
 	1    3100 6750
 	1    0    0    -1  
 $EndComp
-Text Label 3200 2700 2    60   ~ 0
-5VDC_STBY
 Text Label 6800 7400 1    60   ~ 0
 VCCIO
 Wire Wire Line
@@ -4743,36 +4673,17 @@ Wire Wire Line
 Wire Wire Line
 	4900 1750 5050 1750
 Connection ~ 5050 1750
-Wire Wire Line
-	5050 2500 5050 1750
-Wire Wire Line
-	3200 2600 5050 2600
 $Comp
 L Connector_Generic:Conn_01x02 JP1
 U 1 1 5F692B96
-P 5250 2500
-F 0 "JP1" H 5330 2492 50  0000 L CNN
-F 1 "Standby DC From NeXT Hardware" H 5330 2401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5250 2500 50  0001 C CNN
-F 3 "~" H 5250 2500 50  0001 C CNN
-	1    5250 2500
+P 5550 2400
+F 0 "JP1" H 5630 2392 50  0000 L CNN
+F 1 "Standby DC From NeXT Hardware" H 4650 2200 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5550 2400 50  0001 C CNN
+F 3 "~" H 5550 2400 50  0001 C CNN
+	1    5550 2400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 JP6
-U 1 1 5F626198
-P 2100 2650
-F 0 "JP6" H 2180 2642 50  0000 L CNN
-F 1 "Use Dummy Load" H 2180 2551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2100 2650 50  0001 C CNN
-F 3 "~" H 2100 2650 50  0001 C CNN
-	1    2100 2650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2700 2400 2700 2550
-Wire Wire Line
-	2300 2550 2700 2550
 Wire Wire Line
 	11950 1100 11950 1450
 $Comp
@@ -4976,11 +4887,6 @@ F 3 "" H 5400 2000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5400 2200 5400 2300
-Wire Wire Line
-	5400 2300 4900 2300
-Connection ~ 4900 2300
-Wire Wire Line
 	5400 1800 5400 1650
 Wire Wire Line
 	5400 1650 5050 1650
@@ -4990,6 +4896,177 @@ Text Notes 950  10100 0    60   ~ 0
 This block is optional.
 Text Notes 2700 11050 0    60   ~ 0
 This block is optional.
-Text Notes 2750 2500 0    60   ~ 0
--12V Dummy Load for older PSU
+$Comp
+L Regulator_Linear:L7805 U33
+U 1 1 60E41152
+P 6350 2850
+F 0 "U33" H 6350 3092 50  0000 C CNN
+F 1 "5V(DC/DC)" H 6350 3001 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6375 2700 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6350 2800 50  0001 C CNN
+	1    6350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C181
+U 1 1 60E4115C
+P 6750 3100
+F 0 "C181" H 6865 3146 50  0000 L CNN
+F 1 "1u" H 6865 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6788 2950 50  0001 C CNN
+F 3 "~" H 6750 3100 50  0001 C CNN
+	1    6750 3100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5650 2950 5650 2850
+Connection ~ 5650 2850
+Wire Wire Line
+	5650 2850 5350 2850
+Wire Wire Line
+	6650 2850 6750 2850
+Wire Wire Line
+	6750 2850 6750 2950
+Wire Wire Line
+	6750 3250 6750 3400
+Wire Wire Line
+	6750 3400 6350 3400
+Wire Wire Line
+	5650 3250 5650 3400
+Wire Wire Line
+	6350 3150 6350 3400
+Connection ~ 6350 3400
+Wire Wire Line
+	6350 3400 5950 3400
+Wire Wire Line
+	6350 3400 6350 3500
+Connection ~ 6750 2850
+$Comp
+L Device:CP C182
+U 1 1 60E41175
+P 7100 3100
+F 0 "C182" H 7218 3146 50  0000 L CNN
+F 1 "47u" H 7218 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 7138 2950 50  0001 C CNN
+F 3 "~" H 7100 3100 50  0001 C CNN
+	1    7100 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2850 7100 2850
+Wire Wire Line
+	7100 2950 7100 2850
+Connection ~ 7100 2850
+Wire Wire Line
+	7100 3250 7100 3400
+Wire Wire Line
+	7100 3400 6750 3400
+Connection ~ 6750 3400
+$Comp
+L Device:C C179
+U 1 1 60E41185
+P 5650 3100
+F 0 "C179" H 5700 3000 50  0000 L CNN
+F 1 "1u" H 5750 3200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5688 2950 50  0001 C CNN
+F 3 "~" H 5650 3100 50  0001 C CNN
+	1    5650 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP C180
+U 1 1 60E4118F
+P 5950 3100
+F 0 "C180" H 6068 3146 50  0000 L CNN
+F 1 "47u" H 6068 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 5988 2950 50  0001 C CNN
+F 3 "~" H 5950 3100 50  0001 C CNN
+	1    5950 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2850 5950 2850
+Connection ~ 5950 2850
+Wire Wire Line
+	5950 2850 6050 2850
+Wire Wire Line
+	5950 3250 5950 3400
+Wire Wire Line
+	5950 3400 5650 3400
+Connection ~ 5950 3400
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 60E411A0
+P 5650 2750
+F 0 "#FLG01" H 5650 2825 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 2923 50  0001 C CNN
+F 2 "" H 5650 2750 50  0001 C CNN
+F 3 "~" H 5650 2750 50  0001 C CNN
+	1    5650 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2750 5650 2850
+Wire Wire Line
+	5950 2850 5950 2950
+Wire Wire Line
+	6200 2450 5950 2450
+Wire Wire Line
+	5950 2450 5950 2850
+Wire Wire Line
+	6500 2450 6750 2450
+Wire Wire Line
+	6750 2450 6750 2850
+$Comp
+L Device:D_ALT D12
+U 1 1 60E411B0
+P 6350 2450
+F 0 "D12" V 6304 2529 50  0000 L CNN
+F 1 "(RB160M-30TR)" V 6450 2500 50  0000 L CNN
+F 2 "custom_components:D_SOD-123_HandSoldering" H 6350 2450 50  0001 C CNN
+F 3 "~" H 6350 2450 50  0001 C CNN
+	1    6350 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2850 7250 2850
+Text Label 3200 2600 2    60   ~ 0
+5VDC_STBY
+Wire Wire Line
+	3200 2600 3200 2950
+Text Label 7250 2850 0    60   ~ 0
+5VDC_STBY
+$Comp
+L ossc_board-rescue:GND-RESCUE-ossc_board #PWR0274
+U 1 1 6134DCC1
+P 6350 3500
+F 0 "#PWR0274" H 6350 3500 30  0001 C CNN
+F 1 "GND-RESCUE-ossc_board" H 6350 3430 30  0001 C CNN
+F 2 "" H 6350 3500 60  0000 C CNN
+F 3 "" H 6350 3500 60  0000 C CNN
+	1    6350 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2500 5350 2850
+NoConn ~ 1800 1850
+NoConn ~ 2200 1850
+Text Notes 1950 2000 0    60   ~ 0
+-12V not used
+Wire Wire Line
+	5400 2200 5400 2300
+Connection ~ 4900 2300
+Wire Wire Line
+	5400 2300 4900 2300
+Wire Wire Line
+	5350 2400 4450 2400
+Wire Wire Line
+	4450 2400 4450 2500
+Wire Wire Line
+	4450 2500 3300 2500
+Wire Wire Line
+	3300 2500 3300 1750
+Connection ~ 3300 1750
+Wire Wire Line
+	3300 1750 3150 1750
 $EndSCHEMATC

@@ -159,7 +159,7 @@ L Regulator_Linear:L7805 U8
 U 1 1 5F651CFB
 P 4150 1750
 F 0 "U8" H 4150 1992 50  0000 C CNN
-F 1 "5V(DC/DC)" H 4150 1901 50  0000 C CNN
+F 1 "5V(DC/DC) 1A(+0.1A D class amp) max" H 4150 1901 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4175 1600 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4150 1700 50  0001 C CNN
 	1    4150 1750
@@ -4901,7 +4901,7 @@ L Regulator_Linear:L7805 U33
 U 1 1 60E41152
 P 6350 2850
 F 0 "U33" H 6350 3092 50  0000 C CNN
-F 1 "5V(DC/DC)" H 6350 3001 50  0000 C CNN
+F 1 "5V(DC/DC) 0.7A max" H 6350 3001 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6375 2700 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6350 2800 50  0001 C CNN
 	1    6350 2850
@@ -5080,5 +5080,5 @@ max. 0mA
 Text Notes 7750 8450 0    60   ~ 0
 max. 2mA
 Text Notes 15550 3150 0    60   ~ 0
-max. 40mA@0.1W
+max. 80mA@0.1W@4Ω
 $EndSCHEMATC

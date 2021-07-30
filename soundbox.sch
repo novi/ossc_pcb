@@ -159,7 +159,7 @@ L Regulator_Linear:L7805 U8
 U 1 1 5F651CFB
 P 4150 1750
 F 0 "U8" H 4150 1992 50  0000 C CNN
-F 1 "5V(DC/DC) 1A(+0.1A D class amp) max" H 4150 1901 50  0000 C CNN
+F 1 "5V(DC/DC) 1.5A max" H 4550 1900 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4175 1600 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4150 1700 50  0001 C CNN
 	1    4150 1750
@@ -5092,4 +5092,16 @@ Wire Wire Line
 	10750 6250 10550 6250
 Wire Wire Line
 	10550 6150 10900 6150
+Text Notes 550  6100 0    60   ~ 0
+You could use 4P mini DIN for ADB keyboard\nor 5P mini DIN for Non-ADB keyboard.\nConfigure by JP2 to JP4.
+Text Notes 550  350  0    60   ~ 0
+NeXT connector pin assignments:\nhttp://asterontech.com/Asterontech/NextStation_Color_Custom%20VGA_Y_Cable.html
+Text Notes 2050 600  0    60   ~ 0
+for Mono
+Text Notes 2800 7000 0    60   ~ 0
+NOTE: ( ) quoted value is optional.\nMay be not needed.
+Text Notes 4250 1550 0    60   ~ 0
+OKI-78SR-5/1.5-W36-C may work.
+Text Notes 6600 2650 0    60   ~ 0
+P78E05-1000 may work.
 $EndSCHEMATC

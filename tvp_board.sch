@@ -1229,7 +1229,7 @@ F 3 "" H 10800 4350 60  0000 C CNN
 	1    10800 4350
 	1    0    0    -1  
 $EndComp
-Text Notes 9450 3750 0    60   ~ 0
+Text Notes 9500 3700 0    60   ~ 0
 max. 1000mA
 $Comp
 L ossc_board-rescue:FILTER FB5
@@ -1494,7 +1494,7 @@ L ossc_board-rescue:SPX2920M3-3.3 U5
 U 1 1 564864D6
 P 10250 3950
 F 0 "U5" H 10250 4200 40  0000 C CNN
-F 1 "MCP1826S-3302E/AB" H 10250 4150 40  0000 C CNN
+F 1 "3.3V DC/DC 1.5A max recommended, (MCP1826S-3302E/AB)" H 10250 4150 40  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 10250 4050 35  0001 C CIN
 F 3 "" H 10250 3950 60  0000 C CNN
 	1    10250 3950
@@ -2215,4 +2215,8 @@ Wire Wire Line
 Wire Wire Line
 	9450 4300 9450 4250
 Connection ~ 9650 4300
+Text Notes 6000 6600 0    60   ~ 0
+Use either for CLK27MHz.
+Text Notes 10900 3650 0    60   ~ 0
+V7803-1500 may work.
 $EndSCHEMATC

@@ -1,0 +1,370 @@
+Ref,Value,Part,Footprint,Description,Category,Digikey Part,Akizuki Part No,"Price(JPY, excl TAX)"
+C25,(0.01u),ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,,,,0
+C174,(0.1u),Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,,,,0
+C175,(0.1u),Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,,,,0
+R53,(100k),Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,,,,0
+R47,(10k),Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,,,,0
+R48,(10k),Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,,,,0
+C33,(1u),ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,,,,0
+C144,(220p),Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,,,,0
+C145,(220p),Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,,,,0
+R33,(47k),Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,,,,0
+R55,(47k),Device:R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,,,,0
+X1,(ACHL-27MHZ-EK),ossc_board-rescue:ACHL-27MHZ-EK,custom_components:ACHL-OSC,,,,,0
+FB10,(MPZ1608S221A),ossc_board-rescue:FILTER,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,,,,0
+U32,(PCA9515AD),custom_components:PCA9515,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,,,,0
+D12,(RB160M-30TR),Device:D_ALT,custom_components:D_SOD-123_HandSoldering,"Diode, filled shape",,,,0
+D9,(RB160M-30TR),Device:D_ALT,custom_components:D_SOD-123_HandSoldering,"Diode, filled shape",,,,0
+D10,(ZD 5.6V (1SMB5919BT3G)),ossc_board-rescue:ZENER,Diode_SMD:D_SMB_Handsoldering,,Passive,1SMB5919BT3GOSCT-ND,,46
+D11,(ZD 5.6V (1SMB5919BT3G)),ossc_board-rescue:ZENER,Diode_SMD:D_SMB_Handsoldering,,Passive,1SMB5919BT3GOSCT-ND,,46
+C100,0.01u,ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCM188R72A103KA37J,,7
+C103,0.01u,ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCM188R72A103KA37J,,7
+C104,0.01u,ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCM188R72A103KA37J,,7
+C105,0.01u,ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCM188R72A103KA37J,,7
+C106,0.01u,ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCM188R72A103KA37J,,7
+C126,0.01u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCM188R72A103KA37J,,7
+C130,0.01u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCM188R72A103KA37J,,7
+C131,0.01u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCM188R72A103KA37J,,7
+C17,0.01u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCM188R72A103KA37J,,7
+C36,0.01u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCM188R72A103KA37J,,7
+C76,0.01u,ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCM188R72A103KA37J,,7
+C11,0.01u (GCM188R72A103KA37J),ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCM188R72A103KA37J,,7
+C1,0.1u,ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C10,0.1u,ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C101,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C116,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C120,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C121,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C122,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C128,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C132,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C133,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C134,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C135,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C137,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C14,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C142,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C143,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C148,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C15,0.1u,ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C150,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C151,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C153,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C154,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C158,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C161,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C163,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C164,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C166,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C167,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C171,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C18,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C2,0.1u,ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C20,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C21,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C22,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C23,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C26,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C27,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C28,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C39,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C40,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C41,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C42,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C43,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C44,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C45,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C46,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C47,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C48,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C50,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C51,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C53,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C54,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C55,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C56,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C57,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C58,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C59,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C60,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C61,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C62,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C63,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C64,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C65,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C66,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C67,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C68,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C69,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C7,0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+C72,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C73,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C74,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C75,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C77,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C78,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C79,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C8,0.1u,ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C80,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C81,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C82,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C83,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C84,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C85,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C86,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C9,0.1u,ossc_board-rescue:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C99,0.1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GCJ188R71H104KA12D,,5.39
+C172,0.1u (GCJ188R71H104KA12D or GRM188R72A104MA35D),Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCJ188R71H104KA12D,,5.39
+F2,0.5A 0603 size (ERB-RE0R50V),Device:Fuse_Small,Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder,"Fuse, small symbol",Passive,,,0
+R11,1.5k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,ERJ-3EKF1501V,,4
+C13,1000p,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRM1885C1H102JA01D,,4
+C16,1000p,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRM1885C1H102JA01D,,4
+C24,1000p,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRM1885C1H102JA01D,,4
+R39,100k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R40,100k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R43,100k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R44,100k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R15,10k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R16,10k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R17,10k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R18,10k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R21,10k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R22,10k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R29,10k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R42,10k,ossc_board-rescue:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R50,10k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+C124,10p,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCM1885C2A100JA16J,,4
+C125,10p,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GCM1885C2A100JA16J,,4
+C108,10u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,ZRB18AR61E106ME01L,,41.8
+C109,10u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,ZRB18AR61E106ME01L,,41.8
+C110,10u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,ZRB18AR61E106ME01L,,41.8
+C177,10u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Passive,ZRB18AR61E106ME01L,,41.8
+C49,10u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,ZRB18AR61E106ME01L,,41.8
+C93,10u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,ZRB18AR61E106ME01L,,41.8
+C31,10u (ZRB18AR61E106ME01L),ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,ZRB18AR61E106ME01L,,41.8
+C114,10u 16V,Device:CP,Capacitor_SMD:CP_Elec_4x4.5,Polarized capacitor,Passive,EEE-FK1C100AR,,56
+C117,10u 16V,Device:CP,Capacitor_SMD:CP_Elec_4x4.5,Polarized capacitor,Passive,EEE-FK1C100AR,,56
+C119,10u 16V,Device:CP,Capacitor_SMD:CP_Elec_4x4.5,Polarized capacitor,Passive,EEE-FK1C100AR,,56
+C176,10u 16V,Device:CP,Capacitor_SMD:CP_Elec_4x4.5,Polarized capacitor,Passive,EEE-FK1C100AR,,56
+C123,10u 16V EEE-FK1C100AR or HB Series,Device:CP,Capacitor_SMD:CP_Elec_4x4.5,Polarized capacitor,Passive,EEE-FK1C100AR,,56
+,14mm sq,2 x Heatsink,,,Case&Heatsink,,,40
+F3,1A 1206 size (C1F 1),Device:Fuse_Small,Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder,"Fuse, small symbol",Passive,507-1878-1-ND,,28
+R20,1k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R26,1k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R3,1k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R30,1k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R32,1k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R35,1k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R51,1k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R52,1k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R6,1k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R7,1k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+C102,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C111,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C12,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C129,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C136,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C138,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C139,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C140,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C141,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C147,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C152,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C155,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C156,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C160,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C165,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C168,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C169,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C173,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C179,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C181,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C32,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C34,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C35,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C37,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C38,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C4,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C5,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C52,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C6,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C70,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C71,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+C87,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C88,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C89,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C90,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C91,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C92,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C94,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C95,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C96,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C97,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C98,1u,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,GRT188R61H105KE13D,,12.6
+C3,1u (GRT188R61H105KE13D),Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRT188R61H105KE13D,,12.6
+,"1wire shield, Mogami TBD",Cable 4.5m,,,Cable&Connector,,,400
+R13,2.2k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,ERJ-3EKF2201V,,4
+R14,2.2k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,ERJ-3EKF2201V,,4
+R38,2.2k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,ERJ-3EKF2201V,,4
+C107,2.2u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRM188R71A225KE15D,,13.6
+C118,2.2u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRM188R71A225KE15D,,13.6
+C127,2.2u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRM188R71A225KE15D,,13.6
+C146,2.2u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRM188R71A225KE15D,,13.6
+C149,2.2u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRM188R71A225KE15D,,13.6
+C157,2.2u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRM188R71A225KE15D,,13.6
+C159,2.2u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRM188R71A225KE15D,,13.6
+C162,2.2u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRM188R71A225KE15D,,13.6
+C170,2.2u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRM188R71A225KE15D,,13.6
+C115,2.2u (GRM188R71A225KE15D),Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRM188R71A225KE15D,,13.6
+,2.5mm,Jack Speaker,,,Cable&Connector,,C-15495,72
+,2.5mm,Jack Speaker,,,Cable&Connector,,C-15495,72
+R23,22,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R4,22,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R54,22,Device:R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,Passive,,,4
+R56,22,Device:R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,Passive,,,4
+R57,22,Device:R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,Passive,,,4
+R8,22,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R49,22-150,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,0
+R12,220,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,ERJ-3EKF2200V,,4
+C113,2200p,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRM1885C1H222JA01J,,4
+C112,2200p (GRM1885C1H222JA01J),Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Unpolarized capacitor,Passive,GRM1885C1H222JA01J,,4
+Y2,25MHz (FA-238 25.0000MB-K0 or NX3225GA-25.000M-STD-CRG),Device:Crystal_GND24,Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm_HandSoldering,"Four pin crystal, GND on pins 2 and 4",Passive,644-1258-1-ND,,67
+Q1,2SC2712,Device:Q_NPN_BEC,Package_TO_SOT_SMD:SC-59_Handsoldering,"NPN transistor, base/emitter/collector",Semiconductor,,,5
+U5,"3.3V DC/DC 1.5A max recommended, (MCP1826S-3302E/AB)",ossc_board-rescue:SPX2920M3-3.3,Package_TO_SOT_THT:TO-220-3_Vertical,,Semiconductor,,K-09980,409
+R5,330,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+L2,33uH,Device:L_Core_Ferrite,custom_components:L_TDK_SLF7045_HandSoldering,Inductor with ferrite core,Passive,SLF7045T-330MR,,128
+L3,33uH,Device:L_Core_Ferrite,custom_components:L_TDK_SLF7045_HandSoldering,Inductor with ferrite core,Passive,SLF7045T-330MR,,128
+L4,33uH,Device:L_Core_Ferrite,custom_components:L_TDK_SLF7045_HandSoldering,Inductor with ferrite core,Passive,SLF7045T-330MR,,128
+L1,33uH (SLF7045T-330MR),Device:L_Core_Ferrite,custom_components:L_TDK_SLF7045_HandSoldering,Inductor with ferrite core,Passive,SLF7045T-330MR,,128
+R19,4.7k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R24,4.7k,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R34,4.7k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R41,4.7k,ossc_board-rescue:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R45,4.7k,ossc_board-rescue:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R46,4.7k,ossc_board-rescue:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R27,470,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R28,470,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+C19,4700p,ossc_board-rescue:C-RESCUE-ossc_board,Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,4
+R36,47k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R37,47k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+R9,47k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Resistor,Passive,,,4
+C178,47u,Device:CP,Capacitor_SMD:CP_Elec_5x5.3,Polarized capacitor,Passive,EEE-HBC470UAR,,39
+C180,47u,Device:CP,Capacitor_SMD:CP_Elec_5x5.3,Polarized capacitor,Passive,EEE-HBC470UAR,,39
+C182,47u,Device:CP,Capacitor_SMD:CP_Elec_5x5.3,Polarized capacitor,Passive,EEE-HBC470UAR,,39
+C183,47u,Device:CP,Capacitor_SMD:CP_Elec_5x5.3,Polarized capacitor,Passive,EEE-HBC470UAR,,39
+C29,47u,Device:CP,Capacitor_SMD:CP_Elec_5x5.3,Polarized capacitor,Passive,EEE-HBC470UAR,,39
+C30,47u (EEE-HBC470UAR),Device:CP,Capacitor_SMD:CP_Elec_5x5.3,Polarized capacitor,Passive,EEE-HBC470UAR,,39
+U33,5V(DC/DC) 0.7A max,Regulator_Linear:L7805,Package_TO_SOT_THT:TO-220-3_Vertical,"Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252",Semiconductor,,M-11188,218
+U8,5V(DC/DC) 1.5A max,Regulator_Linear:L7805,Package_TO_SOT_THT:TO-220-3_Vertical,"Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252",Semiconductor,,K-09981,409
+J15,5VDC STANDBY,Connector:Conn_01x02_Male,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Semiconductor,,,0
+R25,698 1%,ossc_board-rescue:R-RESCUE-ossc_board,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,ERJ-3EKF6980V,,4
+,6mm Diameter,Microphone,,,Passive,,P-08181,45
+R1,75,ossc_board-rescue:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,ERJ-3EKF75R0V,,4
+R10,75,ossc_board-rescue:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,ERJ-3EKF75R0V,,4
+R2,75,ossc_board-rescue:R,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,ERJ-3EKF75R0V,,4
+,"8wires, shield",Cable 1.5m,,,Cable&Connector,,,380
+NT1,AGND_DGND,Device:Net-Tie_2,NetTie:NetTie-2_SMD_Pad2.0mm,"Net tie, 2 pins",,-,-,0
+X2,ASEDV-27.000MHZ-LR-T(ECS-2333-270-BN-TR),Oscillator:ECS-2520MV-xxx-xx,Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm_HandSoldering,"HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD",Passive,,,146
+J6,Audio OUT,Connector:Conn_01x03_Male,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Cable&Connector,,,0
+U28,BD33FC0FP,ossc_board-rescue:SPX2920M3-3.3,Package_TO_SOT_SMD:TO-252-2,,Semiconductor,,I-11299,50
+U30,BD33FC0FP,ossc_board-rescue:SPX2920M3-3.3,Package_TO_SOT_SMD:TO-252-2,,Semiconductor,,I-11299,50
+J19,BOOT0,Connector_Generic:Conn_01x01,custom_components:TestPad-D1.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",,-,-,0
+J30,BOOT1,Connector_Generic:Conn_01x01,custom_components:TestPad-D1.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",,-,-,0
+SW2,BTN 0.00,ossc_board-rescue:SW_PUSH,Button_Switch_THT:SW_Tactile_SKHH_Angled,,Cable&Connector,(1-1825027-1 / 2-1825027-0),,29
+J10,COLOR INPUT,Connector:Conn_01x04_Male,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Cable&Connector,,,10
+MH1,CONN_1,ossc_board-rescue:CONN_01X01,MountingHole:MountingHole_2.7mm_M2.5,,,-,-,0
+MH2,CONN_1,ossc_board-rescue:CONN_01X01,MountingHole:MountingHole_2.7mm_M2.5,,,-,-,0
+MH3,CONN_1,ossc_board-rescue:CONN_01X01,MountingHole:MountingHole_2.7mm_M2.5,,,-,-,0
+MH4,CONN_1,ossc_board-rescue:CONN_01X01,MountingHole:MountingHole_2.7mm_M2.5,,,-,-,0
+MH5,CONN_1,ossc_board-rescue:CONN_01X01,MountingHole:MountingHole_2.7mm_M2.5,,,-,-,0
+X3,ECS-2520MVLC-225.792-BN-TR,Oscillator:ECS-2520MV-xxx-xx,Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm_HandSoldering,"HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD",Passive,,,164
+U2,EP4CE15E22C8N,ossc_board-rescue:EP4CE15E22,custom_components:TQFP-144_thermal,,Semiconductor,,,"2,718"
+J1,HDMI_CONN (10029449-111RLF),ossc_board-rescue:HDMI_CONN,custom_components:HDMI_CONN-10029449-111RLF,,Cable&Connector,,,136
+J28,I2C Ext,Connector_Generic:Conn_01x04,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,0
+U3,IT6613E,ossc_board-rescue:IT6613,custom_components:TQFP-100_custom,,Semiconductor,-,-,"1,500"
+JP7,JMP XSMT,Device:Jumper,Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm,"Jumper, normally closed",,-,-,0
+P1,JTAG (30310-6002HB),ossc_board-rescue:CONN_02X05,Connect:VASCH5x2,,Cable&Connector,,,80
+JP2,KBD_SW,Jumper:Jumper_3_Open,Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels,"Jumper, 3-pole, both open",,-,-,0
+JP3,KBD_SW,Jumper:Jumper_3_Open,Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels,"Jumper, 3-pole, both open",,-,-,0
+JP4,KBD_SW,Jumper:Jumper_3_Open,Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels,"Jumper, 3-pole, both open",,-,-,0
+J26,L SPEAKER,Connector:AudioJack3,custom_components:SJ-2509N,"Audio Jack, 3 Poles (Stereo / TRS)",Cable&Connector,,,0
+J27,L SPK,Connector:Conn_01x02_Male,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Cable&Connector,,,10
+D2,LED Status,ossc_board-rescue:LED-RESCUE-ossc_board,LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm,,Semiconductor,,,10
+D1,LED0,ossc_board-rescue:LED-RESCUE-ossc_board,LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm,,Semiconductor,,,10
+SW4,MCU RESET,Switch:SW_Push,Button_Switch_THT:SW_PUSH_6mm,"Push button switch, generic, two pins",Cable&Connector,,,10
+F1,MF-FSMF020X-2,ossc_board-rescue:F_Small,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,,,58
+J3,MIC (SJ1-3535NG),Connector:AudioJack3_SwitchTR,custom_components:SJ1-3535NG,"Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)",Cable&Connector,,,143
+J5,Mic IN,Connector:Conn_01x02_Male,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Cable&Connector,,,10
+JP5,MIC tip-ring,Device:Jumper,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,"Jumper, normally closed",,-,-,0
+J16,MON IN 1,Connector:Conn_01x06_Male,Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Cable&Connector,,,0
+J17,MON IN 2,Connector:Conn_01x06_Male,Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Cable&Connector,,,15
+J11,MONO INPUT,Connector:Conn_01x04_Male,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Cable&Connector,,,0
+FB1,MPZ1608S221A,ossc_board-rescue:FILTER,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,MPZ1608S221A,,9.3
+FB2,MPZ1608S221A,ossc_board-rescue:FILTER,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,MPZ1608S221A,,9.3
+FB3,MPZ1608S221A,ossc_board-rescue:FILTER,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,MPZ1608S221A,,9.3
+FB4,MPZ1608S221A,ossc_board-rescue:FILTER,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,MPZ1608S221A,,9.3
+FB5,MPZ1608S221A,ossc_board-rescue:FILTER,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,MPZ1608S221A,,9.3
+FB6,MPZ1608S221A,ossc_board-rescue:FILTER,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,MPZ1608S221A,,9.3
+FB7,MPZ1608S221A,ossc_board-rescue:FILTER,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,MPZ1608S221A,,9.3
+FB8,MPZ1608S221A,ossc_board-rescue:FILTER,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,MPZ1608S221A,,9.3
+FB9,MPZ1608S221A,ossc_board-rescue:FILTER,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Passive,MPZ1608S221A,,9.3
+U7,NCP703SN19T1G,ossc_board-rescue:TLV71209DBV-RESCUE-ossc_board,custom_components:SOT-23-5_Handsoldering,,Semiconductor,,,109
+J31,NeXT Keyboard,Connector:Mini-DIN-5,custom_components:Mini_DIN_5P,5-pin Mini-DIN connector,,,,0
+J32,NeXT Keyboard (MD-50SM / KMDGX-5S-BS),Connector:Mini-DIN-5,custom_components:Mini_DIN_5P,5-pin Mini-DIN connector,Cable&Connector,,,143
+SW3,NeXT POWER SW,Switch:SW_Push,Button_Switch_THT:SW_Tactile_SKHH_Angled,"Push button switch, generic, two pins",,,,0
+SW1,NeXT POWER SW (1-1825027-1 / 2-1825027-0),Switch:SW_Push,Button_Switch_THT:SW_Tactile_SKHH_Angled,"Push button switch, generic, two pins",Cable&Connector,,,29
+J12,NEXT PWR IN 1,Connector:Conn_01x03_Male,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,0
+J13,NEXT PWR IN 2,Connector:Conn_01x03_Male,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Cable&Connector,,,10
+J29,OLED,Connector_Generic:Conn_01x04,custom_components:OLED_0.91inch_I2C,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,0
+J2,OUT (SJ1-3535NG),Connector:AudioJack3_SwitchTR,custom_components:SJ1-3535NG,"Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)",Cable&Connector,,,143
+J9,PA0,Connector_Generic:Conn_01x01,custom_components:TestPad-D1.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",,-,-,0
+J18,PA1,Connector_Generic:Conn_01x01,custom_components:TestPad-D1.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",,-,-,0
+J22,PB0,Connector_Generic:Conn_01x01,custom_components:TestPad-D1.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",,-,-,0
+J23,PB1,Connector_Generic:Conn_01x01,custom_components:TestPad-D1.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",,-,-,0
+J20,PC0,Connector_Generic:Conn_01x01,custom_components:TestPad-D1.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",,-,-,0
+J21,PC1,Connector_Generic:Conn_01x01,custom_components:TestPad-D1.0mm,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",,-,-,0
+U20,PCM5122PW,Audio:PCM5122PW,Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm,"2VRMS DirectPath, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-28",Semiconductor,,,786
+,PF15-3-10D Takachi,Case ABS,,,Case&Heatsink,,,482
+U23,PLT133/T,custom_components:PLT133,custom_components:PLT133_T,,Semiconductor,,C-09596,72.7
+J25,R SPEAKER (SJ-2509N),Connector:AudioJack3,custom_components:SJ-2509N,"Audio Jack, 3 Poles (Stereo / TRS)",Cable&Connector,,,0
+J24,R SPK,Connector:Conn_01x02_Male,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Cable&Connector,,,10
+D3,RB160M-30TR,ossc_board-rescue:ZENER,custom_components:D_SOD-123_HandSoldering,,Semiconductor,,I-01398,15
+D4,RB160M-30TR,Device:D_Schottky_ALT,custom_components:D_SOD-123_HandSoldering,"Schottky diode, filled shape",Semiconductor,,I-01398,15
+D5,RB160M-30TR,Device:D_ALT,custom_components:D_SOD-123_HandSoldering,"Diode, filled shape",Semiconductor,,I-01398,15
+D8,RB160M-30TR,Device:D_ALT,custom_components:D_SOD-123_HandSoldering,"Diode, filled shape",Semiconductor,,I-01398,15
+D6,RCLAMP0524PATCT,ossc_board-rescue:RClamp0524P,custom_components:SLP2510P8,,Semiconductor,,,142
+D7,RCLAMP0524PATCT,ossc_board-rescue:RClamp0524P,custom_components:SLP2510P8,,Semiconductor,,,142
+U10,S25FL216K (IS25LP016D-JBLE),ossc_board-rescue:S25FL216K,custom_components:SOIC-8_3.9x4.9mm_Pitch1.27mm_Handsoldering,,Semiconductor,,,128
+U26,SN74HC125DR,74xx:74LS125,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Quad buffer 3-State outputs,Semiconductor,,,60
+U25,SN74LVC1G07DBV,74xGxx:74LVC1G07,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,"Single Buffer Gate w/ Open Drain, Low-Voltage CMOS",Semiconductor,,,41
+U4,SN74LVC2G17DBV,ossc_board-rescue:SN74LVC2G17,custom_components:SOT-23-6_Handsoldering,,Semiconductor,,,55
+U19,SN74LVC2G34DBV,74xGxx:74LVC2G34,Package_TO_SOT_SMD:SOT-23-6_Handsoldering,"Dual Buffer, Low-Voltage CMOS",Semiconductor,,,55
+JP1,Standby DC From NeXT Hardware,Connector_Generic:Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",,-,-,0
+J7,STLINK,Connector:Conn_01x06_Male,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Cable&Connector,,,10
+U24,STM32F401RCT6,MCU_ST_STM32F4:STM32F401RCTx,Package_QFP:LQFP-64_10x10mm_P0.5mm,"ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 84MHz, 1.7-3.6V, 50 GPIO, LQFP-64",Semiconductor,,,876
+U18,STMPS2151STR or TPS2051CDBV,custom_components:STMPS21x1_SOT23,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,,Semiconductor,,,84
+MH6,TestHole1,ossc_board-rescue:CONN_01X01,custom_components:TestHole_1.0mm,,,-,-,0
+U27,TLV320ADC3100,custom_components:TLV320ADC3100,Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm,,Semiconductor,,,419
+U12,TLV70012DDCT,ossc_board-rescue:TLV71209DBV-RESCUE-ossc_board,custom_components:SOT-23-5_Handsoldering,,Semiconductor,,,60
+U14,TLV70012DDCT,ossc_board-rescue:TLV71209DBV-RESCUE-ossc_board,custom_components:SOT-23-5_Handsoldering,,Semiconductor,,,60
+U15,TLV70018DDCT,ossc_board-rescue:TLV71209DBV-RESCUE-ossc_board,custom_components:SOT-23-5_Handsoldering,,Semiconductor,,,60
+U16,TLV70018DDCT,ossc_board-rescue:TLV71209DBV-RESCUE-ossc_board,custom_components:SOT-23-5_Handsoldering,,Semiconductor,,,60
+U9,TLV70019DDCT,ossc_board-rescue:TLV71209DBV-RESCUE-ossc_board,custom_components:SOT-23-5_Handsoldering,,Semiconductor,,,60
+U13,TLV70025DDCT(TPS79925DDCR),ossc_board-rescue:TLV71209DBV-RESCUE-ossc_board,custom_components:SOT-23-5_Handsoldering,,Semiconductor,,,60
+U11,TLV70033DDCR,Regulator_Linear:TLV71209_SOT23-5,custom_components:SOT-23-5_Handsoldering,"300mA Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5",Semiconductor,,,52
+U6,TLV70033DDCR,ossc_board-rescue:TLV71209DBV-RESCUE-ossc_board,custom_components:SOT-23-5_Handsoldering,,Semiconductor,,,52
+U21,TLV70033DDCR (or XC6204B332MR-G),Regulator_Linear:TLV71209_SOT23-5,custom_components:SOT-23-5_Handsoldering,"300mA Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5",Semiconductor,,,52
+U22,TLV70033DDCR (or XC6204B332MR-G),Regulator_Linear:TLV71209_SOT23-5,custom_components:SOT-23-5_Handsoldering,"300mA Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5",Semiconductor,,,52
+U29,TPA2005D1DGN,custom_components:TPA2005,Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm,,Semiconductor,,,157
+U31,TPA2005D1DGN,custom_components:TPA2005,Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm,,Semiconductor,,,157
+U1,TVP7002PZP,ossc_board-rescue:TVP7002,custom_components:TQFP-100_thermal,,Semiconductor,,,"1,027"
+J8,UART2,Connector:Conn_01x06_Male,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Semiconductor,,,10
+J4,USB Host (SS-52100-001),Connector:USB_A,Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal,USB Type A connector,Semiconductor,,,59
+U17,USBLC6-2SC6,Power_Protection:USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6_Handsoldering,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",Semiconductor,,,61
+,,XH Connector Hosing,,,Cable&Connector,,,100
+,,13W3 Connector,,,Cable&Connector,,,"1,100"
+,,13W3(DB25) Hosing,,,Cable&Connector,,,363
+,,Al Panel,,,Case&Heatsink,,,600
+,,Cu Panel,,,Case&Heatsink,,,300
+,,2 x TO220 Heatsink,,,Case&Heatsink,,P-05052,70
+,,PCB,,,Case&Heatsink,,,800

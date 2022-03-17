@@ -335,7 +335,7 @@ D8,RB160M-30TR,Device:D_ALT,custom_components:D_SOD-123_HandSoldering,"Diode, fi
 D6,RCLAMP0524PATCT,ossc_board-rescue:RClamp0524P,custom_components:SLP2510P8,,Semiconductor,,,142
 D7,RCLAMP0524PATCT,ossc_board-rescue:RClamp0524P,custom_components:SLP2510P8,,Semiconductor,,,142
 U10,S25FL216K (IS25LP016D-JBLE),ossc_board-rescue:S25FL216K,custom_components:SOIC-8_3.9x4.9mm_Pitch1.27mm_Handsoldering,,Semiconductor,,,128
-U26,SN74HC125DR,74xx:74LS125,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Quad buffer 3-State outputs,Semiconductor,,,60
+U26,SN74HCT125DR,74xx:74LS125,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Quad buffer 3-State outputs,Semiconductor,,,60
 U25,SN74LVC1G07DBV,74xGxx:74LVC1G07,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,"Single Buffer Gate w/ Open Drain, Low-Voltage CMOS",Semiconductor,,,41
 U4,SN74LVC2G17DBV,ossc_board-rescue:SN74LVC2G17,custom_components:SOT-23-6_Handsoldering,,Semiconductor,,,55
 U19,SN74LVC2G34DBV,74xGxx:74LVC2G34,Package_TO_SOT_SMD:SOT-23-6_Handsoldering,"Dual Buffer, Low-Voltage CMOS",Semiconductor,,,55

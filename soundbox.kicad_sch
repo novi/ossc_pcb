@@ -12094,6 +12094,12 @@
 		(uuid "642bef19-f089-4145-8521-0c78a2141a57")
 	)
 	(junction
+		(at 80.01 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64af7f25-26a2-4b6d-a34d-795c68ac0c49")
+	)
+	(junction
 		(at 137.16 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12176,6 +12182,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75223a8e-b6cf-43ae-86df-6f4200581cca")
+	)
+	(junction
+		(at 80.01 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75a6c586-c407-49a7-9c00-b1e2e686f12f")
 	)
 	(junction
 		(at 55.88 44.45)
@@ -15303,6 +15315,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 46.99) (xy 80.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5775d589-f5d1-4224-93a3-ff325a8cc917")
+	)
+	(wire
+		(pts
 			(xy 165.1 100.33) (xy 137.16 100.33)
 		)
 		(stroke
@@ -17033,6 +17055,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 58.42) (xy 72.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a122353a-7cbe-473b-a987-065943594585")
+	)
+	(wire
+		(pts
 			(xy 318.77 114.3) (xy 318.77 120.65)
 		)
 		(stroke
@@ -17670,6 +17702,16 @@
 			(type default)
 		)
 		(uuid "bb5999d5-f86c-445a-9ff9-2a1b539dc199")
+	)
+	(wire
+		(pts
+			(xy 72.39 58.42) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb646170-664b-4646-ae55-4f0f9c133f60")
 	)
 	(wire
 		(pts
@@ -23321,7 +23363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RB160M-30TR"
+		(property "Value" "(RB160M-30TR)"
 			(at 72.39 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45074,6 +45116,96 @@
 			(project "ossc_board"
 				(path "/692d87e9-6b70-46cc-9c78-b75193a484cc/00000000-0000-0000-0000-00005f595115"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ossc_board-rescue:ZENER")
+		(at 72.39 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10ac4c6c-7a66-4116-a6e5-84f260529946")
+		(property "Reference" "D13"
+			(at 65.786 52.578 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZD 15V"
+			(at 62.23 54.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 55.88 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part ID" "1SMB5919BT3G"
+			(at 72.39 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13d0c7f7-2834-4aa3-ba65-9fe8cf3acfa3")
+		)
+		(pin "2"
+			(uuid "f1a9ee1b-fe03-4c69-90ce-b2c62173cc9e")
+		)
+		(instances
+			(project "ossc_board"
+				(path "/692d87e9-6b70-46cc-9c78-b75193a484cc/00000000-0000-0000-0000-00005f595115"
+					(reference "D13")
 					(unit 1)
 				)
 			)
